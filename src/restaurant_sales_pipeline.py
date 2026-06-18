@@ -38,23 +38,20 @@ def clean_sales_data(df_raw: pd.DataFrame) -> pd.DataFrame:
     df = df.dropna(subset=["date", "product", "price", "quantity"])
     df = df.drop_duplicates(subset=["order_id"])
 
-    df["revenue"] = df["price"] * df["quantity"]
+    df["revenue"] = (df["price"] * df["quantity"]).round(2)
     df["year"] = df["date"].dt.year
     df["month_num"] = df["date"].dt.month
-    df["month_name"] = df["date"].dt.month_name()
+    df["month_name"] = df["date"].dt.strftime("%b")
     df["day_name"] = df["date"].dt.day_name()
     df["week_num"] = df["date"].dt.isocalendar().week.astype(int)
     df["is_weekend"] = df["day_name"].isin(["Saturday", "Sunday"])
 
     category_map = {
-        "burger": "Main Course",
-        "pizza": "Main Course",
-        "pasta": "Main Course",
-        "salad": "Sides",
-        "fries": "Sides",
         "beverages": "Beverage",
-        "juice": "Beverage",
-        "coffee": "Beverage",
+        "burgers": "Main Course",
+        "chicken sandwiches": "Main Course",
+        "fries": "Sides",
+        "sides & other": "Sides",
     }
     df["product_category"] = (
         df["product"].str.lower().map(category_map).fillna("Other")
