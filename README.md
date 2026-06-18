@@ -1,6 +1,19 @@
 # Restaurant Sales Insight
 
-Restaurant Sales Insight is an end-to-end Data Analyst and Data Scientist portfolio project that analyzes restaurant sales data using SQL, Python, and Power BI. The goal is to transform raw transaction data into business insight around revenue performance, top-selling menu items, category contribution, demand trends, and actionable sales strategy.
+Restaurant Sales Insight is an end-to-end Data Analyst and Data Scientist portfolio project that turns raw restaurant sales data into practical business insight using SQL, Python, and Power BI.
+
+It is designed to showcase a recruiter-friendly analytics workflow: data cleaning, exploratory analysis, SQL-based KPI queries, dashboard preparation, and business recommendations.
+
+## Project Snapshot
+
+- Role focus: `Data Analyst` / `Business Intelligence` / `Junior Data Scientist`
+- Tools: `Python`, `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `MySQL`, `Power BI`
+- Dataset source: Kaggle `rohitgrewal/restaurant-sales-data`
+- Business goal: identify top-selling menu items, revenue trends, category performance, and decision-ready recommendations
+
+## Why This Project Matters
+
+Restaurants generate a large volume of transactional data, but without analysis it is difficult to understand what actually drives revenue. This project demonstrates how a simple sales dataset can be transformed into insights that support menu strategy, promotions, and operational planning.
 
 ## Problem Statement
 
@@ -28,6 +41,15 @@ Restaurant managers need a clear way to monitor sales performance and identify w
 - BI: Power BI
 - Notebook: Jupyter
 
+## Deliverables
+
+- [notebook/restaurant_sales_insight.ipynb](/d:/code/project%20portfolio/Restaurant%20Sales%20Insight/notebook/restaurant_sales_insight.ipynb): cleaning, EDA, and visual analysis
+- [sql/01_create_database.sql](/d:/code/project%20portfolio/Restaurant%20Sales%20Insight/sql/01_create_database.sql): database and table creation
+- [sql/02_analysis_queries.sql](/d:/code/project%20portfolio/Restaurant%20Sales%20Insight/sql/02_analysis_queries.sql): business KPI queries
+- [output/restaurant_sales_cleaned.csv](/d:/code/project%20portfolio/Restaurant%20Sales%20Insight/output/restaurant_sales_cleaned.csv): cleaned dataset for reporting
+- [dashboard/powerbi_dashboard_guide.md](/d:/code/project%20portfolio/Restaurant%20Sales%20Insight/dashboard/powerbi_dashboard_guide.md): Power BI build guide
+- [output/kpi_summary.csv](/d:/code/project%20portfolio/Restaurant%20Sales%20Insight/output/kpi_summary.csv): quick KPI export
+
 ## Project Structure
 
 ```text
@@ -50,6 +72,13 @@ restaurant-sales-insight/
 5. Run SQL queries for KPI and trend analysis.
 6. Export the cleaned dataset for Power BI.
 7. Build the dashboard using the Power BI guide in [dashboard/powerbi_dashboard_guide.md](/d:/code/project%20portfolio/Restaurant%20Sales%20Insight/dashboard/powerbi_dashboard_guide.md).
+
+## Analysis Approach
+
+- Data cleaning: standardized columns, parsed dates, fixed text values, engineered revenue and calendar fields
+- SQL analysis: business KPI extraction for revenue, orders, product mix, and time-based performance
+- EDA and visualization: trend, category, product, and city-level revenue analysis
+- BI storytelling: dashboard-ready dataset and visual recommendations for decision makers
 
 ## Data Cleaning Highlights
 
@@ -112,6 +141,14 @@ Suggested visuals:
 - `Wednesday` delivered the highest weekday revenue contribution.
 - `Lisbon` recorded the highest city-level revenue in this dataset.
 
+## Recruiter Takeaways
+
+- Demonstrates an end-to-end analytics workflow from raw CSV to dashboard-ready dataset
+- Shows practical SQL for KPI analysis and dimensional breakdowns
+- Uses Python for cleaning, feature engineering, and visual storytelling
+- Produces business-facing recommendations instead of stopping at charts
+- Documents source limitations honestly and proposes realistic next-step improvements
+
 ## Business Recommendations
 
 - Protect and expand the burger lineup because it is the main revenue engine.
@@ -125,7 +162,7 @@ Suggested visuals:
 ### 1. Install dependencies
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ### 2. Download the Kaggle dataset
