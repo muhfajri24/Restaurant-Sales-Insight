@@ -1,12 +1,12 @@
 # Restaurant Sales Insight
 
-Portfolio project for turning raw restaurant sales data into KPI summaries, trend analysis, and dashboard-ready outputs using Python and SQL.
+This project turns raw restaurant sales data into KPI summaries, trend analysis, and dashboard-ready outputs using Python and SQL.
 
 ## What This Project Does
 
 - Cleans and standardizes the raw restaurant sales dataset
 - Creates analysis-ready fields such as revenue, calendar features, and product categories
-- Exports cleaned data, KPI summaries, and portfolio figures
+- Exports cleaned data, KPI summaries, and reusable analysis figures
 - Supports SQL analysis and Power BI dashboard storytelling
 
 ## Why It Matters
