@@ -11,7 +11,14 @@ This project turns raw restaurant sales data into KPI summaries, trend analysis,
 
 ## Why It Matters
 
-This project shows how Python can be used to convert transactional sales data into clear business insight for revenue tracking, menu analysis, and reporting.
+This project demonstrates the analytical foundation that supports data science work: cleaning transactional data, engineering reporting fields, measuring performance, and producing structured outputs for analysis and decision making.
+
+## Data Science Focus
+
+- Data cleaning and transformation for structured sales data
+- Exploratory analysis and KPI generation
+- SQL-based business analysis
+- Reporting-ready datasets for downstream modeling or BI
 
 ## Primary Workflow
 
