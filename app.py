@@ -80,8 +80,8 @@ def style_app() -> None:
 
 def unavailable_order_metrics() -> None:
     st.markdown(
-        '<div class="grain-note"><strong>Order KPI tidak tersedia.</strong> '
-        "Sumber hanya membuktikan satu record penjualan produk teragregasi. Total Orders dan AOV ditampilkan sebagai N/A agar tidak mengubah record menjadi pesanan pelanggan secara keliru.</div>",
+        '<div class="grain-note"><strong>Order KPIs are unavailable.</strong> '
+        "The source supports aggregated product-sales records, not verified customer orders. Total Orders and AOV remain N/A rather than treating source records as orders.</div>",
         unsafe_allow_html=True,
     )
 
@@ -90,12 +90,12 @@ def executive_overview(data: dict[str, pd.DataFrame]) -> None:
     sales, daily, products = data["sales"], data["daily"], data["products"]
     st.subheader("Executive Overview")
     st.caption(
-        "Ringkasan recorded revenue pada 7 November–29 Desember 2022; mata uang dan unit quantity tidak ditentukan sumber."
+        "Recorded performance from 7 November–29 December 2022; currency and quantity units are unspecified."
     )
     cols = st.columns(6)
     cols[0].metric("Recorded Revenue", money(sales["revenue"].sum()))
-    cols[1].metric("Total Orders", "N/A", help="Tidak didukung oleh grain data.")
-    cols[2].metric("AOV", "N/A", help="Tidak didukung oleh grain data.")
+    cols[1].metric("Total Orders", "N/A", help="Unsupported at the verified data grain.")
+    cols[2].metric("AOV", "N/A", help="Unsupported at the verified data grain.")
     cols[3].metric("Recorded Quantity", money(sales["quantity"].sum()))
     cols[4].metric("Sales Records", f"{sales['record_id'].nunique():,}")
     cols[5].metric("Weighted Price", money(weighted_price(sales)))
@@ -128,11 +128,14 @@ def executive_overview(data: dict[str, pd.DataFrame]) -> None:
         legend_title_text="",
     )
     st.plotly_chart(fig, width="stretch")
+    st.caption(
+        "The active-day average smooths short-term variation; the two partial months should not be read as a clean month-over-month growth comparison."
+    )
 
     top = products.sort_values("revenue", ascending=False).iloc[0]
     st.markdown(
         f"""**Executive summary.** Recorded revenue totals **{money(sales["revenue"].sum())}** across **{sales["date"].nunique()} active sales days**. 
-        **{top["product"]}** has the largest observed product contribution at **{top["revenue_share"]:.1%}**. The source supports mix, volume, weighted-price, location, channel, and time analysis—but not customer-order behavior, profit, or causal conclusions."""
+        **{top["product"]}** has the largest observed product contribution at **{top["revenue_share"]:.1%}**. The source supports comparisons of mix, volume, weighted price, location, channel, and time."""
     )
 
 
@@ -140,14 +143,13 @@ def revenue_drivers(data: dict[str, pd.DataFrame]) -> None:
     sales = data["sales"]
     st.subheader("Revenue Drivers")
     st.caption(
-        "Revenue = recorded quantity × weighted selling price. Order Volume dan AOV tidak dapat dihitung pada grain yang tersedia."
+        "Recorded revenue = recorded quantity × weighted selling price. This view separates observable volume and price components."
     )
     a, b, c = st.columns([1, 0.25, 1])
     a.metric("Recorded Quantity", money(sales["quantity"].sum()))
     b.markdown("<h2 style='text-align:center;padding-top:1rem'>×</h2>", unsafe_allow_html=True)
     c.metric("Weighted Selling Price", money(weighted_price(sales)))
     st.metric("Recorded Revenue", money(sales["revenue"].sum()))
-    unavailable_order_metrics()
 
     choices = {
         "Weekday vs Weekend": "is_weekend",
@@ -156,7 +158,7 @@ def revenue_drivers(data: dict[str, pd.DataFrame]) -> None:
         "Purchase Type": "purchase_type",
         "Category": "product_category",
     }
-    label = st.selectbox("Bandingkan driver", list(choices))
+    label = st.selectbox("Compare drivers by", list(choices))
     dimension = choices[label]
     perf = dimension_performance(
         sales.assign(is_weekend=sales["is_weekend"].map({True: "Weekend", False: "Weekday"})), dimension
@@ -177,8 +179,11 @@ def revenue_drivers(data: dict[str, pd.DataFrame]) -> None:
         coloraxis_colorbar_title="Weighted price",
     )
     st.plotly_chart(fig, width="stretch")
+    driver_table = perf.rename(columns={dimension: label})[
+        [label, "revenue", "quantity", "weighted_selling_price", "revenue_share", "sales_records"]
+    ]
     st.dataframe(
-        perf.rename(columns={dimension: label}),
+        driver_table,
         width="stretch",
         hide_index=True,
         column_config={
@@ -188,14 +193,15 @@ def revenue_drivers(data: dict[str, pd.DataFrame]) -> None:
         },
     )
     st.info(
-        "Baca perubahan secara deskriptif: revenue yang lebih besar dapat diamati bersama quantity yang lebih tinggi, weighted price yang lebih tinggi, atau kombinasi keduanya. Data ini tidak membuktikan penyebab perubahan."
+        "Read the components together: a larger revenue total may appear alongside more recorded quantity, a higher weighted price, or both."
     )
 
 
 def menu_intelligence(data: dict[str, pd.DataFrame]) -> None:
     products, categories = data["products"].copy(), data["categories"].copy()
     st.subheader("Menu Intelligence")
-    sort_label = st.radio("Urutkan produk berdasarkan", ["Revenue", "Quantity", "Contribution"], horizontal=True)
+    st.caption("Which products matter most, and how concentrated is the recorded menu mix?")
+    sort_label = st.radio("Rank products by", ["Revenue", "Quantity", "Contribution"], horizontal=True)
     sort_col = {"Revenue": "revenue", "Quantity": "quantity", "Contribution": "revenue_share"}[sort_label]
     ranked = products.sort_values(sort_col, ascending=False)
     left, right = st.columns(2)
@@ -250,6 +256,9 @@ def menu_intelligence(data: dict[str, pd.DataFrame]) -> None:
         legend_title_text="",
     )
     st.plotly_chart(fig, width="stretch")
+    st.caption(
+        f"The top three products contribute {pareto.head(3)['revenue_share'].sum():.1%} of recorded revenue; concentration is the key menu question."
+    )
 
     portfolio = px.scatter(
         products,
@@ -268,13 +277,17 @@ def menu_intelligence(data: dict[str, pd.DataFrame]) -> None:
         legend_title_text="Portfolio class",
     )
     st.plotly_chart(portfolio, width="stretch")
-    st.dataframe(ranked, width="stretch", hide_index=True)
+    st.caption("The portfolio view separates recorded volume from revenue without interpreting either axis as margin.")
+    ranked_table = ranked[
+        ["product", "product_category", "revenue", "quantity", "revenue_share", "rank_by_revenue", "portfolio_class"]
+    ]
+    st.dataframe(ranked_table, width="stretch", hide_index=True)
 
 
 def business_explorer(data: dict[str, pd.DataFrame]) -> None:
     sales = data["sales"]
     st.subheader("Business Explorer")
-    st.caption("Filter record penjualan dan lihat kontribusi serta product mix pada scope terpilih.")
+    st.caption("Filter the recorded sales scope, then compare its contribution and product mix.")
     f1, f2, f3 = st.columns(3)
     cities = f1.multiselect("City", sorted(sales["city"].unique()))
     managers = f2.multiselect("Manager", sorted(sales["manager"].unique()))
@@ -301,13 +314,13 @@ def business_explorer(data: dict[str, pd.DataFrame]) -> None:
     if isinstance(dates, (tuple, list)) and len(dates) == 2:
         filtered = filtered[filtered["date"].between(pd.Timestamp(dates[0]), pd.Timestamp(dates[1]))]
     if filtered.empty:
-        st.warning("Tidak ada record untuk kombinasi filter ini.")
+        st.warning("No records match this filter combination. Clear one or more filters to continue.")
         return
     contribution = filtered["revenue"].sum() / sales["revenue"].sum()
     cols = st.columns(5)
     cols[0].metric("Revenue", money(filtered["revenue"].sum()))
-    cols[1].metric("Orders", "N/A", help="Tidak didukung oleh grain data.")
-    cols[2].metric("AOV", "N/A", help="Tidak didukung oleh grain data.")
+    cols[1].metric("Orders", "N/A", help="Unsupported at the verified data grain.")
+    cols[2].metric("AOV", "N/A", help="Unsupported at the verified data grain.")
     cols[3].metric("Quantity", money(filtered["quantity"].sum()))
     cols[4].metric("Contribution", f"{contribution:.1%}")
     mix = dimension_performance(filtered, "product").sort_values("revenue", ascending=False)
@@ -322,21 +335,11 @@ def business_explorer(data: dict[str, pd.DataFrame]) -> None:
     )
     fig.update_layout(yaxis_title="Recorded revenue", xaxis_title="Product", coloraxis_colorbar_title="Scope share")
     st.plotly_chart(fig, width="stretch")
+    st.caption(
+        "Contribution is measured against the full extract; product shares in the chart are recalculated for the selected scope."
+    )
     st.dataframe(
-        filtered[
-            [
-                "date",
-                "record_id",
-                "product",
-                "product_category",
-                "city",
-                "manager",
-                "purchase_type",
-                "payment_method",
-                "quantity",
-                "revenue",
-            ]
-        ],
+        mix[["product", "revenue", "quantity", "sales_records", "weighted_selling_price", "revenue_share"]],
         width="stretch",
         hide_index=True,
     )
@@ -345,13 +348,16 @@ def business_explorer(data: dict[str, pd.DataFrame]) -> None:
 def opportunity_matrix(data: dict[str, pd.DataFrame]) -> None:
     opportunities = data["opportunities"].sort_values("priority_score", ascending=False)
     st.subheader("Opportunity Matrix")
-    st.caption("Kandidat berbasis aturan untuk validasi lanjutan—bukan rekomendasi atau estimasi dampak yang terjamin.")
+    st.caption("Rule-based candidates for further validation, ranked by evidence—not by expected impact.")
     dimensions = st.multiselect(
         "Filter opportunity dimension",
         sorted(opportunities["dimension"].unique()),
         default=sorted(opportunities["dimension"].unique()),
     )
     shown = opportunities[opportunities["dimension"].isin(dimensions)]
+    if shown.empty:
+        st.warning("Select at least one opportunity dimension to review candidates.")
+        return
     fig = px.scatter(
         shown,
         x="priority_score",
@@ -364,6 +370,7 @@ def opportunity_matrix(data: dict[str, pd.DataFrame]) -> None:
     )
     fig.update_layout(xaxis_title="Rule-based priority score (0–100)", yaxis_title="Candidate")
     st.plotly_chart(fig, width="stretch")
+    st.caption("A higher score means the observed pattern merits earlier review; it is not a forecast of business value.")
     for _, row in shown.iterrows():
         st.markdown(
             f"""<div class="opportunity-card"><div class="eyebrow">{row["dimension"]} · score {row["priority_score"]:.1f} · {row["evidence_strength"]}</div>
@@ -379,7 +386,7 @@ def opportunity_matrix(data: dict[str, pd.DataFrame]) -> None:
 def main() -> None:
     style_app()
     data = load_data()
-    st.markdown('<div class="eyebrow">Portfolio analytics case study</div>', unsafe_allow_html=True)
+    st.markdown('<div class="eyebrow">Restaurant sales analysis</div>', unsafe_allow_html=True)
     st.title("Restaurant Performance Intelligence")
     st.markdown("Diagnosing the drivers of recorded restaurant revenue across menu, location, channel, and time.")
     tabs = st.tabs(
@@ -395,7 +402,7 @@ def main() -> None:
         business_explorer(data)
     with tabs[4]:
         opportunity_matrix(data)
-    st.caption("Source period: 7 Nov–29 Dec 2022 · Currency and quantity unit unspecified · Revenue is not profit")
+    st.caption("Source period: 7 Nov–29 Dec 2022 · Currency and quantity units unspecified · Descriptive analysis")
 
 
 if __name__ == "__main__":

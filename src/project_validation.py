@@ -112,20 +112,20 @@ def validate_project(base_dir: Path = BASE_DIR) -> dict[str, object]:
     ]
     readme = (base_dir / "README.md").read_text(encoding="utf-8")
     required_readme_sections = [
+        "## Project Snapshot",
+        "## Visual Preview",
+        "## What I Found",
         "## Business Question",
-        "## Dataset",
-        "## Data Quality",
-        "## KPI Framework",
-        "## Revenue Drivers",
-        "## Menu Intelligence",
-        "## Location & Channel",
-        "## Opportunity Matrix",
+        "## Dataset and Analytical Grain",
+        "## How the Analysis Works",
         "## Dashboard",
-        "## SQL Layer",
-        "## Reproduce",
-        "## Repository Structure",
+        "## SQL and Data Model",
+        "## Run Locally",
+        "## Engineering Quality",
+        "## Repository Map",
         "## Limitations",
-        "## Future Work",
+        "## Design Decisions",
+        "## Next Questions",
     ]
     app_text = (base_dir / "app.py").read_text(encoding="utf-8") if (base_dir / "app.py").exists() else ""
     required_tabs = [
@@ -257,7 +257,9 @@ def validate_project(base_dir: Path = BASE_DIR) -> dict[str, object]:
         ),
         _check(
             "readme_kpis_reconcile",
-            "769.515,89" in readme and "116.995,31" in readme and "6,58" in readme,
+            f"{float(kpis.loc['total_revenue', 'value']):,.2f}" in readme
+            and f"{float(kpis.loc['total_quantity_sold', 'value']):,.2f}" in readme
+            and f"{float(kpis.loc['average_selling_price', 'value']):,.2f}" in readme,
             "README headline values match validated outputs",
         ),
         _check(

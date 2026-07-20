@@ -1,186 +1,137 @@
 # Restaurant Performance Intelligence
 
-> Diagnosing the drivers of recorded restaurant revenue across menu, location, channel, and time.
+> Diagnosing where recorded restaurant revenue is concentrated—and which questions deserve a closer look.
+
+## Project Snapshot
+
+This dataset looks simple until its grain is examined: each row is an aggregated product-sales record, not a verified customer order. Treating the source `order_id` as an order count would produce misleading AOV and basket metrics, so those KPIs are deliberately excluded. Instead, the project investigates how recorded quantity, weighted selling price, menu mix, location, channel, payment method, and time appear alongside revenue. The result is a traceable view of concentration and performance patterns that helps narrow the next business questions without overstating what the source can prove.
+
+| Recorded revenue | Sales records | Recorded quantity | Weighted selling price | Active sales days |
+|---:|---:|---:|---:|---:|
+| 769,515.89 | 254 | 116,995.31 | 6.58 | 53 |
+
+Currency and quantity units are not specified in the source.
+
+## Visual Preview
+
+### Revenue across active sales days
+
+![Line chart of recorded daily revenue and its seven-active-day rolling average](output/figures/executive_revenue_trend.png)
+
+Daily revenue varies across the extract, while the rolling average gives a clearer view of the underlying direction without treating two partial months as a clean growth comparison.
+
+### Menu concentration
+
+![Pareto chart showing recorded revenue and cumulative revenue share by product](output/figures/product_pareto.png)
+
+Three products account for 80.2% of recorded revenue, making menu concentration a more useful question than a simple best-seller ranking.
+
+### Questions to validate first
+
+![Horizontal bar chart ranking evidence-based validation candidates by priority score](output/figures/opportunity_priority_matrix.png)
+
+The priority matrix turns descriptive patterns into a review queue; its scores rank evidence to investigate, not expected financial impact.
+
+## What I Found
+
+- Burgers contribute 49.0% of recorded revenue, almost three times the share of Fries at 16.3%. The menu is therefore more dependent on one product than the ranking alone suggests.
+- Lisbon and London contribute 31.4% and 27.4% respectively, or 58.9% combined. Location coverage and mix should be examined before interpreting that gap as operational performance.
+- Online is the largest purchase type at 39.7% of revenue, but its weighted selling price is 6.23 versus 6.58 overall. Product mix and price realization are the next useful checks.
+- Credit Card represents 47.0% of recorded revenue, ahead of Cash at 31.1%. This describes the tender mix in the extract rather than an individual customer preference.
 
 ## Business Question
 
-**What drives restaurant revenue?**
+**Which factors are observed alongside recorded restaurant revenue, where is performance concentrated, and which areas present the clearest evidence-based questions for further validation?**
 
-Proyek ini memeriksa bagaimana recorded quantity, weighted selling price, menu mix, location, purchase type, payment method, dan time period muncul bersama recorded revenue. Analisis menggunakan bahasa deskriptif dan memisahkan observation dari business hypothesis.
+## Dataset and Analytical Grain
 
-## Dataset
+The source is the Kaggle dataset `rohitgrewal/restaurant-sales-data`, containing 254 records from 7 November to 29 December 2022. The defensible grain is **one aggregated product-sales record with a unique source `order_id`**. Large fractional quantities do not support interpreting a row as a customer order or a conventional item-level transaction.
 
-Dataset bersumber dari Kaggle `rohitgrewal/restaurant-sales-data` dan mencakup **254 record** pada **7 November–29 Desember 2022**.
+The pipeline preserves the raw input, parses dates and numeric fields explicitly, standardizes category values, removes only verified exact duplicates, and exports separate audit, removed-record, and flagged-record files. Every cleaned row receives a stable `record_id`. See the [data-quality report](reports/data_quality/data_quality_report.md) and [grain analysis](reports/data_quality/data_grain_analysis.md).
 
-Grain paling aman adalah **satu record penjualan produk teragregasi dengan source `order_id` unik**. Fractional quantity yang besar tidak mendukung interpretasi bahwa satu baris merupakan satu customer order atau line item satuan.
+## How the Analysis Works
 
-Keterbatasan sumber utama:
-
-- currency dan unit quantity tidak dijelaskan;
-- customer identifier, discount, tax, cost, dan margin tidak tersedia;
-- kedua bulan merupakan partial periods;
-- data historis 2022 tidak menggambarkan operasi saat ini.
-
-## Data Quality
-
-Pipeline menormalisasi nama kolom, membersihkan whitespace sebelum string conversion, melakukan explicit date/numeric parsing, memisahkan repaired/removed/flagged records, dan hanya menghapus exact duplicate yang terverifikasi. Raw input tidak ditimpa dan setiap output record memiliki stable `record_id`.
-
-Validasi fase 2 menjalankan **19 consistency checks** atas cleaned data, KPI, metadata, fact table, dimension outputs, SQL, insights, dashboard sources, dan figures. Hasil terbaru tersedia di `reports/validation/project_validation.md`.
-
-## KPI Framework
-
-KPI tervalidasi untuk extract ini:
-
-| KPI | Nilai | Mengapa penting |
-|---|---:|---|
-| Recorded Revenue | 769.515,89 | Skala nilai penjualan yang tercatat |
-| Sales Records | 254 | Coverage record analitik, bukan customer orders |
-| Recorded Quantity | 116.995,31 | Observable volume component |
-| Weighted Selling Price | 6,58 | Price component setelah weighting quantity |
-| Active Sales Days | 53 | Coverage hari dalam extract |
-| Average Active-Day Revenue | 14.519,17 | Membandingkan skala per hari yang terwakili |
-| Median Active-Day Revenue | 14.200,04 | Typical active-day result yang lebih robust |
-
-Total Orders, AOV, dan Average Items per Order tidak dihitung karena grain belum mendukungnya.
-
-## Revenue Drivers
-
-Analisis memakai identitas yang didukung data:
+The core decomposition is:
 
 ```text
 Recorded Revenue = Recorded Quantity × Weighted Selling Price
 ```
 
-Perbandingan tersedia menurut weekday/weekend, city, purchase type, payment method, product, dan category. Perbedaan revenue tidak dianggap disebabkan suatu kelompok; pipeline menunjukkan apakah pola diamati bersama volume, weighted price, atau keduanya.
+The same measures are then compared across:
 
-## Menu Intelligence
+- daily, weekly, monthly, weekday, and weekend periods;
+- products, categories, Pareto contribution, and portfolio position;
+- cities, purchase types, and payment methods;
+- manager coverage, presented without unadjusted performance labels;
+- rule-based opportunity candidates with evidence, hypotheses, limitations, and next checks.
 
-Burgers memiliki recorded revenue terbesar dengan share **49,0%**. Tiga produk mencapai setidaknya **80%** cumulative revenue, dengan product HHI **0,311**. Product portfolio matrix memisahkan high/low revenue dan high/low recorded volume menggunakan median data, bukan klaim profitability.
-
-## Location & Channel
-
-Lisbon memiliki observed city revenue share terbesar (**31,4%**), sedangkan London memiliki recorded quantity relatif tinggi dan weighted selling price di bawah baseline keseluruhan. Online adalah purchase type terbesar (**39,7%**) dan Credit Card adalah payment method terbesar (**47,0%**).
-
-Angka tersebut adalah observed shares, bukan bukti customer preference. Manager analysis juga bersifat deskriptif karena assignment, traffic, menu mix, staffing, dan capacity tidak tersedia.
-
-## Opportunity Matrix
-
-Opportunity candidates dibuat secara deterministic dari volume, weighted price, concentration, dan dimension medians. Setiap kandidat menyertakan:
-
-- observation;
-- metric evidence;
-- business hypothesis;
-- recommended validation action;
-- limitation;
-- priority score dan evidence strength.
-
-Opportunity adalah **hipotesis untuk divalidasi**, bukan rekomendasi terjamin atau estimasi uplift.
+Metric definitions and their supported grain are documented in the [KPI guide](docs/KPI_GUIDE.md).
 
 ## Dashboard
 
-Aplikasi Streamlit bernama **Restaurant Performance Intelligence** memiliki lima tab:
+The Streamlit dashboard keeps the analysis in five focused tabs:
 
-1. Executive Overview
-2. Revenue Drivers
-3. Menu Intelligence
-4. Business Explorer
-5. Opportunity Matrix
+1. **Executive Overview** — headline measures and the active-day revenue trend.
+2. **Revenue Drivers** — quantity and weighted-price comparisons by dimension.
+3. **Menu Intelligence** — product ranking, Pareto concentration, and portfolio position.
+4. **Business Explorer** — filters for city, manager, payment, purchase type, category, and date.
+5. **Opportunity Matrix** — evidence-backed questions and the validation required before action.
 
-Business Explorer menyediakan filter city, manager, payment, purchase type, category, dan date. Lihat `docs/DASHBOARD_GUIDE.md` untuk interpretasi setiap tab.
+See the [dashboard guide](docs/DASHBOARD_GUIDE.md) for interpretation details.
 
-## SQL Layer
+## SQL and Data Model
 
-Tujuh query modular mencakup schema, data quality, executive KPI, time performance, menu/Pareto, location/channel/manager, dan opportunity candidates. SQL menggunakan MySQL 8.0-style CTE, window functions, rank, cumulative sum, conditional logic, dan safe division.
+Seven ordered MySQL 8.0-style scripts cover schema setup, quality checks, executive metrics, time, menu, location/channel, manager context, and opportunity candidates. Dashboard-ready exports use one small fact table with date, product, location, and channel dimensions—not a claim of a production warehouse. See the [SQL guide](docs/SQL_GUIDE.md) and [BI data model](docs/BI_DATA_MODEL.md).
 
-## Reproduce
+## Run Locally
 
-Supported version: **Python 3.11 or newer**.
-
-Quick Start untuk analisis dan dashboard:
+Python 3.11 or newer is supported.
 
 ```bash
 python -m venv .venv
 python -m pip install -r requirements-dev.txt
 python run_pipeline.py
-python -m pytest -q
-python validate_project.py
 streamlit run app.py
 ```
 
-Pipeline menghasilkan cleaned data, audit trail, KPI, analytical outputs, BI model, insight files, reports, metadata, validation, dan figures.
+For Windows PowerShell activation and Docker instructions, use the [reproducibility](docs/REPRODUCIBILITY.md) and [deployment](docs/DEPLOYMENT.md) guides.
 
-Runtime-only installation menggunakan `requirements.txt`. Development, notebook, coverage, Ruff, dan pre-commit menggunakan `requirements-dev.txt`.
+## Engineering Quality
 
-## Validation & Testing
+Synthetic tests run without Kaggle, MySQL, Power BI, network access, or credentials. Ruff, coverage enforcement, pre-commit hooks, GitHub Actions, Docker configuration, schema checks, artifact reconciliation, and README link checks are included. The latest automated status and check inventory are available in the [project validation report](reports/validation/project_validation.md); testing details live in [docs/TESTING.md](docs/TESTING.md).
 
-```bash
-python -m ruff check .
-python -m pytest --cov=src --cov-report=term-missing --cov-fail-under=80
-python validate_project.py
-```
-
-Validation command mengembalikan non-zero exit code jika required artifact, schema, metadata, figure, SQL, documentation, README path, atau reconciliation check gagal. Test memakai synthetic fixtures dan tidak membutuhkan Kaggle, MySQL, Power BI, internet, atau credentials.
-
-## CI
-
-GitHub Actions menjalankan lint, pipeline generation, unit tests, coverage threshold, repository validation, dan Streamlit import pada Python 3.11. Workflow tidak memakai external credentials, MySQL server, Power BI, atau Kaggle download.
-
-Pre-commit setup:
-
-```bash
-pre-commit install
-pre-commit run --all-files
-```
-
-## Deployment
-
-Dashboard dapat dijalankan lokal atau melalui Docker:
-
-```bash
-docker compose build
-docker compose up
-```
-
-Container membaca artifact yang sudah dibuat dan tidak menjalankan pipeline saat startup. Repository hanya menyiapkan deployment assets; tidak ada klaim live deployment. Lihat `docs/DEPLOYMENT.md`.
-
-## Repository Structure
+## Repository Map
 
 ```text
-├── app.py                     # Interactive Streamlit dashboard
-├── validate_project.py        # CI-friendly repository validation command
-├── pyproject.toml             # Ruff, pytest, and coverage configuration
-├── requirements*.txt          # Runtime and development dependencies
-├── Dockerfile                 # Streamlit image from prepared artifacts
-├── config/                    # Product taxonomy mapping
-├── data/                      # Preserved raw dataset
-├── dashboard/                 # Power BI guidance and existing preview
-├── docs/                      # KPI, SQL, dashboard, BI, interpretation guides
-├── notebook/                  # Reproducible companion notebook
-├── output/
-│   ├── analysis/              # Dimension and driver outputs
-│   ├── bi/                    # Dashboard-ready fact and dimensions
-│   ├── figures/               # Decision-focused visuals
-│   ├── insights/              # Opportunities and deterministic insights
-│   └── kpis/                  # Executive KPI output
-├── reports/                   # Quality, validation, storytelling, limitations
-├── sql/                       # MySQL 8.0 analytical layer
-├── src/                       # Modular production pipeline and validation logic
-└── tests/                     # Synthetic automated tests
+app.py              Streamlit dashboard
+config/             Product taxonomy mapping
+data/               Preserved raw source
+docs/               Focused usage and interpretation guides
+notebook/           Executed analytical walkthrough
+output/             Analysis, BI tables, figures, insights, and KPIs
+reports/            Quality, validation, findings, and limitations
+sql/                Ordered analytical SQL scripts
+src/                Reusable pipeline and validation logic
+tests/              Deterministic synthetic tests
 ```
 
 ## Limitations
 
-- Revenue bukan profit; cost dan margin tidak tersedia.
-- Customer segmentation, retention, dan repeat-customer analysis tidak didukung.
-- Total Orders dan AOV tidak didukung oleh grain saat ini.
-- Manager comparisons mungkin terkonfounding city assignment dan coverage.
-- Transaction records tidak membuktikan causality.
-- Operational action memerlukan cost, inventory, staffing, traffic, dan capacity data.
+- Currency and quantity units are unspecified.
+- Customer identifiers and verified order-line structure are unavailable, so Total Orders, AOV, basket size, retention, and customer segmentation are unsupported.
+- Costs, discounts, tax, inventory, staffing, traffic, and capacity are absent; recorded revenue cannot measure financial contribution or operational efficiency.
+- Both months are partial periods, and the historical extract may not describe current operations.
+- Manager, location, channel, payment, and menu comparisons are descriptive; the data does not establish causal effects.
 
-## Future Work
+## Design Decisions
 
-- Customer segmentation setelah customer identifier tersedia.
-- Inventory optimization setelah stock, waste, dan stockout data tersedia.
-- Promotion analysis dengan discount, exposure, dan comparison design yang valid.
-- Profit analysis setelah item-level cost dan contribution margin tersedia.
-- Order-level decomposition setelah POS order header dan line-item grain terverifikasi.
+- I left order KPIs blank instead of relabeling source records as customer orders.
+- I decomposed revenue into recorded quantity and weighted selling price because both components are directly supported by the available fields.
+- I framed opportunities as validation questions so the evidence, uncertainty, and next data requirement remain visible together.
+
+## Next Questions
+
+- How do product contribution and channel mix change when verified transaction and discount fields are available?
+- Which menu items remain attractive after item costs, waste, and stockouts are included?
+- Do the location and weekday patterns persist across complete, more recent periods?
+- Which opportunity hypotheses survive a controlled pilot or comparable-group design?
