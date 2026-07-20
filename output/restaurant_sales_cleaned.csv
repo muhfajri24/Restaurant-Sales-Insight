@@ -1,255 +1,255 @@
-order_id,date,year,month_num,month_name,week_num,day_num,day_name,is_weekend,product,product_category,price,quantity,revenue,purchase_type,payment_method,manager,city
-10452,2022-11-07,2022,11,Nov,45,7,Monday,False,Fries,Sides,3.49,573.07,2000.01,Online,Gift Card,Tom Jackson,London
-10453,2022-11-07,2022,11,Nov,45,7,Monday,False,Beverages,Beverage,2.95,745.76,2199.99,Online,Gift Card,Pablo Perez,Madrid
-10454,2022-11-07,2022,11,Nov,45,7,Monday,False,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Gift Card,Joao Silva,Lisbon
-10455,2022-11-08,2022,11,Nov,45,8,Tuesday,False,Burgers,Main Course,12.99,569.67,7400.01,In-store,Credit Card,Walter Muller,Berlin
-10456,2022-11-08,2022,11,Nov,45,8,Tuesday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,In-store,Credit Card,Walter Muller,Berlin
-10457,2022-11-08,2022,11,Nov,45,8,Tuesday,False,Fries,Sides,3.49,573.07,2000.01,In-store,Credit Card,Remy Monet,Paris
-10459,2022-11-08,2022,11,Nov,45,8,Tuesday,False,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Credit Card,Walter Muller,Berlin
-10460,2022-11-09,2022,11,Nov,45,9,Wednesday,False,Burgers,Main Course,12.99,554.27,7199.97,In-store,Credit Card,Remy Monet,Paris
-10461,2022-11-09,2022,11,Nov,45,9,Wednesday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,In-store,Credit Card,Remy Monet,Paris
-10462,2022-11-09,2022,11,Nov,45,9,Wednesday,False,Fries,Sides,3.49,573.07,2000.01,In-store,Credit Card,Remy Monet,Paris
-10463,2022-11-09,2022,11,Nov,45,9,Wednesday,False,Beverages,Beverage,2.95,677.97,2000.01,In-store,Credit Card,Remy Monet,Paris
-10464,2022-11-09,2022,11,Nov,45,9,Wednesday,False,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Credit Card,Remy Monet,Paris
-10465,2022-11-10,2022,11,Nov,45,10,Thursday,False,Burgers,Main Course,12.99,554.27,7199.97,In-store,Credit Card,Pablo Perez,Madrid
-10466,2022-11-10,2022,11,Nov,45,10,Thursday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,In-store,Credit Card,Pablo Perez,Madrid
-10467,2022-11-10,2022,11,Nov,45,10,Thursday,False,Fries,Sides,3.49,573.07,2000.01,In-store,Credit Card,Pablo Perez,Madrid
-10468,2022-11-10,2022,11,Nov,45,10,Thursday,False,Beverages,Beverage,2.95,677.97,2000.01,In-store,Credit Card,Pablo Perez,Madrid
-10470,2022-11-11,2022,11,Nov,45,11,Friday,False,Burgers,Main Course,12.99,554.27,7199.97,In-store,Credit Card,Pablo Perez,Madrid
-10471,2022-11-11,2022,11,Nov,45,11,Friday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,In-store,Credit Card,Pablo Perez,Madrid
-10472,2022-11-11,2022,11,Nov,45,11,Friday,False,Fries,Sides,3.49,630.37,2199.99,In-store,Credit Card,Pablo Perez,Madrid
-10473,2022-11-11,2022,11,Nov,45,11,Friday,False,Beverages,Beverage,2.95,677.97,2000.01,In-store,Credit Card,Pablo Perez,Madrid
-10474,2022-11-11,2022,11,Nov,45,11,Friday,False,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Credit Card,Pablo Perez,Madrid
-10475,2022-11-12,2022,11,Nov,45,12,Saturday,True,Burgers,Main Course,12.99,523.48,6800.01,In-store,Credit Card,Pablo Perez,Madrid
-10476,2022-11-12,2022,11,Nov,45,12,Saturday,True,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,In-store,Credit Card,Pablo Perez,Madrid
-10477,2022-11-12,2022,11,Nov,45,12,Saturday,True,Fries,Sides,3.49,630.37,2199.99,In-store,Credit Card,Pablo Perez,Madrid
-10478,2022-11-12,2022,11,Nov,45,12,Saturday,True,Beverages,Beverage,2.95,677.97,2000.01,In-store,Credit Card,Pablo Perez,Madrid
-10479,2022-11-12,2022,11,Nov,45,12,Saturday,True,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Credit Card,Pablo Perez,Madrid
-10480,2022-11-13,2022,11,Nov,45,13,Sunday,True,Burgers,Main Course,12.99,508.08,6599.96,In-store,Credit Card,Pablo Perez,Madrid
-10481,2022-11-13,2022,11,Nov,45,13,Sunday,True,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,In-store,Credit Card,Pablo Perez,Madrid
-10482,2022-11-13,2022,11,Nov,45,13,Sunday,True,Fries,Sides,25.5,630.37,16074.44,In-store,Credit Card,Joao Silva,Lisbon
-10483,2022-11-13,2022,11,Nov,45,13,Sunday,True,Beverages,Beverage,2.95,677.97,2000.01,In-store,Credit Card,Joao Silva,Lisbon
-10484,2022-11-13,2022,11,Nov,45,13,Sunday,True,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Credit Card,Joao Silva,Lisbon
-10485,2022-11-14,2022,11,Nov,46,14,Monday,False,Burgers,Main Course,12.99,523.48,6800.01,In-store,Credit Card,Joao Silva,Lisbon
-10486,2022-11-14,2022,11,Nov,46,14,Monday,False,Chicken Sandwiches,Main Course,29.05,201.01,5839.34,In-store,Credit Card,Joao Silva,Lisbon
-10487,2022-11-14,2022,11,Nov,46,14,Monday,False,Fries,Sides,3.49,630.37,2199.99,In-store,Credit Card,Joao Silva,Lisbon
-10488,2022-11-14,2022,11,Nov,46,14,Monday,False,Beverages,Beverage,2.95,677.97,2000.01,In-store,Credit Card,Joao Silva,Lisbon
-10489,2022-11-14,2022,11,Nov,46,14,Monday,False,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Credit Card,Pablo Perez,Madrid
-10490,2022-11-15,2022,11,Nov,46,15,Tuesday,False,Burgers,Main Course,12.99,508.08,6599.96,In-store,Credit Card,Pablo Perez,Madrid
-10491,2022-11-15,2022,11,Nov,46,15,Tuesday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,In-store,Credit Card,Pablo Perez,Madrid
-10492,2022-11-15,2022,11,Nov,46,15,Tuesday,False,Fries,Sides,3.49,573.07,2000.01,In-store,Credit Card,Pablo Perez,Madrid
-10493,2022-11-15,2022,11,Nov,46,15,Tuesday,False,Beverages,Beverage,2.95,677.97,2000.01,In-store,Credit Card,Pablo Perez,Madrid
-10494,2022-11-15,2022,11,Nov,46,15,Tuesday,False,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Credit Card,Pablo Perez,Madrid
-10495,2022-11-16,2022,11,Nov,46,16,Wednesday,False,Burgers,Main Course,12.99,508.08,6599.96,In-store,Credit Card,Pablo Perez,Madrid
-10496,2022-11-16,2022,11,Nov,46,16,Wednesday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,In-store,Credit Card,Pablo Perez,Madrid
-10497,2022-11-16,2022,11,Nov,46,16,Wednesday,False,Fries,Sides,3.49,573.07,2000.01,In-store,Credit Card,Pablo Perez,Madrid
-10498,2022-11-16,2022,11,Nov,46,16,Wednesday,False,Beverages,Beverage,2.95,677.97,2000.01,Drive-thru,Credit Card,Pablo Perez,Madrid
-10499,2022-11-16,2022,11,Nov,46,16,Wednesday,False,Sides & Other,Sides,4.99,200.4,1000.0,Drive-thru,Credit Card,Pablo Perez,Madrid
-10500,2022-11-17,2022,11,Nov,46,17,Thursday,False,Burgers,Main Course,12.99,523.48,6800.01,Drive-thru,Credit Card,Pablo Perez,Madrid
-10501,2022-11-17,2022,11,Nov,46,17,Thursday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Drive-thru,Credit Card,Pablo Perez,Madrid
-10502,2022-11-17,2022,11,Nov,46,17,Thursday,False,Fries,Sides,3.49,630.37,2199.99,Drive-thru,Credit Card,Pablo Perez,Madrid
-10503,2022-11-17,2022,11,Nov,46,17,Thursday,False,Beverages,Beverage,2.95,677.97,2000.01,Drive-thru,Credit Card,Pablo Perez,Madrid
-10504,2022-11-17,2022,11,Nov,46,17,Thursday,False,Sides & Other,Sides,4.99,200.4,1000.0,Drive-thru,Credit Card,Pablo Perez,Madrid
-10505,2022-11-18,2022,11,Nov,46,18,Friday,False,Burgers,Main Course,12.99,538.88,7000.05,Drive-thru,Credit Card,Pablo Perez,Madrid
-10506,2022-11-18,2022,11,Nov,46,18,Friday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Drive-thru,Credit Card,Pablo Perez,Madrid
-10507,2022-11-18,2022,11,Nov,46,18,Friday,False,Fries,Sides,3.49,687.68,2400.0,Drive-thru,Credit Card,Pablo Perez,Madrid
-10508,2022-11-18,2022,11,Nov,46,18,Friday,False,Beverages,Beverage,2.95,677.97,2000.01,Drive-thru,Credit Card,Pablo Perez,Madrid
-10509,2022-11-18,2022,11,Nov,46,18,Friday,False,Sides & Other,Sides,4.99,200.4,1000.0,Drive-thru,Credit Card,Pablo Perez,Madrid
-10510,2022-11-19,2022,11,Nov,46,19,Saturday,True,Burgers,Main Course,12.99,508.08,6599.96,Drive-thru,Credit Card,Pablo Perez,Madrid
-10511,2022-11-19,2022,11,Nov,46,19,Saturday,True,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Drive-thru,Credit Card,Joao Silva,Lisbon
-10512,2022-11-19,2022,11,Nov,46,19,Saturday,True,Fries,Sides,3.49,687.68,2400.0,Drive-thru,Credit Card,Joao Silva,Lisbon
-10513,2022-11-19,2022,11,Nov,46,19,Saturday,True,Beverages,Beverage,2.95,677.97,2000.01,Drive-thru,Cash,Joao Silva,Lisbon
-10514,2022-11-19,2022,11,Nov,46,19,Saturday,True,Sides & Other,Sides,4.99,200.4,1000.0,Drive-thru,Cash,Joao Silva,Lisbon
-10515,2022-11-20,2022,11,Nov,46,20,Sunday,True,Burgers,Main Course,12.99,477.29,6200.0,Drive-thru,Cash,Joao Silva,Lisbon
-10516,2022-11-20,2022,11,Nov,46,20,Sunday,True,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Drive-thru,Cash,Joao Silva,Lisbon
-10520,2022-11-21,2022,11,Nov,47,21,Monday,False,Burgers,Main Course,12.99,492.69,6400.04,Drive-thru,Cash,Remy Monet,Paris
-10521,2022-11-21,2022,11,Nov,47,21,Monday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Drive-thru,Cash,Remy Monet,Paris
-10522,2022-11-21,2022,11,Nov,47,21,Monday,False,Fries,Sides,3.49,687.68,2400.0,Drive-thru,Cash,Remy Monet,Paris
-10523,2022-11-21,2022,11,Nov,47,21,Monday,False,Beverages,Beverage,2.95,745.76,2199.99,Drive-thru,Cash,Remy Monet,Paris
-10524,2022-11-21,2022,11,Nov,47,21,Monday,False,Sides & Other,Sides,4.99,200.4,1000.0,Drive-thru,Cash,Remy Monet,Paris
-10525,2022-11-22,2022,11,Nov,47,22,Tuesday,False,Burgers,Main Course,12.99,461.89,5999.95,Drive-thru,Cash,Remy Monet,Paris
-10526,2022-11-22,2022,11,Nov,47,22,Tuesday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Drive-thru,Cash,Remy Monet,Paris
-10527,2022-11-22,2022,11,Nov,47,22,Tuesday,False,Fries,Sides,3.49,687.68,2400.0,Drive-thru,Cash,Remy Monet,Paris
-10528,2022-11-22,2022,11,Nov,47,22,Tuesday,False,Beverages,Beverage,2.95,745.76,2199.99,Drive-thru,Cash,Remy Monet,Paris
-10529,2022-11-22,2022,11,Nov,47,22,Tuesday,False,Sides & Other,Sides,4.99,200.4,1000.0,Drive-thru,Cash,Remy Monet,Paris
-10530,2022-11-23,2022,11,Nov,47,23,Wednesday,False,Burgers,Main Course,12.99,477.29,6200.0,Drive-thru,Cash,Remy Monet,Paris
-10531,2022-11-23,2022,11,Nov,47,23,Wednesday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Drive-thru,Cash,Remy Monet,Paris
-10532,2022-11-23,2022,11,Nov,47,23,Wednesday,False,Fries,Sides,3.49,687.68,2400.0,Drive-thru,Cash,Joao Silva,Lisbon
-10533,2022-11-23,2022,11,Nov,47,23,Wednesday,False,Beverages,Beverage,2.95,745.76,2199.99,Drive-thru,Cash,Joao Silva,Lisbon
-10534,2022-11-23,2022,11,Nov,47,23,Wednesday,False,Sides & Other,Sides,4.99,200.4,1000.0,Drive-thru,Cash,Pablo Perez,Madrid
-10535,2022-11-24,2022,11,Nov,47,24,Thursday,False,Burgers,Main Course,12.99,477.29,6200.0,Drive-thru,Credit Card,Pablo Perez,Madrid
-10536,2022-11-24,2022,11,Nov,47,24,Thursday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Drive-thru,Credit Card,Pablo Perez,Madrid
-10537,2022-11-24,2022,11,Nov,47,24,Thursday,False,Fries,Sides,3.49,630.37,2199.99,Drive-thru,Credit Card,Pablo Perez,Madrid
-10538,2022-11-24,2022,11,Nov,47,24,Thursday,False,Beverages,Beverage,2.95,745.76,2199.99,Drive-thru,Credit Card,Pablo Perez,Madrid
-10539,2022-11-24,2022,11,Nov,47,24,Thursday,False,Sides & Other,Sides,4.99,200.4,1000.0,Drive-thru,Credit Card,Pablo Perez,Madrid
-10540,2022-11-25,2022,11,Nov,47,25,Friday,False,Burgers,Main Course,12.99,461.89,5999.95,Drive-thru,Credit Card,Pablo Perez,Madrid
-10541,2022-11-25,2022,11,Nov,47,25,Friday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Drive-thru,Credit Card,Tom Jackson,London
-10542,2022-11-25,2022,11,Nov,47,25,Friday,False,Fries,Sides,3.49,630.37,2199.99,Drive-thru,Credit Card,Tom Jackson,London
-10543,2022-11-25,2022,11,Nov,47,25,Friday,False,Beverages,Beverage,2.95,745.76,2199.99,Drive-thru,Credit Card,Tom Jackson,London
-10544,2022-11-25,2022,11,Nov,47,25,Friday,False,Sides & Other,Sides,4.99,200.4,1000.0,Drive-thru,Credit Card,Tom Jackson,London
-10545,2022-11-26,2022,11,Nov,47,26,Saturday,True,Burgers,Main Course,12.99,446.5,5800.04,Drive-thru,Credit Card,Tom Jackson,London
-10546,2022-11-26,2022,11,Nov,47,26,Saturday,True,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Drive-thru,Credit Card,Tom Jackson,London
-10547,2022-11-26,2022,11,Nov,47,26,Saturday,True,Fries,Sides,3.49,630.37,2199.99,Drive-thru,Credit Card,Tom Jackson,London
-10548,2022-11-26,2022,11,Nov,47,26,Saturday,True,Beverages,Beverage,2.95,745.76,2199.99,Drive-thru,Credit Card,Tom Jackson,London
-10549,2022-11-26,2022,11,Nov,47,26,Saturday,True,Sides & Other,Sides,4.99,200.4,1000.0,Drive-thru,Credit Card,Tom Jackson,London
-10550,2022-11-27,2022,11,Nov,47,27,Sunday,True,Burgers,Main Course,12.99,461.89,5999.95,Drive-thru,Credit Card,Tom Jackson,London
-10551,2022-11-27,2022,11,Nov,47,27,Sunday,True,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Drive-thru,Credit Card,Tom Jackson,London
-10552,2022-11-27,2022,11,Nov,47,27,Sunday,True,Fries,Sides,3.49,630.37,2199.99,Online,Credit Card,Tom Jackson,London
-10553,2022-11-27,2022,11,Nov,47,27,Sunday,True,Beverages,Beverage,2.95,745.76,2199.99,Online,Credit Card,Tom Jackson,London
-10554,2022-11-27,2022,11,Nov,47,27,Sunday,True,Sides & Other,Sides,4.99,200.4,1000.0,Online,Credit Card,Tom Jackson,London
-10555,2022-11-28,2022,11,Nov,48,28,Monday,False,Burgers,Main Course,12.99,477.29,6200.0,Online,Credit Card,Tom Jackson,London
-10556,2022-11-28,2022,11,Nov,48,28,Monday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Credit Card,Tom Jackson,London
-10557,2022-11-28,2022,11,Nov,48,28,Monday,False,Fries,Sides,3.49,630.37,2199.99,Online,Credit Card,Tom Jackson,London
-10558,2022-11-28,2022,11,Nov,48,28,Monday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Credit Card,Tom Jackson,London
-10559,2022-11-28,2022,11,Nov,48,28,Monday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Credit Card,Tom Jackson,London
-10560,2022-11-29,2022,11,Nov,48,29,Tuesday,False,Burgers,Main Course,12.99,477.29,6200.0,Online,Credit Card,Tom Jackson,London
-10561,2022-11-29,2022,11,Nov,48,29,Tuesday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Credit Card,Tom Jackson,London
-10562,2022-11-29,2022,11,Nov,48,29,Tuesday,False,Fries,Sides,3.49,630.37,2199.99,Online,Credit Card,Tom Jackson,London
-10563,2022-11-29,2022,11,Nov,48,29,Tuesday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Credit Card,Tom Jackson,London
-10564,2022-11-29,2022,11,Nov,48,29,Tuesday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Credit Card,Tom Jackson,London
-10565,2022-11-30,2022,11,Nov,48,30,Wednesday,False,Burgers,Main Course,12.99,492.69,6400.04,Online,Credit Card,Tom Jackson,London
-10566,2022-11-30,2022,11,Nov,48,30,Wednesday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Credit Card,Tom Jackson,London
-10567,2022-11-30,2022,11,Nov,48,30,Wednesday,False,Fries,Sides,3.49,630.37,2199.99,Online,Credit Card,Tom Jackson,London
-10568,2022-11-30,2022,11,Nov,48,30,Wednesday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Credit Card,Tom Jackson,London
-10569,2022-11-30,2022,11,Nov,48,30,Wednesday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Credit Card,Tom Jackson,London
-10570,2022-12-01,2022,12,Dec,48,1,Thursday,False,Burgers,Main Course,12.99,492.69,6400.04,Online,Credit Card,Tom Jackson,London
-10571,2022-12-01,2022,12,Dec,48,1,Thursday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Credit Card,Tom Jackson,London
-10572,2022-12-01,2022,12,Dec,48,1,Thursday,False,Fries,Sides,3.49,573.07,2000.01,Online,Credit Card,Remy Monet,Paris
-10573,2022-12-01,2022,12,Dec,48,1,Thursday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Credit Card,Remy Monet,Paris
-10574,2022-12-01,2022,12,Dec,48,1,Thursday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Credit Card,Remy Monet,Paris
-10575,2022-12-02,2022,12,Dec,48,2,Friday,False,Burgers,Main Course,12.99,523.48,6800.01,Online,Credit Card,Remy Monet,Paris
-10576,2022-12-02,2022,12,Dec,48,2,Friday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Credit Card,Remy Monet,Paris
-10577,2022-12-02,2022,12,Dec,48,2,Friday,False,Fries,Sides,3.49,630.37,2199.99,Online,Credit Card,Remy Monet,Paris
-10578,2022-12-02,2022,12,Dec,48,2,Friday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Credit Card,Remy Monet,Paris
-10579,2022-12-02,2022,12,Dec,48,2,Friday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Credit Card,Remy Monet,Paris
-10580,2022-12-03,2022,12,Dec,48,3,Saturday,True,Burgers,Main Course,12.99,523.48,6800.01,Online,Credit Card,Remy Monet,Paris
-10581,2022-12-03,2022,12,Dec,48,3,Saturday,True,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Credit Card,Remy Monet,Paris
-10582,2022-12-03,2022,12,Dec,48,3,Saturday,True,Fries,Sides,3.49,630.37,2199.99,Online,Credit Card,Tom Jackson,London
-10583,2022-12-03,2022,12,Dec,48,3,Saturday,True,Beverages,Beverage,2.95,677.97,2000.01,Online,Credit Card,Tom Jackson,London
-10584,2022-12-03,2022,12,Dec,48,3,Saturday,True,Sides & Other,Sides,4.99,200.4,1000.0,Online,Credit Card,Tom Jackson,London
-10585,2022-12-04,2022,12,Dec,48,4,Sunday,True,Burgers,Main Course,12.99,538.88,7000.05,Online,Credit Card,Tom Jackson,London
-10586,2022-12-04,2022,12,Dec,48,4,Sunday,True,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Credit Card,Tom Jackson,London
-10590,2022-12-05,2022,12,Dec,49,5,Monday,False,Burgers,Main Course,12.99,554.27,7199.97,Online,Credit Card,Tom Jackson,London
-10591,2022-12-05,2022,12,Dec,49,5,Monday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Credit Card,Tom Jackson,London
-10592,2022-12-05,2022,12,Dec,49,5,Monday,False,Fries,Sides,3.49,573.07,2000.01,Online,Credit Card,Tom Jackson,London
-10593,2022-12-05,2022,12,Dec,49,5,Monday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Credit Card,Tom Jackson,London
-10594,2022-12-05,2022,12,Dec,49,5,Monday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Credit Card,Tom Jackson,London
-10595,2022-12-06,2022,12,Dec,49,6,Tuesday,False,Burgers,Main Course,12.99,538.88,7000.05,Online,Credit Card,Tom Jackson,London
-10596,2022-12-06,2022,12,Dec,49,6,Tuesday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Credit Card,Tom Jackson,London
-10597,2022-12-06,2022,12,Dec,49,6,Tuesday,False,Fries,Sides,3.49,573.07,2000.01,Online,Credit Card,Tom Jackson,London
-10598,2022-12-06,2022,12,Dec,49,6,Tuesday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Credit Card,Tom Jackson,London
-10599,2022-12-06,2022,12,Dec,49,6,Tuesday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Credit Card,Tom Jackson,London
-10600,2022-12-07,2022,12,Dec,49,7,Wednesday,False,Burgers,Main Course,12.99,523.48,6800.01,Online,Credit Card,Tom Jackson,London
-10601,2022-12-07,2022,12,Dec,49,7,Wednesday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Credit Card,Tom Jackson,London
-10602,2022-12-07,2022,12,Dec,49,7,Wednesday,False,Fries,Sides,3.49,630.37,2199.99,Online,Cash,Tom Jackson,London
-10603,2022-12-07,2022,12,Dec,49,7,Wednesday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Cash,Tom Jackson,London
-10604,2022-12-07,2022,12,Dec,49,7,Wednesday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Cash,Tom Jackson,London
-10605,2022-12-08,2022,12,Dec,49,8,Thursday,False,Burgers,Main Course,12.99,538.88,7000.05,Online,Cash,Tom Jackson,London
-10606,2022-12-08,2022,12,Dec,49,8,Thursday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Cash,Tom Jackson,London
-10607,2022-12-08,2022,12,Dec,49,8,Thursday,False,Fries,Sides,3.49,630.37,2199.99,Online,Cash,Tom Jackson,London
-10608,2022-12-08,2022,12,Dec,49,8,Thursday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Gift Card,Tom Jackson,London
-10609,2022-12-08,2022,12,Dec,49,8,Thursday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Gift Card,Tom Jackson,London
-10610,2022-12-09,2022,12,Dec,49,9,Friday,False,Burgers,Main Course,12.99,569.67,7400.01,Online,Gift Card,Tom Jackson,London
-10611,2022-12-09,2022,12,Dec,49,9,Friday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Gift Card,Tom Jackson,London
-10612,2022-12-09,2022,12,Dec,49,9,Friday,False,Fries,Sides,3.49,630.37,2199.99,Online,Gift Card,Tom Jackson,London
-10613,2022-12-09,2022,12,Dec,49,9,Friday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Gift Card,Tom Jackson,London
-10614,2022-12-09,2022,12,Dec,49,9,Friday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Gift Card,Tom Jackson,London
-10615,2022-12-10,2022,12,Dec,49,10,Saturday,True,Burgers,Main Course,12.99,569.67,7400.01,Online,Gift Card,Tom Jackson,London
-10616,2022-12-10,2022,12,Dec,49,10,Saturday,True,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Gift Card,Tom Jackson,London
-10617,2022-12-10,2022,12,Dec,49,10,Saturday,True,Fries,Sides,3.49,630.37,2199.99,Online,Gift Card,Tom Jackson,London
-10618,2022-12-10,2022,12,Dec,49,10,Saturday,True,Beverages,Beverage,2.95,677.97,2000.01,Online,Gift Card,Tom Jackson,London
-10619,2022-12-10,2022,12,Dec,49,10,Saturday,True,Sides & Other,Sides,4.99,200.4,1000.0,Online,Gift Card,Tom Jackson,London
-10620,2022-12-11,2022,12,Dec,49,11,Sunday,True,Burgers,Main Course,12.99,585.07,7600.06,Online,Gift Card,Tom Jackson,London
-10621,2022-12-11,2022,12,Dec,49,11,Sunday,True,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Gift Card,Tom Jackson,London
-10622,2022-12-11,2022,12,Dec,49,11,Sunday,True,Fries,Sides,3.49,630.37,2199.99,Online,Gift Card,Tom Jackson,London
-10623,2022-12-11,2022,12,Dec,49,11,Sunday,True,Beverages,Beverage,2.95,745.76,2199.99,Online,Gift Card,Tom Jackson,London
-10624,2022-12-11,2022,12,Dec,49,11,Sunday,True,Sides & Other,Sides,4.99,200.4,1000.0,Online,Gift Card,Tom Jackson,London
-10625,2022-12-12,2022,12,Dec,50,12,Monday,False,Burgers,Main Course,12.99,569.67,7400.01,Online,Gift Card,Tom Jackson,London
-10626,2022-12-12,2022,12,Dec,50,12,Monday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Gift Card,Tom Jackson,London
-10627,2022-12-12,2022,12,Dec,50,12,Monday,False,Fries,Sides,3.49,630.37,2199.99,Online,Gift Card,Tom Jackson,London
-10628,2022-12-12,2022,12,Dec,50,12,Monday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Gift Card,Joao Silva,Lisbon
-10629,2022-12-12,2022,12,Dec,50,12,Monday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Gift Card,Joao Silva,Lisbon
-10630,2022-12-13,2022,12,Dec,50,13,Tuesday,False,Burgers,Main Course,12.99,569.67,7400.01,Online,Cash,Joao Silva,Lisbon
-10631,2022-12-13,2022,12,Dec,50,13,Tuesday,False,Chicken Sandwiches,Main Course,9.95,201.01,2000.05,Online,Gift Card,Joao Silva,Lisbon
-10632,2022-12-13,2022,12,Dec,50,13,Tuesday,False,Fries,Sides,3.49,630.37,2199.99,Online,Gift Card,Joao Silva,Lisbon
-10633,2022-12-13,2022,12,Dec,50,13,Tuesday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Gift Card,Joao Silva,Lisbon
-10634,2022-12-13,2022,12,Dec,50,13,Tuesday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Gift Card,Joao Silva,Lisbon
-10635,2022-12-14,2022,12,Dec,50,14,Wednesday,False,Burgers,Main Course,12.99,554.27,7199.97,Online,Gift Card,Joao Silva,Lisbon
-10636,2022-12-14,2022,12,Dec,50,14,Wednesday,False,Chicken Sandwiches,Main Course,9.95,221.11,2200.04,Online,Gift Card,Joao Silva,Lisbon
-10637,2022-12-14,2022,12,Dec,50,14,Wednesday,False,Fries,Sides,3.49,630.37,2199.99,Online,Gift Card,Joao Silva,Lisbon
-10638,2022-12-14,2022,12,Dec,50,14,Wednesday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Gift Card,Joao Silva,Lisbon
-10639,2022-12-14,2022,12,Dec,50,14,Wednesday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Gift Card,Joao Silva,Lisbon
-10640,2022-12-15,2022,12,Dec,50,15,Thursday,False,Burgers,Main Course,12.99,538.88,7000.05,Online,Gift Card,Joao Silva,Lisbon
-10641,2022-12-15,2022,12,Dec,50,15,Thursday,False,Chicken Sandwiches,Main Course,9.95,221.11,2200.04,Online,Gift Card,Joao Silva,Lisbon
-10642,2022-12-15,2022,12,Dec,50,15,Thursday,False,Fries,Sides,3.49,630.37,2199.99,Online,Cash,Joao Silva,Lisbon
-10643,2022-12-15,2022,12,Dec,50,15,Thursday,False,Beverages,Beverage,2.95,677.97,2000.01,Online,Cash,Joao Silva,Lisbon
-10644,2022-12-15,2022,12,Dec,50,15,Thursday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Cash,Joao Silva,Lisbon
-10645,2022-12-16,2022,12,Dec,50,16,Friday,False,Burgers,Main Course,12.99,569.67,7400.01,Online,Cash,Joao Silva,Lisbon
-10646,2022-12-16,2022,12,Dec,50,16,Friday,False,Chicken Sandwiches,Main Course,9.95,221.11,2200.04,Online,Cash,Joao Silva,Lisbon
-10647,2022-12-16,2022,12,Dec,50,16,Friday,False,Fries,Sides,3.49,630.37,2199.99,Online,Gift Card,Joao Silva,Lisbon
-10648,2022-12-16,2022,12,Dec,50,16,Friday,False,Beverages,Beverage,2.95,745.76,2199.99,Online,Gift Card,Joao Silva,Lisbon
-10649,2022-12-16,2022,12,Dec,50,16,Friday,False,Sides & Other,Sides,4.99,200.4,1000.0,Online,Gift Card,Joao Silva,Lisbon
-10650,2022-12-17,2022,12,Dec,50,17,Saturday,True,Burgers,Main Course,12.99,585.07,7600.06,Online,Gift Card,Joao Silva,Lisbon
-10651,2022-12-17,2022,12,Dec,50,17,Saturday,True,Chicken Sandwiches,Main Course,9.95,221.11,2200.04,Online,Gift Card,Joao Silva,Lisbon
-10652,2022-12-17,2022,12,Dec,50,17,Saturday,True,Fries,Sides,3.49,687.68,2400.0,Online,Gift Card,Joao Silva,Lisbon
-10653,2022-12-17,2022,12,Dec,50,17,Saturday,True,Beverages,Beverage,2.95,745.76,2199.99,Online,Gift Card,Joao Silva,Lisbon
-10654,2022-12-17,2022,12,Dec,50,17,Saturday,True,Sides & Other,Sides,4.99,200.4,1000.0,Online,Gift Card,Joao Silva,Lisbon
-10655,2022-12-18,2022,12,Dec,50,18,Sunday,True,Burgers,Main Course,12.99,600.46,7799.98,Online,Gift Card,Joao Silva,Lisbon
-10656,2022-12-18,2022,12,Dec,50,18,Sunday,True,Chicken Sandwiches,Main Course,9.95,221.11,2200.04,Online,Gift Card,Joao Silva,Lisbon
-10657,2022-12-18,2022,12,Dec,50,18,Sunday,True,Fries,Sides,3.49,687.68,2400.0,Online,Gift Card,Joao Silva,Lisbon
-10658,2022-12-18,2022,12,Dec,50,18,Sunday,True,Beverages,Beverage,2.95,745.76,2199.99,Online,Cash,Joao Silva,Lisbon
-10659,2022-12-18,2022,12,Dec,50,18,Sunday,True,Sides & Other,Sides,4.99,200.4,1000.0,Online,Cash,Joao Silva,Lisbon
-10660,2022-12-19,2022,12,Dec,51,19,Monday,False,Burgers,Main Course,12.99,631.25,8199.94,In-store,Cash,Joao Silva,Lisbon
-10661,2022-12-19,2022,12,Dec,51,19,Monday,False,Chicken Sandwiches,Main Course,9.95,221.11,2200.04,In-store,Cash,Joao Silva,Lisbon
-10662,2022-12-19,2022,12,Dec,51,19,Monday,False,Fries,Sides,3.49,630.37,2199.99,In-store,Cash,Joao Silva,Lisbon
-10663,2022-12-19,2022,12,Dec,51,19,Monday,False,Beverages,Beverage,2.95,745.76,2199.99,In-store,Cash,Joao Silva,Lisbon
-10664,2022-12-19,2022,12,Dec,51,19,Monday,False,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Cash,Joao Silva,Lisbon
-10665,2022-12-20,2022,12,Dec,51,20,Tuesday,False,Burgers,Main Course,12.99,646.65,8399.98,In-store,Cash,Joao Silva,Lisbon
-10666,2022-12-20,2022,12,Dec,51,20,Tuesday,False,Chicken Sandwiches,Main Course,9.95,221.11,2200.04,In-store,Cash,Joao Silva,Lisbon
-10667,2022-12-20,2022,12,Dec,51,20,Tuesday,False,Fries,Sides,3.49,630.37,2199.99,In-store,Cash,Joao Silva,Lisbon
-10668,2022-12-20,2022,12,Dec,51,20,Tuesday,False,Beverages,Beverage,2.95,745.76,2199.99,In-store,Cash,Joao Silva,Lisbon
-10669,2022-12-20,2022,12,Dec,51,20,Tuesday,False,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Cash,Joao Silva,Lisbon
-10670,2022-12-21,2022,12,Dec,51,21,Wednesday,False,Burgers,Main Course,12.99,677.44,8799.95,In-store,Cash,Joao Silva,Lisbon
-10671,2022-12-21,2022,12,Dec,51,21,Wednesday,False,Chicken Sandwiches,Main Course,9.95,221.11,2200.04,In-store,Cash,Joao Silva,Lisbon
-10672,2022-12-21,2022,12,Dec,51,21,Wednesday,False,Fries,Sides,3.49,630.37,2199.99,In-store,Cash,Joao Silva,Lisbon
-10673,2022-12-21,2022,12,Dec,51,21,Wednesday,False,Beverages,Beverage,2.95,745.76,2199.99,In-store,Cash,Joao Silva,Lisbon
-10674,2022-12-21,2022,12,Dec,51,21,Wednesday,False,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Cash,Joao Silva,Lisbon
-10675,2022-12-22,2022,12,Dec,51,22,Thursday,False,Burgers,Main Course,12.99,677.44,8799.95,In-store,Cash,Joao Silva,Lisbon
-10676,2022-12-22,2022,12,Dec,51,22,Thursday,False,Chicken Sandwiches,Main Course,9.95,241.21,2400.04,In-store,Cash,Joao Silva,Lisbon
-10677,2022-12-22,2022,12,Dec,51,22,Thursday,False,Fries,Sides,3.49,630.37,2199.99,In-store,Cash,Joao Silva,Lisbon
-10678,2022-12-22,2022,12,Dec,51,22,Thursday,False,Beverages,Beverage,2.95,745.76,2199.99,In-store,Cash,Joao Silva,Lisbon
-10679,2022-12-22,2022,12,Dec,51,22,Thursday,False,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Cash,Joao Silva,Lisbon
-10680,2022-12-23,2022,12,Dec,51,23,Friday,False,Burgers,Main Course,12.99,646.65,8399.98,In-store,Cash,Joao Silva,Lisbon
-10681,2022-12-23,2022,12,Dec,51,23,Friday,False,Chicken Sandwiches,Main Course,9.95,241.21,2400.04,In-store,Cash,Joao Silva,Lisbon
-10682,2022-12-23,2022,12,Dec,51,23,Friday,False,Fries,Sides,3.49,630.37,2199.99,In-store,Cash,Joao Silva,Lisbon
-10683,2022-12-23,2022,12,Dec,51,23,Friday,False,Beverages,Beverage,2.95,677.97,2000.01,In-store,Cash,Joao Silva,Lisbon
-10684,2022-12-23,2022,12,Dec,51,23,Friday,False,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Cash,Joao Silva,Lisbon
-10685,2022-12-24,2022,12,Dec,51,24,Saturday,True,Burgers,Main Course,12.99,677.44,8799.95,In-store,Cash,Joao Silva,Lisbon
-10686,2022-12-24,2022,12,Dec,51,24,Saturday,True,Chicken Sandwiches,Main Course,9.95,241.21,2400.04,In-store,Cash,Joao Silva,Lisbon
-10687,2022-12-24,2022,12,Dec,51,24,Saturday,True,Fries,Sides,3.49,630.37,2199.99,In-store,Cash,Walter Muller,Berlin
-10688,2022-12-24,2022,12,Dec,51,24,Saturday,True,Beverages,Beverage,2.95,677.97,2000.01,In-store,Cash,Walter Muller,Berlin
-10689,2022-12-24,2022,12,Dec,51,24,Saturday,True,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Cash,Walter Muller,Berlin
-10690,2022-12-25,2022,12,Dec,51,25,Sunday,True,Burgers,Main Course,12.99,677.44,8799.95,In-store,Cash,Walter Muller,Berlin
-10691,2022-12-25,2022,12,Dec,51,25,Sunday,True,Chicken Sandwiches,Main Course,9.95,261.31,2600.03,In-store,Cash,Walter Muller,Berlin
-10692,2022-12-25,2022,12,Dec,51,25,Sunday,True,Fries,Sides,3.49,630.37,2199.99,In-store,Cash,Walter Muller,Berlin
-10693,2022-12-25,2022,12,Dec,51,25,Sunday,True,Beverages,Beverage,2.95,677.97,2000.01,In-store,Cash,Walter Muller,Berlin
-10694,2022-12-25,2022,12,Dec,51,25,Sunday,True,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Cash,Walter Muller,Berlin
-10695,2022-12-26,2022,12,Dec,52,26,Monday,False,Burgers,Main Course,12.99,692.84,8999.99,In-store,Cash,Walter Muller,Berlin
-10696,2022-12-26,2022,12,Dec,52,26,Monday,False,Chicken Sandwiches,Main Course,9.95,281.41,2800.03,In-store,Cash,Walter Muller,Berlin
-10697,2022-12-26,2022,12,Dec,52,26,Monday,False,Fries,Sides,3.49,630.37,2199.99,In-store,Cash,Walter Muller,Berlin
-10698,2022-12-26,2022,12,Dec,52,26,Monday,False,Beverages,Beverage,2.95,677.97,2000.01,In-store,Cash,Walter Muller,Berlin
-10699,2022-12-26,2022,12,Dec,52,26,Monday,False,Sides & Other,Sides,4.99,200.4,1000.0,In-store,Cash,Walter Muller,Berlin
-10700,2022-12-27,2022,12,Dec,52,27,Tuesday,False,Burgers,Main Course,12.99,692.84,8999.99,In-store,Cash,Walter Muller,Berlin
-10701,2022-12-27,2022,12,Dec,52,27,Tuesday,False,Chicken Sandwiches,Main Course,9.95,281.41,2800.03,In-store,Cash,Walter Muller,Berlin
-10702,2022-12-27,2022,12,Dec,52,27,Tuesday,False,Fries,Sides,3.49,630.37,2199.99,In-store,Cash,Walter Muller,Berlin
-10703,2022-12-27,2022,12,Dec,52,27,Tuesday,False,Beverages,Beverage,2.95,677.97,2000.01,In-store,Gift Card,Walter Muller,Berlin
-10704,2022-12-27,2022,12,Dec,52,27,Tuesday,False,Sides & Other,Sides,4.99,200.4,1000.0,Drive-thru,Gift Card,Walter Muller,Berlin
-10705,2022-12-28,2022,12,Dec,52,28,Wednesday,False,Burgers,Main Course,12.99,723.63,9399.95,Drive-thru,Gift Card,Walter Muller,Berlin
-10706,2022-12-28,2022,12,Dec,52,28,Wednesday,False,Chicken Sandwiches,Main Course,9.95,301.51,3000.02,Drive-thru,Gift Card,Walter Muller,Berlin
-10707,2022-12-28,2022,12,Dec,52,28,Wednesday,False,Fries,Sides,3.49,630.37,2199.99,Drive-thru,Gift Card,Walter Muller,Berlin
-10708,2022-12-28,2022,12,Dec,52,28,Wednesday,False,Beverages,Beverage,2.95,677.97,2000.01,Drive-thru,Gift Card,Walter Muller,Berlin
-10709,2022-12-28,2022,12,Dec,52,28,Wednesday,False,Sides & Other,Sides,4.99,200.4,1000.0,Drive-thru,Gift Card,Walter Muller,Berlin
-10710,2022-12-29,2022,12,Dec,52,29,Thursday,False,Burgers,Main Course,12.99,754.43,9800.05,Drive-thru,Gift Card,Walter Muller,Berlin
-10711,2022-12-29,2022,12,Dec,52,29,Thursday,False,Chicken Sandwiches,Main Course,9.95,281.41,2800.03,Drive-thru,Gift Card,Walter Muller,Berlin
-10712,2022-12-29,2022,12,Dec,52,29,Thursday,False,Fries,Sides,3.49,630.37,2199.99,Drive-thru,Gift Card,Walter Muller,Berlin
-10713,2022-12-29,2022,12,Dec,52,29,Thursday,False,Beverages,Beverage,2.95,677.97,2000.01,Drive-thru,Gift Card,Walter Muller,Berlin
+source_row_number,order_id,date,product,price,quantity,purchase_type,payment_method,manager,city,product_original,product_category,revenue,record_id,year,month_num,month_name,month,week_start,week_num,day_num,day_name,day_of_week_num,is_weekend,period_type
+2,10452,2022-11-07,Fries,3.49,573.07,Online,Gift Card,Tom Jackson,London,Fries,Sides,2000.01,rec_3f53f816a3a152a4,2022,11,Nov,2022-11,2022-11-07,45,7,Monday,1,False,complete_day
+3,10453,2022-11-07,Beverages,2.95,745.76,Online,Gift Card,Pablo Perez,Madrid,Beverages,Beverage,2199.99,rec_4cda522b011b9598,2022,11,Nov,2022-11,2022-11-07,45,7,Monday,1,False,complete_day
+4,10454,2022-11-07,Sides & Other,4.99,200.4,In-store,Gift Card,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_5f58a2e1989a8970,2022,11,Nov,2022-11,2022-11-07,45,7,Monday,1,False,complete_day
+6,10456,2022-11-08,Chicken Sandwiches,9.95,201.01,In-store,Credit Card,Walter Muller,Berlin,Chicken Sandwiches,Main Course,2000.05,rec_1b895400cec2eb48,2022,11,Nov,2022-11,2022-11-07,45,8,Tuesday,2,False,complete_day
+5,10455,2022-11-08,Burgers,12.99,569.67,In-store,Credit Card,Walter Muller,Berlin,Burgers,Main Course,7400.01,rec_2c62dc24071c5be2,2022,11,Nov,2022-11,2022-11-07,45,8,Tuesday,2,False,complete_day
+8,10459,2022-11-08,Sides & Other,4.99,200.4,In-store,Credit Card,Walter Muller,Berlin,Sides & Other,Sides,1000.0,rec_7638aaf8dba4f49f,2022,11,Nov,2022-11,2022-11-07,45,8,Tuesday,2,False,complete_day
+7,10457,2022-11-08,Fries,3.49,573.07,In-store,Credit Card,Remy Monet,Paris,Fries,Sides,2000.01,rec_9fdfda987ed94a05,2022,11,Nov,2022-11,2022-11-07,45,8,Tuesday,2,False,complete_day
+13,10464,2022-11-09,Sides & Other,4.99,200.4,In-store,Credit Card,Remy Monet,Paris,Sides & Other,Sides,1000.0,rec_017bba58c9415a15,2022,11,Nov,2022-11,2022-11-07,45,9,Wednesday,3,False,complete_day
+12,10463,2022-11-09,Beverages,2.95,677.97,In-store,Credit Card,Remy Monet,Paris,Beverages,Beverage,2000.01,rec_239905df09b4738e,2022,11,Nov,2022-11,2022-11-07,45,9,Wednesday,3,False,complete_day
+11,10462,2022-11-09,Fries,3.49,573.07,In-store,Credit Card,Remy Monet,Paris,Fries,Sides,2000.01,rec_6f667c882292b8e3,2022,11,Nov,2022-11,2022-11-07,45,9,Wednesday,3,False,complete_day
+10,10461,2022-11-09,Chicken Sandwiches,9.95,201.01,In-store,Credit Card,Remy Monet,Paris,Chicken Sandwiches,Main Course,2000.05,rec_a24811826379b6cc,2022,11,Nov,2022-11,2022-11-07,45,9,Wednesday,3,False,complete_day
+9,10460,2022-11-09,Burgers,12.99,554.27,In-store,Credit Card,Remy Monet,Paris,Burgers,Main Course,7199.97,rec_ccaf561d3bbaf281,2022,11,Nov,2022-11,2022-11-07,45,9,Wednesday,3,False,complete_day
+14,10465,2022-11-10,Burgers,12.99,554.27,In-store,Credit Card,Pablo Perez,Madrid,Burgers,Main Course,7199.97,rec_48baf407f73523bc,2022,11,Nov,2022-11,2022-11-07,45,10,Thursday,4,False,complete_day
+15,10466,2022-11-10,Chicken Sandwiches,9.95,201.01,In-store,Credit Card,Pablo Perez,Madrid,Chicken Sandwiches,Main Course,2000.05,rec_92f4b4a665e47514,2022,11,Nov,2022-11,2022-11-07,45,10,Thursday,4,False,complete_day
+17,10468,2022-11-10,Beverages,2.95,677.97,In-store,Credit Card,Pablo Perez,Madrid,Beverages,Beverage,2000.01,rec_a743f0ffe8ebfd8c,2022,11,Nov,2022-11,2022-11-07,45,10,Thursday,4,False,complete_day
+16,10467,2022-11-10,Fries,3.49,573.07,In-store,Credit Card,Pablo Perez,Madrid,Fries,Sides,2000.01,rec_ec18af659270faf8,2022,11,Nov,2022-11,2022-11-07,45,10,Thursday,4,False,complete_day
+20,10472,2022-11-11,Fries,3.49,630.37,In-store,Credit Card,Pablo Perez,Madrid,Fries,Sides,2199.99,rec_326878fe3a20c6cf,2022,11,Nov,2022-11,2022-11-07,45,11,Friday,5,False,complete_day
+19,10471,2022-11-11,Chicken Sandwiches,9.95,201.01,In-store,Credit Card,Pablo Perez,Madrid,Chicken Sandwiches,Main Course,2000.05,rec_46a52b89aef474a4,2022,11,Nov,2022-11,2022-11-07,45,11,Friday,5,False,complete_day
+18,10470,2022-11-11,Burgers,12.99,554.27,In-store,Credit Card,Pablo Perez,Madrid,Burgers,Main Course,7199.97,rec_ae74287ae1ff68db,2022,11,Nov,2022-11,2022-11-07,45,11,Friday,5,False,complete_day
+21,10473,2022-11-11,Beverages,2.95,677.97,In-store,Credit Card,Pablo Perez,Madrid,Beverages,Beverage,2000.01,rec_b70b9a4e6500df16,2022,11,Nov,2022-11,2022-11-07,45,11,Friday,5,False,complete_day
+22,10474,2022-11-11,Sides & Other,4.99,200.4,In-store,Credit Card,Pablo Perez,Madrid,Sides & Other,Sides,1000.0,rec_e82c78137df961a4,2022,11,Nov,2022-11,2022-11-07,45,11,Friday,5,False,complete_day
+26,10478,2022-11-12,Beverages,2.95,677.97,In-store,Credit Card,Pablo Perez,Madrid,Beverages,Beverage,2000.01,rec_0c83e4f7beba4413,2022,11,Nov,2022-11,2022-11-07,45,12,Saturday,6,True,complete_day
+25,10477,2022-11-12,Fries,3.49,630.37,In-store,Credit Card,Pablo Perez,Madrid,Fries,Sides,2199.99,rec_407ae43eee4e8acb,2022,11,Nov,2022-11,2022-11-07,45,12,Saturday,6,True,complete_day
+24,10476,2022-11-12,Chicken Sandwiches,9.95,201.01,In-store,Credit Card,Pablo Perez,Madrid,Chicken Sandwiches,Main Course,2000.05,rec_439c052896064a29,2022,11,Nov,2022-11,2022-11-07,45,12,Saturday,6,True,complete_day
+27,10479,2022-11-12,Sides & Other,4.99,200.4,In-store,Credit Card,Pablo Perez,Madrid,Sides & Other,Sides,1000.0,rec_58f6b12b7d97fd7e,2022,11,Nov,2022-11,2022-11-07,45,12,Saturday,6,True,complete_day
+23,10475,2022-11-12,Burgers,12.99,523.48,In-store,Credit Card,Pablo Perez,Madrid,Burgers,Main Course,6800.01,rec_a145b3b85257240c,2022,11,Nov,2022-11,2022-11-07,45,12,Saturday,6,True,complete_day
+30,10482,2022-11-13,Fries,25.5,630.37,In-store,Credit Card,Joao Silva,Lisbon,Fries,Sides,16074.44,rec_246203567a51b16f,2022,11,Nov,2022-11,2022-11-07,45,13,Sunday,7,True,complete_day
+62,10483,2022-11-13,Beverages,2.95,677.97,In-store,Credit Card,Joao Silva,Lisbon,Beverages,Beverage,2000.01,rec_2e7a09a964f5eb25,2022,11,Nov,2022-11,2022-11-07,45,13,Sunday,7,True,complete_day
+29,10481,2022-11-13,Chicken Sandwiches,9.95,201.01,In-store,Credit Card,Pablo Perez,Madrid,Chicken Sandwiches,Main Course,2000.05,rec_c8b9f4d4f0a2ad9c,2022,11,Nov,2022-11,2022-11-07,45,13,Sunday,7,True,complete_day
+63,10484,2022-11-13,Sides & Other,4.99,200.4,In-store,Credit Card,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_d8de1ce8f141ab8f,2022,11,Nov,2022-11,2022-11-07,45,13,Sunday,7,True,complete_day
+28,10480,2022-11-13,Burgers,12.99,508.08,In-store,Credit Card,Pablo Perez,Madrid,Burgers,Main Course,6599.96,rec_eb4da21136a1d79c,2022,11,Nov,2022-11,2022-11-07,45,13,Sunday,7,True,complete_day
+64,10485,2022-11-14,Burgers,12.99,523.48,In-store,Credit Card,Joao Silva,Lisbon,Burgers,Main Course,6800.01,rec_523f608129e28c40,2022,11,Nov,2022-11,2022-11-14,46,14,Monday,1,False,complete_day
+33,10488,2022-11-14,Beverages,2.95,677.97,In-store,Credit Card,Joao Silva,Lisbon,Beverages,Beverage,2000.01,rec_555fc1a41a5e8c10,2022,11,Nov,2022-11,2022-11-14,46,14,Monday,1,False,complete_day
+31,10486,2022-11-14,Chicken Sandwiches,29.05,201.01,In-store,Credit Card,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,5839.34,rec_9977e5fa09a2fc8f,2022,11,Nov,2022-11,2022-11-14,46,14,Monday,1,False,complete_day
+34,10489,2022-11-14,Sides & Other,4.99,200.4,In-store,Credit Card,Pablo Perez,Madrid,Sides & Other,Sides,1000.0,rec_c8370ffc38f76c32,2022,11,Nov,2022-11,2022-11-14,46,14,Monday,1,False,complete_day
+32,10487,2022-11-14,Fries,3.49,630.37,In-store,Credit Card,Joao Silva,Lisbon,Fries,Sides,2199.99,rec_f88cddb11aa653d9,2022,11,Nov,2022-11,2022-11-14,46,14,Monday,1,False,complete_day
+35,10490,2022-11-15,Burgers,12.99,508.08,In-store,Credit Card,Pablo Perez,Madrid,Burgers,Main Course,6599.96,rec_1b5436dde7ccac52,2022,11,Nov,2022-11,2022-11-14,46,15,Tuesday,2,False,complete_day
+36,10491,2022-11-15,Chicken Sandwiches,9.95,201.01,In-store,Credit Card,Pablo Perez,Madrid,Chicken Sandwiches,Main Course,2000.05,rec_542500bae1c958f4,2022,11,Nov,2022-11,2022-11-14,46,15,Tuesday,2,False,complete_day
+39,10494,2022-11-15,Sides & Other,4.99,200.4,In-store,Credit Card,Pablo Perez,Madrid,Sides & Other,Sides,1000.0,rec_6b78086c1f23bbd4,2022,11,Nov,2022-11,2022-11-14,46,15,Tuesday,2,False,complete_day
+37,10492,2022-11-15,Fries,3.49,573.07,In-store,Credit Card,Pablo Perez,Madrid,Fries,Sides,2000.01,rec_6e8de0c955396730,2022,11,Nov,2022-11,2022-11-14,46,15,Tuesday,2,False,complete_day
+38,10493,2022-11-15,Beverages,2.95,677.97,In-store,Credit Card,Pablo Perez,Madrid,Beverages,Beverage,2000.01,rec_9d58da482859be54,2022,11,Nov,2022-11,2022-11-14,46,15,Tuesday,2,False,complete_day
+44,10499,2022-11-16,Sides & Other,4.99,200.4,Drive-thru,Credit Card,Pablo Perez,Madrid,Sides & Other,Sides,1000.0,rec_029134f2cd658de6,2022,11,Nov,2022-11,2022-11-14,46,16,Wednesday,3,False,complete_day
+41,10496,2022-11-16,Chicken Sandwiches,9.95,201.01,In-store,Credit Card,Pablo Perez,Madrid,Chicken Sandwiches,Main Course,2000.05,rec_0aa7a621a51aa951,2022,11,Nov,2022-11,2022-11-14,46,16,Wednesday,3,False,complete_day
+40,10495,2022-11-16,Burgers,12.99,508.08,In-store,Credit Card,Pablo Perez,Madrid,Burgers,Main Course,6599.96,rec_56ec232c7ebb4fc8,2022,11,Nov,2022-11,2022-11-14,46,16,Wednesday,3,False,complete_day
+43,10498,2022-11-16,Beverages,2.95,677.97,Drive-thru,Credit Card,Pablo Perez,Madrid,Beverages,Beverage,2000.01,rec_8f8f096e1adf597e,2022,11,Nov,2022-11,2022-11-14,46,16,Wednesday,3,False,complete_day
+42,10497,2022-11-16,Fries,3.49,573.07,In-store,Credit Card,Pablo Perez,Madrid,Fries,Sides,2000.01,rec_ccd796d948201c26,2022,11,Nov,2022-11,2022-11-14,46,16,Wednesday,3,False,complete_day
+45,10500,2022-11-17,Burgers,12.99,523.48,Drive-thru,Credit Card,Pablo Perez,Madrid,Burgers,Main Course,6800.01,rec_5298a84a8554851a,2022,11,Nov,2022-11,2022-11-14,46,17,Thursday,4,False,complete_day
+47,10502,2022-11-17,Fries,3.49,630.37,Drive-thru,Credit Card,Pablo Perez,Madrid,Fries,Sides,2199.99,rec_a06ae7e49ae08254,2022,11,Nov,2022-11,2022-11-14,46,17,Thursday,4,False,complete_day
+49,10504,2022-11-17,Sides & Other,4.99,200.4,Drive-thru,Credit Card,Pablo Perez,Madrid,Sides & Other,Sides,1000.0,rec_c622bfaeeea66571,2022,11,Nov,2022-11,2022-11-14,46,17,Thursday,4,False,complete_day
+48,10503,2022-11-17,Beverages,2.95,677.97,Drive-thru,Credit Card,Pablo Perez,Madrid,Beverages,Beverage,2000.01,rec_d6246483f9e39dc1,2022,11,Nov,2022-11,2022-11-14,46,17,Thursday,4,False,complete_day
+46,10501,2022-11-17,Chicken Sandwiches,9.95,201.01,Drive-thru,Credit Card,Pablo Perez,Madrid,Chicken Sandwiches,Main Course,2000.05,rec_e24c0646487c5e53,2022,11,Nov,2022-11,2022-11-14,46,17,Thursday,4,False,complete_day
+50,10505,2022-11-18,Burgers,12.99,538.88,Drive-thru,Credit Card,Pablo Perez,Madrid,Burgers,Main Course,7000.05,rec_08b31bbd7c0caae7,2022,11,Nov,2022-11,2022-11-14,46,18,Friday,5,False,complete_day
+54,10509,2022-11-18,Sides & Other,4.99,200.4,Drive-thru,Credit Card,Pablo Perez,Madrid,Sides & Other,Sides,1000.0,rec_80287fa37dd5332d,2022,11,Nov,2022-11,2022-11-14,46,18,Friday,5,False,complete_day
+51,10506,2022-11-18,Chicken Sandwiches,9.95,201.01,Drive-thru,Credit Card,Pablo Perez,Madrid,Chicken Sandwiches,Main Course,2000.05,rec_9a823eaf86768be8,2022,11,Nov,2022-11,2022-11-14,46,18,Friday,5,False,complete_day
+52,10507,2022-11-18,Fries,3.49,687.68,Drive-thru,Credit Card,Pablo Perez,Madrid,Fries,Sides,2400.0,rec_ad122426634d1397,2022,11,Nov,2022-11,2022-11-14,46,18,Friday,5,False,complete_day
+53,10508,2022-11-18,Beverages,2.95,677.97,Drive-thru,Credit Card,Pablo Perez,Madrid,Beverages,Beverage,2000.01,rec_fcce25e69f4da118,2022,11,Nov,2022-11,2022-11-14,46,18,Friday,5,False,complete_day
+56,10511,2022-11-19,Chicken Sandwiches,9.95,201.01,Drive-thru,Credit Card,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2000.05,rec_1930bf7131adece8,2022,11,Nov,2022-11,2022-11-14,46,19,Saturday,6,True,complete_day
+59,10514,2022-11-19,Sides & Other,4.99,200.4,Drive-thru,Cash,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_4b22aea451f3b19a,2022,11,Nov,2022-11,2022-11-14,46,19,Saturday,6,True,complete_day
+58,10513,2022-11-19,Beverages,2.95,677.97,Drive-thru,Cash,Joao Silva,Lisbon,Beverages,Beverage,2000.01,rec_4caf4c4cfcf1e529,2022,11,Nov,2022-11,2022-11-14,46,19,Saturday,6,True,complete_day
+57,10512,2022-11-19,Fries,3.49,687.68,Drive-thru,Credit Card,Joao Silva,Lisbon,Fries,Sides,2400.0,rec_6924be6edabac78d,2022,11,Nov,2022-11,2022-11-14,46,19,Saturday,6,True,complete_day
+55,10510,2022-11-19,Burgers,12.99,508.08,Drive-thru,Credit Card,Pablo Perez,Madrid,Burgers,Main Course,6599.96,rec_940b84295fc5b7c7,2022,11,Nov,2022-11,2022-11-14,46,19,Saturday,6,True,complete_day
+61,10516,2022-11-20,Chicken Sandwiches,9.95,201.01,Drive-thru,Cash,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2000.05,rec_13dfc3075092def3,2022,11,Nov,2022-11,2022-11-14,46,20,Sunday,7,True,complete_day
+60,10515,2022-11-20,Burgers,12.99,477.29,Drive-thru,Cash,Joao Silva,Lisbon,Burgers,Main Course,6200.0,rec_8f3bc352dbd16d7b,2022,11,Nov,2022-11,2022-11-14,46,20,Sunday,7,True,complete_day
+68,10523,2022-11-21,Beverages,2.95,745.76,Drive-thru,Cash,Remy Monet,Paris,Beverages,Beverage,2199.99,rec_2c1c0f5629b6b842,2022,11,Nov,2022-11,2022-11-21,47,21,Monday,1,False,complete_day
+66,10521,2022-11-21,Chicken Sandwiches,9.95,201.01,Drive-thru,Cash,Remy Monet,Paris,Chicken Sandwiches,Main Course,2000.05,rec_4dd0fdb3bfa8c508,2022,11,Nov,2022-11,2022-11-21,47,21,Monday,1,False,complete_day
+65,10520,2022-11-21,Burgers,12.99,492.69,Drive-thru,Cash,Remy Monet,Paris,Burgers,Main Course,6400.04,rec_65a81f527b608359,2022,11,Nov,2022-11,2022-11-21,47,21,Monday,1,False,complete_day
+69,10524,2022-11-21,Sides & Other,4.99,200.4,Drive-thru,Cash,Remy Monet,Paris,Sides & Other,Sides,1000.0,rec_e07802943b8903eb,2022,11,Nov,2022-11,2022-11-21,47,21,Monday,1,False,complete_day
+67,10522,2022-11-21,Fries,3.49,687.68,Drive-thru,Cash,Remy Monet,Paris,Fries,Sides,2400.0,rec_fdcaaa46684bc855,2022,11,Nov,2022-11,2022-11-21,47,21,Monday,1,False,complete_day
+70,10525,2022-11-22,Burgers,12.99,461.89,Drive-thru,Cash,Remy Monet,Paris,Burgers,Main Course,5999.95,rec_1ad9d9620a497c8e,2022,11,Nov,2022-11,2022-11-21,47,22,Tuesday,2,False,complete_day
+74,10529,2022-11-22,Sides & Other,4.99,200.4,Drive-thru,Cash,Remy Monet,Paris,Sides & Other,Sides,1000.0,rec_39b78eabf219fc73,2022,11,Nov,2022-11,2022-11-21,47,22,Tuesday,2,False,complete_day
+73,10528,2022-11-22,Beverages,2.95,745.76,Drive-thru,Cash,Remy Monet,Paris,Beverages,Beverage,2199.99,rec_4340a6ce28ec8cff,2022,11,Nov,2022-11,2022-11-21,47,22,Tuesday,2,False,complete_day
+72,10527,2022-11-22,Fries,3.49,687.68,Drive-thru,Cash,Remy Monet,Paris,Fries,Sides,2400.0,rec_6b33190fb7e1c8ca,2022,11,Nov,2022-11,2022-11-21,47,22,Tuesday,2,False,complete_day
+71,10526,2022-11-22,Chicken Sandwiches,9.95,201.01,Drive-thru,Cash,Remy Monet,Paris,Chicken Sandwiches,Main Course,2000.05,rec_7b37eda69a34a7d4,2022,11,Nov,2022-11,2022-11-21,47,22,Tuesday,2,False,complete_day
+75,10530,2022-11-23,Burgers,12.99,477.29,Drive-thru,Cash,Remy Monet,Paris,Burgers,Main Course,6200.0,rec_1191baac106e6c9f,2022,11,Nov,2022-11,2022-11-21,47,23,Wednesday,3,False,complete_day
+77,10532,2022-11-23,Fries,3.49,687.68,Drive-thru,Cash,Joao Silva,Lisbon,Fries,Sides,2400.0,rec_5a419b8f616edeaa,2022,11,Nov,2022-11,2022-11-21,47,23,Wednesday,3,False,complete_day
+79,10534,2022-11-23,Sides & Other,4.99,200.4,Drive-thru,Cash,Pablo Perez,Madrid,Sides & Other,Sides,1000.0,rec_e44abb292e256551,2022,11,Nov,2022-11,2022-11-21,47,23,Wednesday,3,False,complete_day
+76,10531,2022-11-23,Chicken Sandwiches,9.95,201.01,Drive-thru,Cash,Remy Monet,Paris,Chicken Sandwiches,Main Course,2000.05,rec_f3e65092a51cb78e,2022,11,Nov,2022-11,2022-11-21,47,23,Wednesday,3,False,complete_day
+78,10533,2022-11-23,Beverages,2.95,745.76,Drive-thru,Cash,Joao Silva,Lisbon,Beverages,Beverage,2199.99,rec_f3f23cd09161ef70,2022,11,Nov,2022-11,2022-11-21,47,23,Wednesday,3,False,complete_day
+80,10535,2022-11-24,Burgers,12.99,477.29,Drive-thru,Credit Card,Pablo Perez,Madrid,Burgers,Main Course,6200.0,rec_07d52b2033206f30,2022,11,Nov,2022-11,2022-11-21,47,24,Thursday,4,False,complete_day
+81,10536,2022-11-24,Chicken Sandwiches,9.95,201.01,Drive-thru,Credit Card,Pablo Perez,Madrid,Chicken Sandwiches,Main Course,2000.05,rec_333138d4936feb01,2022,11,Nov,2022-11,2022-11-21,47,24,Thursday,4,False,complete_day
+131,10539,2022-11-24,Sides & Other,4.99,200.4,Drive-thru,Credit Card,Pablo Perez,Madrid,Sides & Other,Sides,1000.0,rec_3a88328a393111f3,2022,11,Nov,2022-11,2022-11-21,47,24,Thursday,4,False,complete_day
+130,10538,2022-11-24,Beverages,2.95,745.76,Drive-thru,Credit Card,Pablo Perez,Madrid,Beverages,Beverage,2199.99,rec_cf82df5ca3401759,2022,11,Nov,2022-11,2022-11-21,47,24,Thursday,4,False,complete_day
+129,10537,2022-11-24,Fries,3.49,630.37,Drive-thru,Credit Card,Pablo Perez,Madrid,Fries,Sides,2199.99,rec_cfce55a8716e2a59,2022,11,Nov,2022-11,2022-11-21,47,24,Thursday,4,False,complete_day
+82,10540,2022-11-25,Burgers,12.99,461.89,Drive-thru,Credit Card,Pablo Perez,Madrid,Burgers,Main Course,5999.95,rec_2e79bc315373c886,2022,11,Nov,2022-11,2022-11-21,47,25,Friday,5,False,complete_day
+83,10541,2022-11-25,Chicken Sandwiches,9.95,201.01,Drive-thru,Credit Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_329085c63cc61833,2022,11,Nov,2022-11,2022-11-21,47,25,Friday,5,False,complete_day
+84,10542,2022-11-25,Fries,3.49,630.37,Drive-thru,Credit Card,Tom Jackson,London,Fries,Sides,2199.99,rec_3b89f6f77410ec79,2022,11,Nov,2022-11,2022-11-21,47,25,Friday,5,False,complete_day
+85,10543,2022-11-25,Beverages,2.95,745.76,Drive-thru,Credit Card,Tom Jackson,London,Beverages,Beverage,2199.99,rec_a18e9e7787075482,2022,11,Nov,2022-11,2022-11-21,47,25,Friday,5,False,complete_day
+86,10544,2022-11-25,Sides & Other,4.99,200.4,Drive-thru,Credit Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_fd7f51b433ec929e,2022,11,Nov,2022-11,2022-11-21,47,25,Friday,5,False,complete_day
+90,10548,2022-11-26,Beverages,2.95,745.76,Drive-thru,Credit Card,Tom Jackson,London,Beverages,Beverage,2199.99,rec_2f7cf9a2e45e258b,2022,11,Nov,2022-11,2022-11-21,47,26,Saturday,6,True,complete_day
+87,10545,2022-11-26,Burgers,12.99,446.5,Drive-thru,Credit Card,Tom Jackson,London,Burgers,Main Course,5800.04,rec_40f0a7efce0240eb,2022,11,Nov,2022-11,2022-11-21,47,26,Saturday,6,True,complete_day
+88,10546,2022-11-26,Chicken Sandwiches,9.95,201.01,Drive-thru,Credit Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_58ef7eba3a7f27d4,2022,11,Nov,2022-11,2022-11-21,47,26,Saturday,6,True,complete_day
+91,10549,2022-11-26,Sides & Other,4.99,200.4,Drive-thru,Credit Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_7b5b66b97ab65189,2022,11,Nov,2022-11,2022-11-21,47,26,Saturday,6,True,complete_day
+89,10547,2022-11-26,Fries,3.49,630.37,Drive-thru,Credit Card,Tom Jackson,London,Fries,Sides,2199.99,rec_911a11b75bbb6038,2022,11,Nov,2022-11,2022-11-21,47,26,Saturday,6,True,complete_day
+94,10552,2022-11-27,Fries,3.49,630.37,Online,Credit Card,Tom Jackson,London,Fries,Sides,2199.99,rec_4b73cf86e1d1302c,2022,11,Nov,2022-11,2022-11-21,47,27,Sunday,7,True,complete_day
+93,10551,2022-11-27,Chicken Sandwiches,9.95,201.01,Drive-thru,Credit Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_6188b5f5bbf06f4b,2022,11,Nov,2022-11,2022-11-21,47,27,Sunday,7,True,complete_day
+96,10554,2022-11-27,Sides & Other,4.99,200.4,Online,Credit Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_70bc04f4f80bddc4,2022,11,Nov,2022-11,2022-11-21,47,27,Sunday,7,True,complete_day
+95,10553,2022-11-27,Beverages,2.95,745.76,Online,Credit Card,Tom Jackson,London,Beverages,Beverage,2199.99,rec_8703458241409f84,2022,11,Nov,2022-11,2022-11-21,47,27,Sunday,7,True,complete_day
+92,10550,2022-11-27,Burgers,12.99,461.89,Drive-thru,Credit Card,Tom Jackson,London,Burgers,Main Course,5999.95,rec_f06b103ace635760,2022,11,Nov,2022-11,2022-11-21,47,27,Sunday,7,True,complete_day
+98,10556,2022-11-28,Chicken Sandwiches,9.95,201.01,Online,Credit Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_0b7113bfdbba4b04,2022,11,Nov,2022-11,2022-11-28,48,28,Monday,1,False,complete_day
+101,10559,2022-11-28,Sides & Other,4.99,200.4,Online,Credit Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_66318d32a5d76839,2022,11,Nov,2022-11,2022-11-28,48,28,Monday,1,False,complete_day
+100,10558,2022-11-28,Beverages,2.95,677.97,Online,Credit Card,Tom Jackson,London,Beverages,Beverage,2000.01,rec_66d564388e61aeaf,2022,11,Nov,2022-11,2022-11-28,48,28,Monday,1,False,complete_day
+97,10555,2022-11-28,Burgers,12.99,477.29,Online,Credit Card,Tom Jackson,London,Burgers,Main Course,6200.0,rec_cde86286a83d564c,2022,11,Nov,2022-11,2022-11-28,48,28,Monday,1,False,complete_day
+99,10557,2022-11-28,Fries,3.49,630.37,Online,Credit Card,Tom Jackson,London,Fries,Sides,2199.99,rec_fa88fcf78c9ce6f1,2022,11,Nov,2022-11,2022-11-28,48,28,Monday,1,False,complete_day
+102,10560,2022-11-29,Burgers,12.99,477.29,Online,Credit Card,Tom Jackson,London,Burgers,Main Course,6200.0,rec_00aa1c30b1c9a23c,2022,11,Nov,2022-11,2022-11-28,48,29,Tuesday,2,False,complete_day
+104,10562,2022-11-29,Fries,3.49,630.37,Online,Credit Card,Tom Jackson,London,Fries,Sides,2199.99,rec_01b4a5b9d20c68e9,2022,11,Nov,2022-11,2022-11-28,48,29,Tuesday,2,False,complete_day
+105,10563,2022-11-29,Beverages,2.95,677.97,Online,Credit Card,Tom Jackson,London,Beverages,Beverage,2000.01,rec_41c7254eb5ece2e6,2022,11,Nov,2022-11,2022-11-28,48,29,Tuesday,2,False,complete_day
+106,10564,2022-11-29,Sides & Other,4.99,200.4,Online,Credit Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_7f159a6916454551,2022,11,Nov,2022-11,2022-11-28,48,29,Tuesday,2,False,complete_day
+103,10561,2022-11-29,Chicken Sandwiches,9.95,201.01,Online,Credit Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_b362c1ed7f1c578d,2022,11,Nov,2022-11,2022-11-28,48,29,Tuesday,2,False,complete_day
+109,10567,2022-11-30,Fries,3.49,630.37,Online,Credit Card,Tom Jackson,London,Fries,Sides,2199.99,rec_05384bb24e1336fe,2022,11,Nov,2022-11,2022-11-28,48,30,Wednesday,3,False,complete_day
+108,10566,2022-11-30,Chicken Sandwiches,9.95,201.01,Online,Credit Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_43d7564170139332,2022,11,Nov,2022-11,2022-11-28,48,30,Wednesday,3,False,complete_day
+111,10569,2022-11-30,Sides & Other,4.99,200.4,Online,Credit Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_6ab179210768da8a,2022,11,Nov,2022-11,2022-11-28,48,30,Wednesday,3,False,complete_day
+107,10565,2022-11-30,Burgers,12.99,492.69,Online,Credit Card,Tom Jackson,London,Burgers,Main Course,6400.04,rec_9ee506ed1602d1ed,2022,11,Nov,2022-11,2022-11-28,48,30,Wednesday,3,False,complete_day
+110,10568,2022-11-30,Beverages,2.95,677.97,Online,Credit Card,Tom Jackson,London,Beverages,Beverage,2000.01,rec_f7b8b8f9f3a47776,2022,11,Nov,2022-11,2022-11-28,48,30,Wednesday,3,False,complete_day
+112,10570,2022-12-01,Burgers,12.99,492.69,Online,Credit Card,Tom Jackson,London,Burgers,Main Course,6400.04,rec_3d8d519ad307f652,2022,12,Dec,2022-12,2022-11-28,48,1,Thursday,4,False,complete_day
+114,10572,2022-12-01,Fries,3.49,573.07,Online,Credit Card,Remy Monet,Paris,Fries,Sides,2000.01,rec_5385244c8aa582b8,2022,12,Dec,2022-12,2022-11-28,48,1,Thursday,4,False,complete_day
+116,10574,2022-12-01,Sides & Other,4.99,200.4,Online,Credit Card,Remy Monet,Paris,Sides & Other,Sides,1000.0,rec_5d57d8bce9e3db8f,2022,12,Dec,2022-12,2022-11-28,48,1,Thursday,4,False,complete_day
+115,10573,2022-12-01,Beverages,2.95,677.97,Online,Credit Card,Remy Monet,Paris,Beverages,Beverage,2000.01,rec_c3aca01bfcbcbd9b,2022,12,Dec,2022-12,2022-11-28,48,1,Thursday,4,False,complete_day
+113,10571,2022-12-01,Chicken Sandwiches,9.95,201.01,Online,Credit Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_c8b211dd9ecde3a4,2022,12,Dec,2022-12,2022-11-28,48,1,Thursday,4,False,complete_day
+118,10576,2022-12-02,Chicken Sandwiches,9.95,201.01,Online,Credit Card,Remy Monet,Paris,Chicken Sandwiches,Main Course,2000.05,rec_057afbdbca0fccd3,2022,12,Dec,2022-12,2022-11-28,48,2,Friday,5,False,complete_day
+119,10577,2022-12-02,Fries,3.49,630.37,Online,Credit Card,Remy Monet,Paris,Fries,Sides,2199.99,rec_0cd07d55cd1aeba3,2022,12,Dec,2022-12,2022-11-28,48,2,Friday,5,False,complete_day
+121,10579,2022-12-02,Sides & Other,4.99,200.4,Online,Credit Card,Remy Monet,Paris,Sides & Other,Sides,1000.0,rec_218e3756ce8d332b,2022,12,Dec,2022-12,2022-11-28,48,2,Friday,5,False,complete_day
+120,10578,2022-12-02,Beverages,2.95,677.97,Online,Credit Card,Remy Monet,Paris,Beverages,Beverage,2000.01,rec_44de3c73c76410e4,2022,12,Dec,2022-12,2022-11-28,48,2,Friday,5,False,complete_day
+117,10575,2022-12-02,Burgers,12.99,523.48,Online,Credit Card,Remy Monet,Paris,Burgers,Main Course,6800.01,rec_eb83282d57480652,2022,12,Dec,2022-12,2022-11-28,48,2,Friday,5,False,complete_day
+123,10581,2022-12-03,Chicken Sandwiches,9.95,201.01,Online,Credit Card,Remy Monet,Paris,Chicken Sandwiches,Main Course,2000.05,rec_7f0ced96fb430e98,2022,12,Dec,2022-12,2022-11-28,48,3,Saturday,6,True,complete_day
+122,10580,2022-12-03,Burgers,12.99,523.48,Online,Credit Card,Remy Monet,Paris,Burgers,Main Course,6800.01,rec_b5b8f9fbdfbdbcb8,2022,12,Dec,2022-12,2022-11-28,48,3,Saturday,6,True,complete_day
+126,10584,2022-12-03,Sides & Other,4.99,200.4,Online,Credit Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_ba66df219a291a38,2022,12,Dec,2022-12,2022-11-28,48,3,Saturday,6,True,complete_day
+125,10583,2022-12-03,Beverages,2.95,677.97,Online,Credit Card,Tom Jackson,London,Beverages,Beverage,2000.01,rec_ca425f21b3e95e44,2022,12,Dec,2022-12,2022-11-28,48,3,Saturday,6,True,complete_day
+124,10582,2022-12-03,Fries,3.49,630.37,Online,Credit Card,Tom Jackson,London,Fries,Sides,2199.99,rec_cb53f8071a6c76d3,2022,12,Dec,2022-12,2022-11-28,48,3,Saturday,6,True,complete_day
+127,10585,2022-12-04,Burgers,12.99,538.88,Online,Credit Card,Tom Jackson,London,Burgers,Main Course,7000.05,rec_5e0ed8386f482682,2022,12,Dec,2022-12,2022-11-28,48,4,Sunday,7,True,complete_day
+128,10586,2022-12-04,Chicken Sandwiches,9.95,201.01,Online,Credit Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_8a4911b67826aba8,2022,12,Dec,2022-12,2022-11-28,48,4,Sunday,7,True,complete_day
+136,10594,2022-12-05,Sides & Other,4.99,200.4,Online,Credit Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_1994671d38215fbf,2022,12,Dec,2022-12,2022-12-05,49,5,Monday,1,False,complete_day
+133,10591,2022-12-05,Chicken Sandwiches,9.95,201.01,Online,Credit Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_6e314bdad73bf8f6,2022,12,Dec,2022-12,2022-12-05,49,5,Monday,1,False,complete_day
+132,10590,2022-12-05,Burgers,12.99,554.27,Online,Credit Card,Tom Jackson,London,Burgers,Main Course,7199.97,rec_733dbbbe661280bb,2022,12,Dec,2022-12,2022-12-05,49,5,Monday,1,False,complete_day
+135,10593,2022-12-05,Beverages,2.95,677.97,Online,Credit Card,Tom Jackson,London,Beverages,Beverage,2000.01,rec_9c96266945bda36f,2022,12,Dec,2022-12,2022-12-05,49,5,Monday,1,False,complete_day
+134,10592,2022-12-05,Fries,3.49,573.07,Online,Credit Card,Tom Jackson,London,Fries,Sides,2000.01,rec_b324bff69f7d4434,2022,12,Dec,2022-12,2022-12-05,49,5,Monday,1,False,complete_day
+141,10599,2022-12-06,Sides & Other,4.99,200.4,Online,Credit Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_3452240487c6b760,2022,12,Dec,2022-12,2022-12-05,49,6,Tuesday,2,False,complete_day
+140,10598,2022-12-06,Beverages,2.95,677.97,Online,Credit Card,Tom Jackson,London,Beverages,Beverage,2000.01,rec_ad4b3a13008920ae,2022,12,Dec,2022-12,2022-12-05,49,6,Tuesday,2,False,complete_day
+138,10596,2022-12-06,Chicken Sandwiches,9.95,201.01,Online,Credit Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_adc0178e5fe8f3fa,2022,12,Dec,2022-12,2022-12-05,49,6,Tuesday,2,False,complete_day
+139,10597,2022-12-06,Fries,3.49,573.07,Online,Credit Card,Tom Jackson,London,Fries,Sides,2000.01,rec_c0253a77d2f53525,2022,12,Dec,2022-12,2022-12-05,49,6,Tuesday,2,False,complete_day
+137,10595,2022-12-06,Burgers,12.99,538.88,Online,Credit Card,Tom Jackson,London,Burgers,Main Course,7000.05,rec_c0e671f1b0602114,2022,12,Dec,2022-12,2022-12-05,49,6,Tuesday,2,False,complete_day
+145,10603,2022-12-07,Beverages,2.95,677.97,Online,Cash,Tom Jackson,London,Beverages,Beverage,2000.01,rec_04dfd1f735a89a01,2022,12,Dec,2022-12,2022-12-05,49,7,Wednesday,3,False,complete_day
+144,10602,2022-12-07,Fries,3.49,630.37,Online,Cash,Tom Jackson,London,Fries,Sides,2199.99,rec_20557e7277509ee4,2022,12,Dec,2022-12,2022-12-05,49,7,Wednesday,3,False,complete_day
+143,10601,2022-12-07,Chicken Sandwiches,9.95,201.01,Online,Credit Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_418e9279683e292b,2022,12,Dec,2022-12,2022-12-05,49,7,Wednesday,3,False,complete_day
+146,10604,2022-12-07,Sides & Other,4.99,200.4,Online,Cash,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_4ae453a3e745e488,2022,12,Dec,2022-12,2022-12-05,49,7,Wednesday,3,False,complete_day
+142,10600,2022-12-07,Burgers,12.99,523.48,Online,Credit Card,Tom Jackson,London,Burgers,Main Course,6800.01,rec_e89d687f0ca35971,2022,12,Dec,2022-12,2022-12-05,49,7,Wednesday,3,False,complete_day
+151,10609,2022-12-08,Sides & Other,4.99,200.4,Online,Gift Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_3b57539addeb38bf,2022,12,Dec,2022-12,2022-12-05,49,8,Thursday,4,False,complete_day
+148,10606,2022-12-08,Chicken Sandwiches,9.95,201.01,Online,Cash,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_56867259466fbe00,2022,12,Dec,2022-12,2022-12-05,49,8,Thursday,4,False,complete_day
+150,10608,2022-12-08,Beverages,2.95,677.97,Online,Gift Card,Tom Jackson,London,Beverages,Beverage,2000.01,rec_637b0168bd5f0a24,2022,12,Dec,2022-12,2022-12-05,49,8,Thursday,4,False,complete_day
+147,10605,2022-12-08,Burgers,12.99,538.88,Online,Cash,Tom Jackson,London,Burgers,Main Course,7000.05,rec_bc77bd4a06e3df85,2022,12,Dec,2022-12,2022-12-05,49,8,Thursday,4,False,complete_day
+149,10607,2022-12-08,Fries,3.49,630.37,Online,Cash,Tom Jackson,London,Fries,Sides,2199.99,rec_dd9ffb4715accbf5,2022,12,Dec,2022-12,2022-12-05,49,8,Thursday,4,False,complete_day
+155,10613,2022-12-09,Beverages,2.95,677.97,Online,Gift Card,Tom Jackson,London,Beverages,Beverage,2000.01,rec_374273d601106d0a,2022,12,Dec,2022-12,2022-12-05,49,9,Friday,5,False,complete_day
+153,10611,2022-12-09,Chicken Sandwiches,9.95,201.01,Online,Gift Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_47cd10a6609bad85,2022,12,Dec,2022-12,2022-12-05,49,9,Friday,5,False,complete_day
+152,10610,2022-12-09,Burgers,12.99,569.67,Online,Gift Card,Tom Jackson,London,Burgers,Main Course,7400.01,rec_59e646099ba17144,2022,12,Dec,2022-12,2022-12-05,49,9,Friday,5,False,complete_day
+156,10614,2022-12-09,Sides & Other,4.99,200.4,Online,Gift Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_b623daba2fdbb3ed,2022,12,Dec,2022-12,2022-12-05,49,9,Friday,5,False,complete_day
+154,10612,2022-12-09,Fries,3.49,630.37,Online,Gift Card,Tom Jackson,London,Fries,Sides,2199.99,rec_c9c729142d466ca5,2022,12,Dec,2022-12,2022-12-05,49,9,Friday,5,False,complete_day
+161,10619,2022-12-10,Sides & Other,4.99,200.4,Online,Gift Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_1b74e6d07352acdf,2022,12,Dec,2022-12,2022-12-05,49,10,Saturday,6,True,complete_day
+158,10616,2022-12-10,Chicken Sandwiches,9.95,201.01,Online,Gift Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_4fcad3184e4f5596,2022,12,Dec,2022-12,2022-12-05,49,10,Saturday,6,True,complete_day
+157,10615,2022-12-10,Burgers,12.99,569.67,Online,Gift Card,Tom Jackson,London,Burgers,Main Course,7400.01,rec_59e537453c9f56b7,2022,12,Dec,2022-12,2022-12-05,49,10,Saturday,6,True,complete_day
+160,10618,2022-12-10,Beverages,2.95,677.97,Online,Gift Card,Tom Jackson,London,Beverages,Beverage,2000.01,rec_68467016b16ef6dd,2022,12,Dec,2022-12,2022-12-05,49,10,Saturday,6,True,complete_day
+159,10617,2022-12-10,Fries,3.49,630.37,Online,Gift Card,Tom Jackson,London,Fries,Sides,2199.99,rec_85701180ceecc29e,2022,12,Dec,2022-12,2022-12-05,49,10,Saturday,6,True,complete_day
+165,10623,2022-12-11,Beverages,2.95,745.76,Online,Gift Card,Tom Jackson,London,Beverages,Beverage,2199.99,rec_68e03a9ce3380b0f,2022,12,Dec,2022-12,2022-12-05,49,11,Sunday,7,True,complete_day
+166,10624,2022-12-11,Sides & Other,4.99,200.4,Online,Gift Card,Tom Jackson,London,Sides & Other,Sides,1000.0,rec_745330596255e4b1,2022,12,Dec,2022-12,2022-12-05,49,11,Sunday,7,True,complete_day
+164,10622,2022-12-11,Fries,3.49,630.37,Online,Gift Card,Tom Jackson,London,Fries,Sides,2199.99,rec_91db4376de35d851,2022,12,Dec,2022-12,2022-12-05,49,11,Sunday,7,True,complete_day
+162,10620,2022-12-11,Burgers,12.99,585.07,Online,Gift Card,Tom Jackson,London,Burgers,Main Course,7600.06,rec_a5d9b4daf5f83479,2022,12,Dec,2022-12,2022-12-05,49,11,Sunday,7,True,complete_day
+163,10621,2022-12-11,Chicken Sandwiches,9.95,201.01,Online,Gift Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_b39a9cd68df2bc15,2022,12,Dec,2022-12,2022-12-05,49,11,Sunday,7,True,complete_day
+169,10627,2022-12-12,Fries,3.49,630.37,Online,Gift Card,Tom Jackson,London,Fries,Sides,2199.99,rec_047ddfc5f554e74f,2022,12,Dec,2022-12,2022-12-12,50,12,Monday,1,False,complete_day
+168,10626,2022-12-12,Chicken Sandwiches,9.95,201.01,Online,Gift Card,Tom Jackson,London,Chicken Sandwiches,Main Course,2000.05,rec_0ca6a35c05af7a19,2022,12,Dec,2022-12,2022-12-12,50,12,Monday,1,False,complete_day
+170,10628,2022-12-12,Beverages,2.95,677.97,Online,Gift Card,Joao Silva,Lisbon,Beverages,Beverage,2000.01,rec_c63db884acc2f45c,2022,12,Dec,2022-12,2022-12-12,50,12,Monday,1,False,complete_day
+171,10629,2022-12-12,Sides & Other,4.99,200.4,Online,Gift Card,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_da84e6210ccc704c,2022,12,Dec,2022-12,2022-12-12,50,12,Monday,1,False,complete_day
+167,10625,2022-12-12,Burgers,12.99,569.67,Online,Gift Card,Tom Jackson,London,Burgers,Main Course,7400.01,rec_e65e07580430fda2,2022,12,Dec,2022-12,2022-12-12,50,12,Monday,1,False,complete_day
+173,10631,2022-12-13,Chicken Sandwiches,9.95,201.01,Online,Gift Card,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2000.05,rec_27d94a85d4a3863b,2022,12,Dec,2022-12,2022-12-12,50,13,Tuesday,2,False,complete_day
+174,10632,2022-12-13,Fries,3.49,630.37,Online,Gift Card,Joao Silva,Lisbon,Fries,Sides,2199.99,rec_317bcfc0c4098cc7,2022,12,Dec,2022-12,2022-12-12,50,13,Tuesday,2,False,complete_day
+172,10630,2022-12-13,Burgers,12.99,569.67,Online,Cash,Joao Silva,Lisbon,Burgers,Main Course,7400.01,rec_5a00a8029364497b,2022,12,Dec,2022-12,2022-12-12,50,13,Tuesday,2,False,complete_day
+176,10634,2022-12-13,Sides & Other,4.99,200.4,Online,Gift Card,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_a24b7b6503236ddb,2022,12,Dec,2022-12,2022-12-12,50,13,Tuesday,2,False,complete_day
+175,10633,2022-12-13,Beverages,2.95,677.97,Online,Gift Card,Joao Silva,Lisbon,Beverages,Beverage,2000.01,rec_ac9c1af50e714205,2022,12,Dec,2022-12,2022-12-12,50,13,Tuesday,2,False,complete_day
+179,10637,2022-12-14,Fries,3.49,630.37,Online,Gift Card,Joao Silva,Lisbon,Fries,Sides,2199.99,rec_213022290e05dc0a,2022,12,Dec,2022-12,2022-12-12,50,14,Wednesday,3,False,complete_day
+180,10638,2022-12-14,Beverages,2.95,677.97,Online,Gift Card,Joao Silva,Lisbon,Beverages,Beverage,2000.01,rec_37a8473ce327e464,2022,12,Dec,2022-12,2022-12-12,50,14,Wednesday,3,False,complete_day
+181,10639,2022-12-14,Sides & Other,4.99,200.4,Online,Gift Card,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_6d64ba2f8a621bf5,2022,12,Dec,2022-12,2022-12-12,50,14,Wednesday,3,False,complete_day
+178,10636,2022-12-14,Chicken Sandwiches,9.95,221.11,Online,Gift Card,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2200.04,rec_8273f796db281140,2022,12,Dec,2022-12,2022-12-12,50,14,Wednesday,3,False,complete_day
+177,10635,2022-12-14,Burgers,12.99,554.27,Online,Gift Card,Joao Silva,Lisbon,Burgers,Main Course,7199.97,rec_8d001ad94ec37578,2022,12,Dec,2022-12,2022-12-12,50,14,Wednesday,3,False,complete_day
+185,10643,2022-12-15,Beverages,2.95,677.97,Online,Cash,Joao Silva,Lisbon,Beverages,Beverage,2000.01,rec_759dbdb30208ad28,2022,12,Dec,2022-12,2022-12-12,50,15,Thursday,4,False,complete_day
+186,10644,2022-12-15,Sides & Other,4.99,200.4,Online,Cash,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_8268686038d8b3df,2022,12,Dec,2022-12,2022-12-12,50,15,Thursday,4,False,complete_day
+183,10641,2022-12-15,Chicken Sandwiches,9.95,221.11,Online,Gift Card,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2200.04,rec_ba9775f757e2c1a6,2022,12,Dec,2022-12,2022-12-12,50,15,Thursday,4,False,complete_day
+182,10640,2022-12-15,Burgers,12.99,538.88,Online,Gift Card,Joao Silva,Lisbon,Burgers,Main Course,7000.05,rec_d2980a39420e3101,2022,12,Dec,2022-12,2022-12-12,50,15,Thursday,4,False,complete_day
+184,10642,2022-12-15,Fries,3.49,630.37,Online,Cash,Joao Silva,Lisbon,Fries,Sides,2199.99,rec_ebb756ce8c2aaaf3,2022,12,Dec,2022-12,2022-12-12,50,15,Thursday,4,False,complete_day
+190,10648,2022-12-16,Beverages,2.95,745.76,Online,Gift Card,Joao Silva,Lisbon,Beverages,Beverage,2199.99,rec_5c43093d0c0e3be0,2022,12,Dec,2022-12,2022-12-12,50,16,Friday,5,False,complete_day
+188,10646,2022-12-16,Chicken Sandwiches,9.95,221.11,Online,Cash,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2200.04,rec_73e1a510c097ec7b,2022,12,Dec,2022-12,2022-12-12,50,16,Friday,5,False,complete_day
+187,10645,2022-12-16,Burgers,12.99,569.67,Online,Cash,Joao Silva,Lisbon,Burgers,Main Course,7400.01,rec_a30477c53ad8903a,2022,12,Dec,2022-12,2022-12-12,50,16,Friday,5,False,complete_day
+191,10649,2022-12-16,Sides & Other,4.99,200.4,Online,Gift Card,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_e1e83d0e1a04ebd2,2022,12,Dec,2022-12,2022-12-12,50,16,Friday,5,False,complete_day
+189,10647,2022-12-16,Fries,3.49,630.37,Online,Gift Card,Joao Silva,Lisbon,Fries,Sides,2199.99,rec_e5502d4e4da471e5,2022,12,Dec,2022-12,2022-12-12,50,16,Friday,5,False,complete_day
+196,10654,2022-12-17,Sides & Other,4.99,200.4,Online,Gift Card,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_79a271c7171653f4,2022,12,Dec,2022-12,2022-12-12,50,17,Saturday,6,True,complete_day
+192,10650,2022-12-17,Burgers,12.99,585.07,Online,Gift Card,Joao Silva,Lisbon,Burgers,Main Course,7600.06,rec_859c031797778180,2022,12,Dec,2022-12,2022-12-12,50,17,Saturday,6,True,complete_day
+193,10651,2022-12-17,Chicken Sandwiches,9.95,221.11,Online,Gift Card,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2200.04,rec_a642ee3129e67f6f,2022,12,Dec,2022-12,2022-12-12,50,17,Saturday,6,True,complete_day
+194,10652,2022-12-17,Fries,3.49,687.68,Online,Gift Card,Joao Silva,Lisbon,Fries,Sides,2400.0,rec_dc0695e1ec5028ef,2022,12,Dec,2022-12,2022-12-12,50,17,Saturday,6,True,complete_day
+195,10653,2022-12-17,Beverages,2.95,745.76,Online,Gift Card,Joao Silva,Lisbon,Beverages,Beverage,2199.99,rec_f6ca1b7b9435ede9,2022,12,Dec,2022-12,2022-12-12,50,17,Saturday,6,True,complete_day
+197,10655,2022-12-18,Burgers,12.99,600.46,Online,Gift Card,Joao Silva,Lisbon,Burgers,Main Course,7799.98,rec_0aeccc0dc97fbe3d,2022,12,Dec,2022-12,2022-12-12,50,18,Sunday,7,True,complete_day
+199,10657,2022-12-18,Fries,3.49,687.68,Online,Gift Card,Joao Silva,Lisbon,Fries,Sides,2400.0,rec_0d707789f8d702c2,2022,12,Dec,2022-12,2022-12-12,50,18,Sunday,7,True,complete_day
+201,10659,2022-12-18,Sides & Other,4.99,200.4,Online,Cash,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_1bd75040ac95dfb2,2022,12,Dec,2022-12,2022-12-12,50,18,Sunday,7,True,complete_day
+200,10658,2022-12-18,Beverages,2.95,745.76,Online,Cash,Joao Silva,Lisbon,Beverages,Beverage,2199.99,rec_7ff6e9258b830d9a,2022,12,Dec,2022-12,2022-12-12,50,18,Sunday,7,True,complete_day
+198,10656,2022-12-18,Chicken Sandwiches,9.95,221.11,Online,Gift Card,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2200.04,rec_b668e157f03a5c17,2022,12,Dec,2022-12,2022-12-12,50,18,Sunday,7,True,complete_day
+203,10661,2022-12-19,Chicken Sandwiches,9.95,221.11,In-store,Cash,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2200.04,rec_4b76c3fac5edb1ee,2022,12,Dec,2022-12,2022-12-19,51,19,Monday,1,False,complete_day
+206,10664,2022-12-19,Sides & Other,4.99,200.4,In-store,Cash,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_a062ed8f8e25170a,2022,12,Dec,2022-12,2022-12-19,51,19,Monday,1,False,complete_day
+202,10660,2022-12-19,Burgers,12.99,631.25,In-store,Cash,Joao Silva,Lisbon,Burgers,Main Course,8199.94,rec_b807dae427788e5d,2022,12,Dec,2022-12,2022-12-19,51,19,Monday,1,False,complete_day
+204,10662,2022-12-19,Fries,3.49,630.37,In-store,Cash,Joao Silva,Lisbon,Fries,Sides,2199.99,rec_eb69a47621f32345,2022,12,Dec,2022-12,2022-12-19,51,19,Monday,1,False,complete_day
+205,10663,2022-12-19,Beverages,2.95,745.76,In-store,Cash,Joao Silva,Lisbon,Beverages,Beverage,2199.99,rec_fc72bedf413e430c,2022,12,Dec,2022-12,2022-12-19,51,19,Monday,1,False,complete_day
+211,10669,2022-12-20,Sides & Other,4.99,200.4,In-store,Cash,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_3f45a8cc584a90b0,2022,12,Dec,2022-12,2022-12-19,51,20,Tuesday,2,False,complete_day
+207,10665,2022-12-20,Burgers,12.99,646.65,In-store,Cash,Joao Silva,Lisbon,Burgers,Main Course,8399.98,rec_857a29d6988fa363,2022,12,Dec,2022-12,2022-12-19,51,20,Tuesday,2,False,complete_day
+210,10668,2022-12-20,Beverages,2.95,745.76,In-store,Cash,Joao Silva,Lisbon,Beverages,Beverage,2199.99,rec_a9840d31a0aedcfb,2022,12,Dec,2022-12,2022-12-19,51,20,Tuesday,2,False,complete_day
+209,10667,2022-12-20,Fries,3.49,630.37,In-store,Cash,Joao Silva,Lisbon,Fries,Sides,2199.99,rec_e217b78815cea82e,2022,12,Dec,2022-12,2022-12-19,51,20,Tuesday,2,False,complete_day
+208,10666,2022-12-20,Chicken Sandwiches,9.95,221.11,In-store,Cash,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2200.04,rec_f805954ee6ddef8f,2022,12,Dec,2022-12,2022-12-19,51,20,Tuesday,2,False,complete_day
+212,10670,2022-12-21,Burgers,12.99,677.44,In-store,Cash,Joao Silva,Lisbon,Burgers,Main Course,8799.95,rec_09316a703a1529ed,2022,12,Dec,2022-12,2022-12-19,51,21,Wednesday,3,False,complete_day
+214,10672,2022-12-21,Fries,3.49,630.37,In-store,Cash,Joao Silva,Lisbon,Fries,Sides,2199.99,rec_38febe7b548219e5,2022,12,Dec,2022-12,2022-12-19,51,21,Wednesday,3,False,complete_day
+216,10674,2022-12-21,Sides & Other,4.99,200.4,In-store,Cash,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_71ff53ee883814f6,2022,12,Dec,2022-12,2022-12-19,51,21,Wednesday,3,False,complete_day
+215,10673,2022-12-21,Beverages,2.95,745.76,In-store,Cash,Joao Silva,Lisbon,Beverages,Beverage,2199.99,rec_9f7662c43bbf79d2,2022,12,Dec,2022-12,2022-12-19,51,21,Wednesday,3,False,complete_day
+213,10671,2022-12-21,Chicken Sandwiches,9.95,221.11,In-store,Cash,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2200.04,rec_a5f4a2ec7bbadcb5,2022,12,Dec,2022-12,2022-12-19,51,21,Wednesday,3,False,complete_day
+219,10677,2022-12-22,Fries,3.49,630.37,In-store,Cash,Joao Silva,Lisbon,Fries,Sides,2199.99,rec_08fc4d8c56d5b50d,2022,12,Dec,2022-12,2022-12-19,51,22,Thursday,4,False,complete_day
+218,10676,2022-12-22,Chicken Sandwiches,9.95,241.21,In-store,Cash,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2400.04,rec_1a43c5f9694bdc53,2022,12,Dec,2022-12,2022-12-19,51,22,Thursday,4,False,complete_day
+221,10679,2022-12-22,Sides & Other,4.99,200.4,In-store,Cash,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_27bf02b2858262be,2022,12,Dec,2022-12,2022-12-19,51,22,Thursday,4,False,complete_day
+217,10675,2022-12-22,Burgers,12.99,677.44,In-store,Cash,Joao Silva,Lisbon,Burgers,Main Course,8799.95,rec_7bacebce6958dca3,2022,12,Dec,2022-12,2022-12-19,51,22,Thursday,4,False,complete_day
+220,10678,2022-12-22,Beverages,2.95,745.76,In-store,Cash,Joao Silva,Lisbon,Beverages,Beverage,2199.99,rec_aea3613b0412d983,2022,12,Dec,2022-12,2022-12-19,51,22,Thursday,4,False,complete_day
+226,10684,2022-12-23,Sides & Other,4.99,200.4,In-store,Cash,Joao Silva,Lisbon,Sides & Other,Sides,1000.0,rec_07e50c4ece37c2f5,2022,12,Dec,2022-12,2022-12-19,51,23,Friday,5,False,complete_day
+225,10683,2022-12-23,Beverages,2.95,677.97,In-store,Cash,Joao Silva,Lisbon,Beverages,Beverage,2000.01,rec_19067eab4d39d1c4,2022,12,Dec,2022-12,2022-12-19,51,23,Friday,5,False,complete_day
+222,10680,2022-12-23,Burgers,12.99,646.65,In-store,Cash,Joao Silva,Lisbon,Burgers,Main Course,8399.98,rec_5819606859cb0e44,2022,12,Dec,2022-12,2022-12-19,51,23,Friday,5,False,complete_day
+223,10681,2022-12-23,Chicken Sandwiches,9.95,241.21,In-store,Cash,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2400.04,rec_aec03487f50d1620,2022,12,Dec,2022-12,2022-12-19,51,23,Friday,5,False,complete_day
+224,10682,2022-12-23,Fries,3.49,630.37,In-store,Cash,Joao Silva,Lisbon,Fries,Sides,2199.99,rec_c9e773496e4c399a,2022,12,Dec,2022-12,2022-12-19,51,23,Friday,5,False,complete_day
+228,10686,2022-12-24,Chicken Sandwiches,9.95,241.21,In-store,Cash,Joao Silva,Lisbon,Chicken Sandwiches,Main Course,2400.04,rec_233fd278dcae8a65,2022,12,Dec,2022-12,2022-12-19,51,24,Saturday,6,True,complete_day
+230,10688,2022-12-24,Beverages,2.95,677.97,In-store,Cash,Walter Muller,Berlin,Beverages,Beverage,2000.01,rec_42677569c7d62db0,2022,12,Dec,2022-12,2022-12-19,51,24,Saturday,6,True,complete_day
+231,10689,2022-12-24,Sides & Other,4.99,200.4,In-store,Cash,Walter Muller,Berlin,Sides & Other,Sides,1000.0,rec_5a18072686d88cdd,2022,12,Dec,2022-12,2022-12-19,51,24,Saturday,6,True,complete_day
+229,10687,2022-12-24,Fries,3.49,630.37,In-store,Cash,Walter Muller,Berlin,Fries,Sides,2199.99,rec_740bb7241c3eba5e,2022,12,Dec,2022-12,2022-12-19,51,24,Saturday,6,True,complete_day
+227,10685,2022-12-24,Burgers,12.99,677.44,In-store,Cash,Joao Silva,Lisbon,Burgers,Main Course,8799.95,rec_c58e0f6164964bfc,2022,12,Dec,2022-12,2022-12-19,51,24,Saturday,6,True,complete_day
+235,10693,2022-12-25,Beverages,2.95,677.97,In-store,Cash,Walter Muller,Berlin,Beverages,Beverage,2000.01,rec_104c877d9a01d112,2022,12,Dec,2022-12,2022-12-19,51,25,Sunday,7,True,complete_day
+236,10694,2022-12-25,Sides & Other,4.99,200.4,In-store,Cash,Walter Muller,Berlin,Sides & Other,Sides,1000.0,rec_4f5cddd63cf47005,2022,12,Dec,2022-12,2022-12-19,51,25,Sunday,7,True,complete_day
+232,10690,2022-12-25,Burgers,12.99,677.44,In-store,Cash,Walter Muller,Berlin,Burgers,Main Course,8799.95,rec_ae313e39139ccaed,2022,12,Dec,2022-12,2022-12-19,51,25,Sunday,7,True,complete_day
+234,10692,2022-12-25,Fries,3.49,630.37,In-store,Cash,Walter Muller,Berlin,Fries,Sides,2199.99,rec_c52b7730133edc5e,2022,12,Dec,2022-12,2022-12-19,51,25,Sunday,7,True,complete_day
+233,10691,2022-12-25,Chicken Sandwiches,9.95,261.31,In-store,Cash,Walter Muller,Berlin,Chicken Sandwiches,Main Course,2600.03,rec_fc230899be4bb293,2022,12,Dec,2022-12,2022-12-19,51,25,Sunday,7,True,complete_day
+238,10696,2022-12-26,Chicken Sandwiches,9.95,281.41,In-store,Cash,Walter Muller,Berlin,Chicken Sandwiches,Main Course,2800.03,rec_0c29be4a01ae5e66,2022,12,Dec,2022-12,2022-12-26,52,26,Monday,1,False,complete_day
+241,10699,2022-12-26,Sides & Other,4.99,200.4,In-store,Cash,Walter Muller,Berlin,Sides & Other,Sides,1000.0,rec_19dfa384f7aaf048,2022,12,Dec,2022-12,2022-12-26,52,26,Monday,1,False,complete_day
+239,10697,2022-12-26,Fries,3.49,630.37,In-store,Cash,Walter Muller,Berlin,Fries,Sides,2199.99,rec_5d76854a8075c348,2022,12,Dec,2022-12,2022-12-26,52,26,Monday,1,False,complete_day
+237,10695,2022-12-26,Burgers,12.99,692.84,In-store,Cash,Walter Muller,Berlin,Burgers,Main Course,8999.99,rec_a0ebedb4362178e3,2022,12,Dec,2022-12,2022-12-26,52,26,Monday,1,False,complete_day
+240,10698,2022-12-26,Beverages,2.95,677.97,In-store,Cash,Walter Muller,Berlin,Beverages,Beverage,2000.01,rec_de88e5ff7bc77244,2022,12,Dec,2022-12,2022-12-26,52,26,Monday,1,False,complete_day
+242,10700,2022-12-27,Burgers,12.99,692.84,In-store,Cash,Walter Muller,Berlin,Burgers,Main Course,8999.99,rec_a4fab99bbb14950c,2022,12,Dec,2022-12,2022-12-26,52,27,Tuesday,2,False,complete_day
+246,10704,2022-12-27,Sides & Other,4.99,200.4,Drive-thru,Gift Card,Walter Muller,Berlin,Sides & Other,Sides,1000.0,rec_d0e176698795760f,2022,12,Dec,2022-12,2022-12-26,52,27,Tuesday,2,False,complete_day
+243,10701,2022-12-27,Chicken Sandwiches,9.95,281.41,In-store,Cash,Walter Muller,Berlin,Chicken Sandwiches,Main Course,2800.03,rec_e1ba9460f0591ce7,2022,12,Dec,2022-12,2022-12-26,52,27,Tuesday,2,False,complete_day
+245,10703,2022-12-27,Beverages,2.95,677.97,In-store,Gift Card,Walter Muller,Berlin,Beverages,Beverage,2000.01,rec_e2a0bc251f2206c4,2022,12,Dec,2022-12,2022-12-26,52,27,Tuesday,2,False,complete_day
+244,10702,2022-12-27,Fries,3.49,630.37,In-store,Cash,Walter Muller,Berlin,Fries,Sides,2199.99,rec_ee58cd1db28a3f47,2022,12,Dec,2022-12,2022-12-26,52,27,Tuesday,2,False,complete_day
+250,10708,2022-12-28,Beverages,2.95,677.97,Drive-thru,Gift Card,Walter Muller,Berlin,Beverages,Beverage,2000.01,rec_8c25eddc6a05c9be,2022,12,Dec,2022-12,2022-12-26,52,28,Wednesday,3,False,complete_day
+247,10705,2022-12-28,Burgers,12.99,723.63,Drive-thru,Gift Card,Walter Muller,Berlin,Burgers,Main Course,9399.95,rec_9e9e4c06a0cb05b1,2022,12,Dec,2022-12,2022-12-26,52,28,Wednesday,3,False,complete_day
+249,10707,2022-12-28,Fries,3.49,630.37,Drive-thru,Gift Card,Walter Muller,Berlin,Fries,Sides,2199.99,rec_9edef1c561331dd8,2022,12,Dec,2022-12,2022-12-26,52,28,Wednesday,3,False,complete_day
+251,10709,2022-12-28,Sides & Other,4.99,200.4,Drive-thru,Gift Card,Walter Muller,Berlin,Sides & Other,Sides,1000.0,rec_bee70dffe6a3dd43,2022,12,Dec,2022-12,2022-12-26,52,28,Wednesday,3,False,complete_day
+248,10706,2022-12-28,Chicken Sandwiches,9.95,301.51,Drive-thru,Gift Card,Walter Muller,Berlin,Chicken Sandwiches,Main Course,3000.02,rec_c592fece31f1d1ad,2022,12,Dec,2022-12,2022-12-26,52,28,Wednesday,3,False,complete_day
+255,10713,2022-12-29,Beverages,2.95,677.97,Drive-thru,Gift Card,Walter Muller,Berlin,Beverages,Beverage,2000.01,rec_5d58e6fd9cf3542c,2022,12,Dec,2022-12,2022-12-26,52,29,Thursday,4,False,complete_day
+254,10712,2022-12-29,Fries,3.49,630.37,Drive-thru,Gift Card,Walter Muller,Berlin,Fries,Sides,2199.99,rec_5e1766b5da96abed,2022,12,Dec,2022-12,2022-12-26,52,29,Thursday,4,False,complete_day
+252,10710,2022-12-29,Burgers,12.99,754.43,Drive-thru,Gift Card,Walter Muller,Berlin,Burgers,Main Course,9800.05,rec_982e89e099f3da77,2022,12,Dec,2022-12,2022-12-26,52,29,Thursday,4,False,complete_day
+253,10711,2022-12-29,Chicken Sandwiches,9.95,281.41,Drive-thru,Gift Card,Walter Muller,Berlin,Chicken Sandwiches,Main Course,2800.03,rec_faed665a75561fff,2022,12,Dec,2022-12,2022-12-26,52,29,Thursday,4,False,complete_day

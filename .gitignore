@@ -7,6 +7,11 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.pre-commit-cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
 
 # Virtual environments
 .venv/
@@ -26,6 +31,19 @@ Thumbs.db
 # Local environment files
 .env
 .env.*
+
+# Power BI local and temporary files
+*.pbix.tmp
+*.pbit.tmp
+*.pbix.autosave
+~$*.pbix
+
+# Streamlit local settings and secrets
+.streamlit/secrets.toml
+
+# Local validation and notebook artifacts
+.jupyter/
+*.nbconvert.ipynb
 
 # Build and packaging
 build/

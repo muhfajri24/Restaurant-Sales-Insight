@@ -4,8 +4,8 @@
 
 ### Executive Overview
 - KPI Card: `Total Revenue`
-- KPI Card: `Total Orders`
-- KPI Card: `Average Order Value`
+- KPI Card: `Total Sales Records`
+- KPI Card: `Weighted Selling Price`
 - Line chart: `Revenue Trend by Date`
 - Bar chart: `Top Selling Menu by Revenue`
 - Donut chart: `Sales by Category`
@@ -19,16 +19,16 @@
 
 ## 2. Data Source
 
-Import [restaurant_sales_cleaned.csv](/d:/code/project%20portfolio/Restaurant%20Sales%20Insight/output/restaurant_sales_cleaned.csv) into Power BI.
+Import `output/restaurant_sales_cleaned.csv` into Power BI.
 
 ## 3. Recommended Measures
 
 ```DAX
 Total Revenue = SUM(restaurant_sales_cleaned[revenue])
 
-Total Orders = DISTINCTCOUNT(restaurant_sales_cleaned[order_id])
+Total Sales Records = DISTINCTCOUNT(restaurant_sales_cleaned[record_id])
 
-Average Order Value = DIVIDE([Total Revenue], [Total Orders])
+Weighted Selling Price = DIVIDE([Total Revenue], SUM(restaurant_sales_cleaned[quantity]))
 
 Total Quantity = SUM(restaurant_sales_cleaned[quantity])
 ```
@@ -37,8 +37,8 @@ Total Quantity = SUM(restaurant_sales_cleaned[quantity])
 
 - KPI Cards:
   - `Total Revenue`
-  - `Total Orders`
-  - `Average Order Value`
+  - `Total Sales Records`
+  - `Weighted Selling Price`
 - Revenue trend chart:
   - Axis: `date`
   - Values: `Total Revenue`
@@ -62,13 +62,13 @@ Total Quantity = SUM(restaurant_sales_cleaned[quantity])
 ## 5. Styling Tips
 
 - Use a light background with 1 accent color for revenue visuals and 1 accent color for category visuals.
-- Format `Total Revenue` as currency.
+- Format monetary values as generic decimal measures unless the source currency is verified.
 - Add dynamic titles such as `Revenue Trend by Selected Period`.
 - Keep the overview page focused on 5-6 visuals maximum.
 
 ## 6. Suggested Dashboard Narrative
 
-- Revenue is concentrated in `Main Course`, especially `Burgers`.
-- December outperformed November, indicating stronger year-end demand.
-- Midweek days contributed the highest revenue, especially Wednesday.
-- City-level analysis highlights which branch or market should receive stronger promotional focus.
+- Report the observed revenue share for `Main Course` and `Burgers` without implying profitability.
+- Label both November and December as partial periods before showing them together.
+- Describe weekday results as recorded patterns, not evidence of causal demand drivers.
+- Use city views to separate recorded quantity from weighted selling price and frame follow-up hypotheses.

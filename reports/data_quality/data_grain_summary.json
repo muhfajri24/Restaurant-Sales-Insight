@@ -1,0 +1,10 @@
+{
+  "verified_grain": "one aggregated product sales record with a unique source order_id",
+  "primary_key": "record_id (generated stable key)",
+  "source_candidate_key": "order_id (unique in the supplied extract)",
+  "order_level_kpis_supported": false,
+  "row_count": 254,
+  "unique_order_ids": 254,
+  "exact_duplicate_extra_copies": 0,
+  "uncertainty": "The source label order_id does not prove a complete customer order; fractional high quantities indicate aggregated product sales records."
+}

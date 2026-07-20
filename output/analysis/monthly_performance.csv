@@ -1,0 +1,3 @@
+month,revenue,quantity,sales_records,active_sales_days,period_start,period_end,calendar_days_in_month,is_partial_period,revenue_growth,daily_revenue_mean
+2022-11,332114.7,50509.07,113,24,2022-11-07,2022-11-30,30,True,,13838.112500000001
+2022-12,437401.19,66486.24,141,29,2022-12-01,2022-12-29,31,True,0.3170184577797972,15082.799655172414

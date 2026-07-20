@@ -1,0 +1,54 @@
+{
+  "dataset_source": "Kaggle dataset rohitgrewal/restaurant-sales-data (per repository documentation)",
+  "dataset_grain": "one aggregated product sales record with a unique source order_id",
+  "primary_key": "record_id",
+  "source_candidate_key": "order_id",
+  "date_range": {
+    "start": "2022-11-07",
+    "end": "2022-12-29"
+  },
+  "row_count_before_cleaning": 254,
+  "row_count_after_cleaning": 254,
+  "removed_record_count": 0,
+  "flagged_record_count": 0,
+  "total_orders": null,
+  "total_revenue": 769515.89,
+  "currency_status": "unknown",
+  "product_mapping_coverage": 1.0,
+  "generated_kpi_list": [
+    "total_revenue",
+    "total_orders",
+    "total_line_items",
+    "total_sales_records",
+    "total_quantity_sold",
+    "average_order_value",
+    "average_items_per_order",
+    "average_selling_price",
+    "active_sales_days",
+    "average_daily_revenue",
+    "median_daily_revenue"
+  ],
+  "generated_analytical_dimensions": [
+    "time",
+    "product",
+    "product_category",
+    "city",
+    "purchase_type",
+    "payment_method",
+    "manager"
+  ],
+  "dashboard": "app.py",
+  "phase_2_artifacts": [
+    "reports/validation/project_validation.md",
+    "reports/storytelling/executive_story.md",
+    "docs/DASHBOARD_GUIDE.md"
+  ],
+  "limitations": [
+    "Order-level KPIs unsupported",
+    "Currency unknown",
+    "Quantity unit unknown",
+    "Revenue is not profit",
+    "No customer identifiers",
+    "No causal design"
+  ]
+}

@@ -1,0 +1,10 @@
+purchase_type,payment_method
+Online,Gift Card
+In-store,Gift Card
+In-store,Credit Card
+Drive-thru,Credit Card
+Drive-thru,Cash
+Online,Credit Card
+Online,Cash
+In-store,Cash
+Drive-thru,Gift Card

@@ -28,12 +28,12 @@ This update packages the `Restaurant Sales Insight` repository into a cleaner, r
 ## Key Business Findings
 
 - Total revenue: `769,515.89`
-- Total orders: `254`
-- Average order value: `3,029.59`
+- Total sales records: `254`
+- Total orders and average order value: not supported by the verified aggregated product-record grain
 - Top product by revenue: `Burgers`
 - Top category by revenue: `Main Course`
-- Highest-performing city in the sample: `Lisbon`
-- December revenue exceeded November revenue
+- City with the highest recorded revenue: `Lisbon`
+- November and December are both partial periods, so direct full-month growth is not claimed
 
 ## Notes
 

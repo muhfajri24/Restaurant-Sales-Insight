@@ -1,0 +1,529 @@
+source_row_number,action,field,reason,old_value,new_value
+2,repaired,purchase_type,standardized_whitespace,Online ,Online
+3,repaired,purchase_type,standardized_whitespace,Online ,Online
+4,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+5,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+6,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+7,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+8,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+9,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+10,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+11,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+12,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+13,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+14,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+15,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+16,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+17,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+18,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+19,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+20,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+21,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+22,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+23,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+24,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+25,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+26,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+27,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+28,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+29,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+30,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+31,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+32,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+33,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+34,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+35,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+36,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+37,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+38,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+39,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+40,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+41,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+42,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+43,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+44,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+45,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+46,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+47,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+48,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+49,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+50,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+51,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+52,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+53,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+54,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+55,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+56,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+57,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+58,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+59,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+60,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+61,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+62,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+63,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+64,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+65,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+66,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+67,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+68,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+69,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+70,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+71,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+72,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+73,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+74,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+75,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+76,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+77,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+78,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+79,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+80,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+81,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+82,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+83,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+84,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+85,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+86,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+87,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+88,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+89,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+90,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+91,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+92,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+93,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+94,repaired,purchase_type,standardized_whitespace,Online ,Online
+95,repaired,purchase_type,standardized_whitespace,Online ,Online
+96,repaired,purchase_type,standardized_whitespace,Online ,Online
+97,repaired,purchase_type,standardized_whitespace,Online ,Online
+98,repaired,purchase_type,standardized_whitespace,Online ,Online
+99,repaired,purchase_type,standardized_whitespace,Online ,Online
+100,repaired,purchase_type,standardized_whitespace,Online ,Online
+101,repaired,purchase_type,standardized_whitespace,Online ,Online
+102,repaired,purchase_type,standardized_whitespace,Online ,Online
+103,repaired,purchase_type,standardized_whitespace,Online ,Online
+104,repaired,purchase_type,standardized_whitespace,Online ,Online
+105,repaired,purchase_type,standardized_whitespace,Online ,Online
+106,repaired,purchase_type,standardized_whitespace,Online ,Online
+107,repaired,purchase_type,standardized_whitespace,Online ,Online
+108,repaired,purchase_type,standardized_whitespace,Online ,Online
+109,repaired,purchase_type,standardized_whitespace,Online ,Online
+110,repaired,purchase_type,standardized_whitespace,Online ,Online
+111,repaired,purchase_type,standardized_whitespace,Online ,Online
+112,repaired,purchase_type,standardized_whitespace,Online ,Online
+113,repaired,purchase_type,standardized_whitespace,Online ,Online
+114,repaired,purchase_type,standardized_whitespace,Online ,Online
+115,repaired,purchase_type,standardized_whitespace,Online ,Online
+116,repaired,purchase_type,standardized_whitespace,Online ,Online
+117,repaired,purchase_type,standardized_whitespace,Online ,Online
+118,repaired,purchase_type,standardized_whitespace,Online ,Online
+119,repaired,purchase_type,standardized_whitespace,Online ,Online
+120,repaired,purchase_type,standardized_whitespace,Online ,Online
+121,repaired,purchase_type,standardized_whitespace,Online ,Online
+122,repaired,purchase_type,standardized_whitespace,Online ,Online
+123,repaired,purchase_type,standardized_whitespace,Online ,Online
+124,repaired,purchase_type,standardized_whitespace,Online ,Online
+125,repaired,purchase_type,standardized_whitespace,Online ,Online
+126,repaired,purchase_type,standardized_whitespace,Online ,Online
+127,repaired,purchase_type,standardized_whitespace,Online ,Online
+128,repaired,purchase_type,standardized_whitespace,Online ,Online
+129,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+130,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+131,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+132,repaired,purchase_type,standardized_whitespace,Online ,Online
+133,repaired,purchase_type,standardized_whitespace,Online ,Online
+134,repaired,purchase_type,standardized_whitespace,Online ,Online
+135,repaired,purchase_type,standardized_whitespace,Online ,Online
+136,repaired,purchase_type,standardized_whitespace,Online ,Online
+137,repaired,purchase_type,standardized_whitespace,Online ,Online
+138,repaired,purchase_type,standardized_whitespace,Online ,Online
+139,repaired,purchase_type,standardized_whitespace,Online ,Online
+140,repaired,purchase_type,standardized_whitespace,Online ,Online
+141,repaired,purchase_type,standardized_whitespace,Online ,Online
+142,repaired,purchase_type,standardized_whitespace,Online ,Online
+143,repaired,purchase_type,standardized_whitespace,Online ,Online
+144,repaired,purchase_type,standardized_whitespace,Online ,Online
+145,repaired,purchase_type,standardized_whitespace,Online ,Online
+146,repaired,purchase_type,standardized_whitespace,Online ,Online
+147,repaired,purchase_type,standardized_whitespace,Online ,Online
+148,repaired,purchase_type,standardized_whitespace,Online ,Online
+149,repaired,purchase_type,standardized_whitespace,Online ,Online
+150,repaired,purchase_type,standardized_whitespace,Online ,Online
+151,repaired,purchase_type,standardized_whitespace,Online ,Online
+152,repaired,purchase_type,standardized_whitespace,Online ,Online
+153,repaired,purchase_type,standardized_whitespace,Online ,Online
+154,repaired,purchase_type,standardized_whitespace,Online ,Online
+155,repaired,purchase_type,standardized_whitespace,Online ,Online
+156,repaired,purchase_type,standardized_whitespace,Online ,Online
+157,repaired,purchase_type,standardized_whitespace,Online ,Online
+158,repaired,purchase_type,standardized_whitespace,Online ,Online
+159,repaired,purchase_type,standardized_whitespace,Online ,Online
+160,repaired,purchase_type,standardized_whitespace,Online ,Online
+161,repaired,purchase_type,standardized_whitespace,Online ,Online
+162,repaired,purchase_type,standardized_whitespace,Online ,Online
+163,repaired,purchase_type,standardized_whitespace,Online ,Online
+164,repaired,purchase_type,standardized_whitespace,Online ,Online
+165,repaired,purchase_type,standardized_whitespace,Online ,Online
+166,repaired,purchase_type,standardized_whitespace,Online ,Online
+167,repaired,purchase_type,standardized_whitespace,Online ,Online
+168,repaired,purchase_type,standardized_whitespace,Online ,Online
+169,repaired,purchase_type,standardized_whitespace,Online ,Online
+170,repaired,purchase_type,standardized_whitespace,Online ,Online
+171,repaired,purchase_type,standardized_whitespace,Online ,Online
+172,repaired,purchase_type,standardized_whitespace,Online ,Online
+173,repaired,purchase_type,standardized_whitespace,Online ,Online
+174,repaired,purchase_type,standardized_whitespace,Online ,Online
+175,repaired,purchase_type,standardized_whitespace,Online ,Online
+176,repaired,purchase_type,standardized_whitespace,Online ,Online
+177,repaired,purchase_type,standardized_whitespace,Online ,Online
+178,repaired,purchase_type,standardized_whitespace,Online ,Online
+179,repaired,purchase_type,standardized_whitespace,Online ,Online
+180,repaired,purchase_type,standardized_whitespace,Online ,Online
+181,repaired,purchase_type,standardized_whitespace,Online ,Online
+182,repaired,purchase_type,standardized_whitespace,Online ,Online
+183,repaired,purchase_type,standardized_whitespace,Online ,Online
+184,repaired,purchase_type,standardized_whitespace,Online ,Online
+185,repaired,purchase_type,standardized_whitespace,Online ,Online
+186,repaired,purchase_type,standardized_whitespace,Online ,Online
+187,repaired,purchase_type,standardized_whitespace,Online ,Online
+188,repaired,purchase_type,standardized_whitespace,Online ,Online
+189,repaired,purchase_type,standardized_whitespace,Online ,Online
+190,repaired,purchase_type,standardized_whitespace,Online ,Online
+191,repaired,purchase_type,standardized_whitespace,Online ,Online
+192,repaired,purchase_type,standardized_whitespace,Online ,Online
+193,repaired,purchase_type,standardized_whitespace,Online ,Online
+194,repaired,purchase_type,standardized_whitespace,Online ,Online
+195,repaired,purchase_type,standardized_whitespace,Online ,Online
+196,repaired,purchase_type,standardized_whitespace,Online ,Online
+197,repaired,purchase_type,standardized_whitespace,Online ,Online
+198,repaired,purchase_type,standardized_whitespace,Online ,Online
+199,repaired,purchase_type,standardized_whitespace,Online ,Online
+200,repaired,purchase_type,standardized_whitespace,Online ,Online
+201,repaired,purchase_type,standardized_whitespace,Online ,Online
+202,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+203,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+204,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+205,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+206,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+207,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+208,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+209,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+210,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+211,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+212,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+213,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+214,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+215,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+216,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+217,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+218,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+219,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+220,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+221,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+222,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+223,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+224,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+225,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+226,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+227,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+228,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+229,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+230,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+231,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+232,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+233,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+234,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+235,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+236,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+237,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+238,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+239,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+240,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+241,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+242,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+243,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+244,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+245,repaired,purchase_type,standardized_whitespace,In-store ,In-store
+246,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+247,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+248,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+249,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+250,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+251,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+252,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+253,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+254,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+255,repaired,purchase_type,standardized_whitespace,Drive-thru ,Drive-thru
+2,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+3,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+4,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+5,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+6,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+7,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+8,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+9,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+10,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+11,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+12,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+13,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+14,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+15,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+16,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+17,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+18,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+19,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+20,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+21,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+22,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+23,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+24,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+25,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+26,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+27,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+28,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+29,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+30,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+31,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+32,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+33,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+34,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+35,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+36,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+37,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+38,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+39,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+40,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+41,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+42,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+43,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+44,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+45,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+46,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+47,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+48,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+49,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+50,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+51,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+52,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+53,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+54,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+55,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+56,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+57,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+58,repaired,payment_method,standardized_whitespace, Cash,Cash
+59,repaired,payment_method,standardized_whitespace, Cash,Cash
+60,repaired,payment_method,standardized_whitespace, Cash,Cash
+61,repaired,payment_method,standardized_whitespace, Cash,Cash
+62,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+63,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+64,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+65,repaired,payment_method,standardized_whitespace, Cash,Cash
+66,repaired,payment_method,standardized_whitespace, Cash,Cash
+67,repaired,payment_method,standardized_whitespace, Cash,Cash
+68,repaired,payment_method,standardized_whitespace, Cash,Cash
+69,repaired,payment_method,standardized_whitespace, Cash,Cash
+70,repaired,payment_method,standardized_whitespace, Cash,Cash
+71,repaired,payment_method,standardized_whitespace, Cash,Cash
+72,repaired,payment_method,standardized_whitespace, Cash,Cash
+73,repaired,payment_method,standardized_whitespace, Cash,Cash
+74,repaired,payment_method,standardized_whitespace, Cash,Cash
+75,repaired,payment_method,standardized_whitespace, Cash,Cash
+76,repaired,payment_method,standardized_whitespace, Cash,Cash
+77,repaired,payment_method,standardized_whitespace, Cash,Cash
+78,repaired,payment_method,standardized_whitespace, Cash,Cash
+79,repaired,payment_method,standardized_whitespace, Cash,Cash
+80,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+81,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+82,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+83,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+84,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+85,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+86,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+87,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+88,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+89,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+90,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+91,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+92,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+93,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+94,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+95,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+96,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+97,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+98,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+99,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+100,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+101,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+102,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+103,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+104,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+105,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+106,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+107,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+108,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+109,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+110,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+111,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+112,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+113,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+114,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+115,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+116,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+117,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+118,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+119,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+120,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+121,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+122,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+123,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+124,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+125,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+126,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+127,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+128,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+129,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+130,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+131,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+132,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+133,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+134,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+135,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+136,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+137,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+138,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+139,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+140,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+141,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+142,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+143,repaired,payment_method,standardized_whitespace, Credit Card,Credit Card
+144,repaired,payment_method,standardized_whitespace, Cash,Cash
+145,repaired,payment_method,standardized_whitespace, Cash,Cash
+146,repaired,payment_method,standardized_whitespace, Cash,Cash
+147,repaired,payment_method,standardized_whitespace, Cash,Cash
+148,repaired,payment_method,standardized_whitespace, Cash,Cash
+149,repaired,payment_method,standardized_whitespace, Cash,Cash
+150,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+151,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+152,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+153,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+154,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+155,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+156,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+157,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+158,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+159,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+160,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+161,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+162,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+163,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+164,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+165,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+166,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+167,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+168,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+169,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+170,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+171,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+172,repaired,payment_method,standardized_whitespace, Cash,Cash
+173,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+174,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+175,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+176,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+177,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+178,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+179,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+180,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+181,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+182,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+183,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+184,repaired,payment_method,standardized_whitespace, Cash,Cash
+185,repaired,payment_method,standardized_whitespace, Cash,Cash
+186,repaired,payment_method,standardized_whitespace, Cash,Cash
+187,repaired,payment_method,standardized_whitespace, Cash,Cash
+188,repaired,payment_method,standardized_whitespace, Cash,Cash
+189,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+190,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+191,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+192,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+193,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+194,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+195,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+196,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+197,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+198,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+199,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+200,repaired,payment_method,standardized_whitespace, Cash,Cash
+201,repaired,payment_method,standardized_whitespace, Cash,Cash
+202,repaired,payment_method,standardized_whitespace, Cash,Cash
+203,repaired,payment_method,standardized_whitespace, Cash,Cash
+204,repaired,payment_method,standardized_whitespace, Cash,Cash
+205,repaired,payment_method,standardized_whitespace, Cash,Cash
+206,repaired,payment_method,standardized_whitespace, Cash,Cash
+207,repaired,payment_method,standardized_whitespace, Cash,Cash
+208,repaired,payment_method,standardized_whitespace, Cash,Cash
+209,repaired,payment_method,standardized_whitespace, Cash,Cash
+210,repaired,payment_method,standardized_whitespace, Cash,Cash
+211,repaired,payment_method,standardized_whitespace, Cash,Cash
+212,repaired,payment_method,standardized_whitespace, Cash,Cash
+213,repaired,payment_method,standardized_whitespace, Cash,Cash
+214,repaired,payment_method,standardized_whitespace, Cash,Cash
+215,repaired,payment_method,standardized_whitespace, Cash,Cash
+216,repaired,payment_method,standardized_whitespace, Cash,Cash
+217,repaired,payment_method,standardized_whitespace, Cash,Cash
+218,repaired,payment_method,standardized_whitespace, Cash,Cash
+219,repaired,payment_method,standardized_whitespace, Cash,Cash
+220,repaired,payment_method,standardized_whitespace, Cash,Cash
+221,repaired,payment_method,standardized_whitespace, Cash,Cash
+222,repaired,payment_method,standardized_whitespace, Cash,Cash
+223,repaired,payment_method,standardized_whitespace, Cash,Cash
+224,repaired,payment_method,standardized_whitespace, Cash,Cash
+225,repaired,payment_method,standardized_whitespace, Cash,Cash
+226,repaired,payment_method,standardized_whitespace, Cash,Cash
+227,repaired,payment_method,standardized_whitespace, Cash,Cash
+228,repaired,payment_method,standardized_whitespace, Cash,Cash
+229,repaired,payment_method,standardized_whitespace, Cash,Cash
+230,repaired,payment_method,standardized_whitespace, Cash,Cash
+231,repaired,payment_method,standardized_whitespace, Cash,Cash
+232,repaired,payment_method,standardized_whitespace, Cash,Cash
+233,repaired,payment_method,standardized_whitespace, Cash,Cash
+234,repaired,payment_method,standardized_whitespace, Cash,Cash
+235,repaired,payment_method,standardized_whitespace, Cash,Cash
+236,repaired,payment_method,standardized_whitespace, Cash,Cash
+237,repaired,payment_method,standardized_whitespace, Cash,Cash
+238,repaired,payment_method,standardized_whitespace, Cash,Cash
+239,repaired,payment_method,standardized_whitespace, Cash,Cash
+240,repaired,payment_method,standardized_whitespace, Cash,Cash
+241,repaired,payment_method,standardized_whitespace, Cash,Cash
+242,repaired,payment_method,standardized_whitespace, Cash,Cash
+243,repaired,payment_method,standardized_whitespace, Cash,Cash
+244,repaired,payment_method,standardized_whitespace, Cash,Cash
+245,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+246,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+247,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+248,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+249,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+250,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+251,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+252,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+253,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+254,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+255,repaired,payment_method,standardized_whitespace, Gift Card,Gift Card
+2,repaired,manager,standardized_whitespace,Tom      Jackson,Tom Jackson
+3,repaired,manager,standardized_whitespace,       Pablo Perez,Pablo Perez
+4,repaired,manager,standardized_whitespace,Joao    Silva,Joao Silva
+7,repaired,manager,standardized_whitespace,Remy    Monet,Remy Monet
+11,repaired,manager,standardized_whitespace,       Remy Monet,Remy Monet
+12,repaired,manager,standardized_whitespace,       Remy Monet,Remy Monet
+13,repaired,manager,standardized_whitespace,Remy     Monet,Remy Monet
+17,repaired,manager,standardized_whitespace,       Pablo Perez,Pablo Perez
+18,repaired,manager,standardized_whitespace,       Pablo Perez,Pablo Perez
+19,repaired,manager,standardized_whitespace,       Pablo Perez,Pablo Perez
+20,repaired,manager,standardized_whitespace,Pablo   Perez,Pablo Perez
+21,repaired,manager,standardized_whitespace,       Pablo Perez,Pablo Perez
+22,repaired,manager,standardized_whitespace,       Pablo Perez,Pablo Perez
+23,repaired,manager,standardized_whitespace,       Pablo Perez,Pablo Perez
+25,repaired,manager,standardized_whitespace,Pablo  Perez,Pablo Perez
+27,repaired,manager,standardized_whitespace,Pablo    Perez,Pablo Perez
+31,repaired,manager,standardized_whitespace,Joao    Silva,Joao Silva
+62,repaired,manager,standardized_whitespace,Joao    Silva,Joao Silva
+63,repaired,manager,standardized_whitespace,Joao    Silva,Joao Silva
+64,repaired,manager,standardized_whitespace,Joao    Silva,Joao Silva

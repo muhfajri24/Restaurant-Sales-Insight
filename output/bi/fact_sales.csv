@@ -1,0 +1,255 @@
+record_id,order_id,date,product,city,purchase_type,payment_method,manager,price,quantity,revenue
+rec_3f53f816a3a152a4,10452,2022-11-07,Fries,London,Online,Gift Card,Tom Jackson,3.49,573.07,2000.01
+rec_4cda522b011b9598,10453,2022-11-07,Beverages,Madrid,Online,Gift Card,Pablo Perez,2.95,745.76,2199.99
+rec_5f58a2e1989a8970,10454,2022-11-07,Sides & Other,Lisbon,In-store,Gift Card,Joao Silva,4.99,200.4,1000.0
+rec_1b895400cec2eb48,10456,2022-11-08,Chicken Sandwiches,Berlin,In-store,Credit Card,Walter Muller,9.95,201.01,2000.05
+rec_2c62dc24071c5be2,10455,2022-11-08,Burgers,Berlin,In-store,Credit Card,Walter Muller,12.99,569.67,7400.01
+rec_7638aaf8dba4f49f,10459,2022-11-08,Sides & Other,Berlin,In-store,Credit Card,Walter Muller,4.99,200.4,1000.0
+rec_9fdfda987ed94a05,10457,2022-11-08,Fries,Paris,In-store,Credit Card,Remy Monet,3.49,573.07,2000.01
+rec_017bba58c9415a15,10464,2022-11-09,Sides & Other,Paris,In-store,Credit Card,Remy Monet,4.99,200.4,1000.0
+rec_239905df09b4738e,10463,2022-11-09,Beverages,Paris,In-store,Credit Card,Remy Monet,2.95,677.97,2000.01
+rec_6f667c882292b8e3,10462,2022-11-09,Fries,Paris,In-store,Credit Card,Remy Monet,3.49,573.07,2000.01
+rec_a24811826379b6cc,10461,2022-11-09,Chicken Sandwiches,Paris,In-store,Credit Card,Remy Monet,9.95,201.01,2000.05
+rec_ccaf561d3bbaf281,10460,2022-11-09,Burgers,Paris,In-store,Credit Card,Remy Monet,12.99,554.27,7199.97
+rec_48baf407f73523bc,10465,2022-11-10,Burgers,Madrid,In-store,Credit Card,Pablo Perez,12.99,554.27,7199.97
+rec_92f4b4a665e47514,10466,2022-11-10,Chicken Sandwiches,Madrid,In-store,Credit Card,Pablo Perez,9.95,201.01,2000.05
+rec_a743f0ffe8ebfd8c,10468,2022-11-10,Beverages,Madrid,In-store,Credit Card,Pablo Perez,2.95,677.97,2000.01
+rec_ec18af659270faf8,10467,2022-11-10,Fries,Madrid,In-store,Credit Card,Pablo Perez,3.49,573.07,2000.01
+rec_326878fe3a20c6cf,10472,2022-11-11,Fries,Madrid,In-store,Credit Card,Pablo Perez,3.49,630.37,2199.99
+rec_46a52b89aef474a4,10471,2022-11-11,Chicken Sandwiches,Madrid,In-store,Credit Card,Pablo Perez,9.95,201.01,2000.05
+rec_ae74287ae1ff68db,10470,2022-11-11,Burgers,Madrid,In-store,Credit Card,Pablo Perez,12.99,554.27,7199.97
+rec_b70b9a4e6500df16,10473,2022-11-11,Beverages,Madrid,In-store,Credit Card,Pablo Perez,2.95,677.97,2000.01
+rec_e82c78137df961a4,10474,2022-11-11,Sides & Other,Madrid,In-store,Credit Card,Pablo Perez,4.99,200.4,1000.0
+rec_0c83e4f7beba4413,10478,2022-11-12,Beverages,Madrid,In-store,Credit Card,Pablo Perez,2.95,677.97,2000.01
+rec_407ae43eee4e8acb,10477,2022-11-12,Fries,Madrid,In-store,Credit Card,Pablo Perez,3.49,630.37,2199.99
+rec_439c052896064a29,10476,2022-11-12,Chicken Sandwiches,Madrid,In-store,Credit Card,Pablo Perez,9.95,201.01,2000.05
+rec_58f6b12b7d97fd7e,10479,2022-11-12,Sides & Other,Madrid,In-store,Credit Card,Pablo Perez,4.99,200.4,1000.0
+rec_a145b3b85257240c,10475,2022-11-12,Burgers,Madrid,In-store,Credit Card,Pablo Perez,12.99,523.48,6800.01
+rec_246203567a51b16f,10482,2022-11-13,Fries,Lisbon,In-store,Credit Card,Joao Silva,25.5,630.37,16074.44
+rec_2e7a09a964f5eb25,10483,2022-11-13,Beverages,Lisbon,In-store,Credit Card,Joao Silva,2.95,677.97,2000.01
+rec_c8b9f4d4f0a2ad9c,10481,2022-11-13,Chicken Sandwiches,Madrid,In-store,Credit Card,Pablo Perez,9.95,201.01,2000.05
+rec_d8de1ce8f141ab8f,10484,2022-11-13,Sides & Other,Lisbon,In-store,Credit Card,Joao Silva,4.99,200.4,1000.0
+rec_eb4da21136a1d79c,10480,2022-11-13,Burgers,Madrid,In-store,Credit Card,Pablo Perez,12.99,508.08,6599.96
+rec_523f608129e28c40,10485,2022-11-14,Burgers,Lisbon,In-store,Credit Card,Joao Silva,12.99,523.48,6800.01
+rec_555fc1a41a5e8c10,10488,2022-11-14,Beverages,Lisbon,In-store,Credit Card,Joao Silva,2.95,677.97,2000.01
+rec_9977e5fa09a2fc8f,10486,2022-11-14,Chicken Sandwiches,Lisbon,In-store,Credit Card,Joao Silva,29.05,201.01,5839.34
+rec_c8370ffc38f76c32,10489,2022-11-14,Sides & Other,Madrid,In-store,Credit Card,Pablo Perez,4.99,200.4,1000.0
+rec_f88cddb11aa653d9,10487,2022-11-14,Fries,Lisbon,In-store,Credit Card,Joao Silva,3.49,630.37,2199.99
+rec_1b5436dde7ccac52,10490,2022-11-15,Burgers,Madrid,In-store,Credit Card,Pablo Perez,12.99,508.08,6599.96
+rec_542500bae1c958f4,10491,2022-11-15,Chicken Sandwiches,Madrid,In-store,Credit Card,Pablo Perez,9.95,201.01,2000.05
+rec_6b78086c1f23bbd4,10494,2022-11-15,Sides & Other,Madrid,In-store,Credit Card,Pablo Perez,4.99,200.4,1000.0
+rec_6e8de0c955396730,10492,2022-11-15,Fries,Madrid,In-store,Credit Card,Pablo Perez,3.49,573.07,2000.01
+rec_9d58da482859be54,10493,2022-11-15,Beverages,Madrid,In-store,Credit Card,Pablo Perez,2.95,677.97,2000.01
+rec_029134f2cd658de6,10499,2022-11-16,Sides & Other,Madrid,Drive-thru,Credit Card,Pablo Perez,4.99,200.4,1000.0
+rec_0aa7a621a51aa951,10496,2022-11-16,Chicken Sandwiches,Madrid,In-store,Credit Card,Pablo Perez,9.95,201.01,2000.05
+rec_56ec232c7ebb4fc8,10495,2022-11-16,Burgers,Madrid,In-store,Credit Card,Pablo Perez,12.99,508.08,6599.96
+rec_8f8f096e1adf597e,10498,2022-11-16,Beverages,Madrid,Drive-thru,Credit Card,Pablo Perez,2.95,677.97,2000.01
+rec_ccd796d948201c26,10497,2022-11-16,Fries,Madrid,In-store,Credit Card,Pablo Perez,3.49,573.07,2000.01
+rec_5298a84a8554851a,10500,2022-11-17,Burgers,Madrid,Drive-thru,Credit Card,Pablo Perez,12.99,523.48,6800.01
+rec_a06ae7e49ae08254,10502,2022-11-17,Fries,Madrid,Drive-thru,Credit Card,Pablo Perez,3.49,630.37,2199.99
+rec_c622bfaeeea66571,10504,2022-11-17,Sides & Other,Madrid,Drive-thru,Credit Card,Pablo Perez,4.99,200.4,1000.0
+rec_d6246483f9e39dc1,10503,2022-11-17,Beverages,Madrid,Drive-thru,Credit Card,Pablo Perez,2.95,677.97,2000.01
+rec_e24c0646487c5e53,10501,2022-11-17,Chicken Sandwiches,Madrid,Drive-thru,Credit Card,Pablo Perez,9.95,201.01,2000.05
+rec_08b31bbd7c0caae7,10505,2022-11-18,Burgers,Madrid,Drive-thru,Credit Card,Pablo Perez,12.99,538.88,7000.05
+rec_80287fa37dd5332d,10509,2022-11-18,Sides & Other,Madrid,Drive-thru,Credit Card,Pablo Perez,4.99,200.4,1000.0
+rec_9a823eaf86768be8,10506,2022-11-18,Chicken Sandwiches,Madrid,Drive-thru,Credit Card,Pablo Perez,9.95,201.01,2000.05
+rec_ad122426634d1397,10507,2022-11-18,Fries,Madrid,Drive-thru,Credit Card,Pablo Perez,3.49,687.68,2400.0
+rec_fcce25e69f4da118,10508,2022-11-18,Beverages,Madrid,Drive-thru,Credit Card,Pablo Perez,2.95,677.97,2000.01
+rec_1930bf7131adece8,10511,2022-11-19,Chicken Sandwiches,Lisbon,Drive-thru,Credit Card,Joao Silva,9.95,201.01,2000.05
+rec_4b22aea451f3b19a,10514,2022-11-19,Sides & Other,Lisbon,Drive-thru,Cash,Joao Silva,4.99,200.4,1000.0
+rec_4caf4c4cfcf1e529,10513,2022-11-19,Beverages,Lisbon,Drive-thru,Cash,Joao Silva,2.95,677.97,2000.01
+rec_6924be6edabac78d,10512,2022-11-19,Fries,Lisbon,Drive-thru,Credit Card,Joao Silva,3.49,687.68,2400.0
+rec_940b84295fc5b7c7,10510,2022-11-19,Burgers,Madrid,Drive-thru,Credit Card,Pablo Perez,12.99,508.08,6599.96
+rec_13dfc3075092def3,10516,2022-11-20,Chicken Sandwiches,Lisbon,Drive-thru,Cash,Joao Silva,9.95,201.01,2000.05
+rec_8f3bc352dbd16d7b,10515,2022-11-20,Burgers,Lisbon,Drive-thru,Cash,Joao Silva,12.99,477.29,6200.0
+rec_2c1c0f5629b6b842,10523,2022-11-21,Beverages,Paris,Drive-thru,Cash,Remy Monet,2.95,745.76,2199.99
+rec_4dd0fdb3bfa8c508,10521,2022-11-21,Chicken Sandwiches,Paris,Drive-thru,Cash,Remy Monet,9.95,201.01,2000.05
+rec_65a81f527b608359,10520,2022-11-21,Burgers,Paris,Drive-thru,Cash,Remy Monet,12.99,492.69,6400.04
+rec_e07802943b8903eb,10524,2022-11-21,Sides & Other,Paris,Drive-thru,Cash,Remy Monet,4.99,200.4,1000.0
+rec_fdcaaa46684bc855,10522,2022-11-21,Fries,Paris,Drive-thru,Cash,Remy Monet,3.49,687.68,2400.0
+rec_1ad9d9620a497c8e,10525,2022-11-22,Burgers,Paris,Drive-thru,Cash,Remy Monet,12.99,461.89,5999.95
+rec_39b78eabf219fc73,10529,2022-11-22,Sides & Other,Paris,Drive-thru,Cash,Remy Monet,4.99,200.4,1000.0
+rec_4340a6ce28ec8cff,10528,2022-11-22,Beverages,Paris,Drive-thru,Cash,Remy Monet,2.95,745.76,2199.99
+rec_6b33190fb7e1c8ca,10527,2022-11-22,Fries,Paris,Drive-thru,Cash,Remy Monet,3.49,687.68,2400.0
+rec_7b37eda69a34a7d4,10526,2022-11-22,Chicken Sandwiches,Paris,Drive-thru,Cash,Remy Monet,9.95,201.01,2000.05
+rec_1191baac106e6c9f,10530,2022-11-23,Burgers,Paris,Drive-thru,Cash,Remy Monet,12.99,477.29,6200.0
+rec_5a419b8f616edeaa,10532,2022-11-23,Fries,Lisbon,Drive-thru,Cash,Joao Silva,3.49,687.68,2400.0
+rec_e44abb292e256551,10534,2022-11-23,Sides & Other,Madrid,Drive-thru,Cash,Pablo Perez,4.99,200.4,1000.0
+rec_f3e65092a51cb78e,10531,2022-11-23,Chicken Sandwiches,Paris,Drive-thru,Cash,Remy Monet,9.95,201.01,2000.05
+rec_f3f23cd09161ef70,10533,2022-11-23,Beverages,Lisbon,Drive-thru,Cash,Joao Silva,2.95,745.76,2199.99
+rec_07d52b2033206f30,10535,2022-11-24,Burgers,Madrid,Drive-thru,Credit Card,Pablo Perez,12.99,477.29,6200.0
+rec_333138d4936feb01,10536,2022-11-24,Chicken Sandwiches,Madrid,Drive-thru,Credit Card,Pablo Perez,9.95,201.01,2000.05
+rec_3a88328a393111f3,10539,2022-11-24,Sides & Other,Madrid,Drive-thru,Credit Card,Pablo Perez,4.99,200.4,1000.0
+rec_cf82df5ca3401759,10538,2022-11-24,Beverages,Madrid,Drive-thru,Credit Card,Pablo Perez,2.95,745.76,2199.99
+rec_cfce55a8716e2a59,10537,2022-11-24,Fries,Madrid,Drive-thru,Credit Card,Pablo Perez,3.49,630.37,2199.99
+rec_2e79bc315373c886,10540,2022-11-25,Burgers,Madrid,Drive-thru,Credit Card,Pablo Perez,12.99,461.89,5999.95
+rec_329085c63cc61833,10541,2022-11-25,Chicken Sandwiches,London,Drive-thru,Credit Card,Tom Jackson,9.95,201.01,2000.05
+rec_3b89f6f77410ec79,10542,2022-11-25,Fries,London,Drive-thru,Credit Card,Tom Jackson,3.49,630.37,2199.99
+rec_a18e9e7787075482,10543,2022-11-25,Beverages,London,Drive-thru,Credit Card,Tom Jackson,2.95,745.76,2199.99
+rec_fd7f51b433ec929e,10544,2022-11-25,Sides & Other,London,Drive-thru,Credit Card,Tom Jackson,4.99,200.4,1000.0
+rec_2f7cf9a2e45e258b,10548,2022-11-26,Beverages,London,Drive-thru,Credit Card,Tom Jackson,2.95,745.76,2199.99
+rec_40f0a7efce0240eb,10545,2022-11-26,Burgers,London,Drive-thru,Credit Card,Tom Jackson,12.99,446.5,5800.04
+rec_58ef7eba3a7f27d4,10546,2022-11-26,Chicken Sandwiches,London,Drive-thru,Credit Card,Tom Jackson,9.95,201.01,2000.05
+rec_7b5b66b97ab65189,10549,2022-11-26,Sides & Other,London,Drive-thru,Credit Card,Tom Jackson,4.99,200.4,1000.0
+rec_911a11b75bbb6038,10547,2022-11-26,Fries,London,Drive-thru,Credit Card,Tom Jackson,3.49,630.37,2199.99
+rec_4b73cf86e1d1302c,10552,2022-11-27,Fries,London,Online,Credit Card,Tom Jackson,3.49,630.37,2199.99
+rec_6188b5f5bbf06f4b,10551,2022-11-27,Chicken Sandwiches,London,Drive-thru,Credit Card,Tom Jackson,9.95,201.01,2000.05
+rec_70bc04f4f80bddc4,10554,2022-11-27,Sides & Other,London,Online,Credit Card,Tom Jackson,4.99,200.4,1000.0
+rec_8703458241409f84,10553,2022-11-27,Beverages,London,Online,Credit Card,Tom Jackson,2.95,745.76,2199.99
+rec_f06b103ace635760,10550,2022-11-27,Burgers,London,Drive-thru,Credit Card,Tom Jackson,12.99,461.89,5999.95
+rec_0b7113bfdbba4b04,10556,2022-11-28,Chicken Sandwiches,London,Online,Credit Card,Tom Jackson,9.95,201.01,2000.05
+rec_66318d32a5d76839,10559,2022-11-28,Sides & Other,London,Online,Credit Card,Tom Jackson,4.99,200.4,1000.0
+rec_66d564388e61aeaf,10558,2022-11-28,Beverages,London,Online,Credit Card,Tom Jackson,2.95,677.97,2000.01
+rec_cde86286a83d564c,10555,2022-11-28,Burgers,London,Online,Credit Card,Tom Jackson,12.99,477.29,6200.0
+rec_fa88fcf78c9ce6f1,10557,2022-11-28,Fries,London,Online,Credit Card,Tom Jackson,3.49,630.37,2199.99
+rec_00aa1c30b1c9a23c,10560,2022-11-29,Burgers,London,Online,Credit Card,Tom Jackson,12.99,477.29,6200.0
+rec_01b4a5b9d20c68e9,10562,2022-11-29,Fries,London,Online,Credit Card,Tom Jackson,3.49,630.37,2199.99
+rec_41c7254eb5ece2e6,10563,2022-11-29,Beverages,London,Online,Credit Card,Tom Jackson,2.95,677.97,2000.01
+rec_7f159a6916454551,10564,2022-11-29,Sides & Other,London,Online,Credit Card,Tom Jackson,4.99,200.4,1000.0
+rec_b362c1ed7f1c578d,10561,2022-11-29,Chicken Sandwiches,London,Online,Credit Card,Tom Jackson,9.95,201.01,2000.05
+rec_05384bb24e1336fe,10567,2022-11-30,Fries,London,Online,Credit Card,Tom Jackson,3.49,630.37,2199.99
+rec_43d7564170139332,10566,2022-11-30,Chicken Sandwiches,London,Online,Credit Card,Tom Jackson,9.95,201.01,2000.05
+rec_6ab179210768da8a,10569,2022-11-30,Sides & Other,London,Online,Credit Card,Tom Jackson,4.99,200.4,1000.0
+rec_9ee506ed1602d1ed,10565,2022-11-30,Burgers,London,Online,Credit Card,Tom Jackson,12.99,492.69,6400.04
+rec_f7b8b8f9f3a47776,10568,2022-11-30,Beverages,London,Online,Credit Card,Tom Jackson,2.95,677.97,2000.01
+rec_3d8d519ad307f652,10570,2022-12-01,Burgers,London,Online,Credit Card,Tom Jackson,12.99,492.69,6400.04
+rec_5385244c8aa582b8,10572,2022-12-01,Fries,Paris,Online,Credit Card,Remy Monet,3.49,573.07,2000.01
+rec_5d57d8bce9e3db8f,10574,2022-12-01,Sides & Other,Paris,Online,Credit Card,Remy Monet,4.99,200.4,1000.0
+rec_c3aca01bfcbcbd9b,10573,2022-12-01,Beverages,Paris,Online,Credit Card,Remy Monet,2.95,677.97,2000.01
+rec_c8b211dd9ecde3a4,10571,2022-12-01,Chicken Sandwiches,London,Online,Credit Card,Tom Jackson,9.95,201.01,2000.05
+rec_057afbdbca0fccd3,10576,2022-12-02,Chicken Sandwiches,Paris,Online,Credit Card,Remy Monet,9.95,201.01,2000.05
+rec_0cd07d55cd1aeba3,10577,2022-12-02,Fries,Paris,Online,Credit Card,Remy Monet,3.49,630.37,2199.99
+rec_218e3756ce8d332b,10579,2022-12-02,Sides & Other,Paris,Online,Credit Card,Remy Monet,4.99,200.4,1000.0
+rec_44de3c73c76410e4,10578,2022-12-02,Beverages,Paris,Online,Credit Card,Remy Monet,2.95,677.97,2000.01
+rec_eb83282d57480652,10575,2022-12-02,Burgers,Paris,Online,Credit Card,Remy Monet,12.99,523.48,6800.01
+rec_7f0ced96fb430e98,10581,2022-12-03,Chicken Sandwiches,Paris,Online,Credit Card,Remy Monet,9.95,201.01,2000.05
+rec_b5b8f9fbdfbdbcb8,10580,2022-12-03,Burgers,Paris,Online,Credit Card,Remy Monet,12.99,523.48,6800.01
+rec_ba66df219a291a38,10584,2022-12-03,Sides & Other,London,Online,Credit Card,Tom Jackson,4.99,200.4,1000.0
+rec_ca425f21b3e95e44,10583,2022-12-03,Beverages,London,Online,Credit Card,Tom Jackson,2.95,677.97,2000.01
+rec_cb53f8071a6c76d3,10582,2022-12-03,Fries,London,Online,Credit Card,Tom Jackson,3.49,630.37,2199.99
+rec_5e0ed8386f482682,10585,2022-12-04,Burgers,London,Online,Credit Card,Tom Jackson,12.99,538.88,7000.05
+rec_8a4911b67826aba8,10586,2022-12-04,Chicken Sandwiches,London,Online,Credit Card,Tom Jackson,9.95,201.01,2000.05
+rec_1994671d38215fbf,10594,2022-12-05,Sides & Other,London,Online,Credit Card,Tom Jackson,4.99,200.4,1000.0
+rec_6e314bdad73bf8f6,10591,2022-12-05,Chicken Sandwiches,London,Online,Credit Card,Tom Jackson,9.95,201.01,2000.05
+rec_733dbbbe661280bb,10590,2022-12-05,Burgers,London,Online,Credit Card,Tom Jackson,12.99,554.27,7199.97
+rec_9c96266945bda36f,10593,2022-12-05,Beverages,London,Online,Credit Card,Tom Jackson,2.95,677.97,2000.01
+rec_b324bff69f7d4434,10592,2022-12-05,Fries,London,Online,Credit Card,Tom Jackson,3.49,573.07,2000.01
+rec_3452240487c6b760,10599,2022-12-06,Sides & Other,London,Online,Credit Card,Tom Jackson,4.99,200.4,1000.0
+rec_ad4b3a13008920ae,10598,2022-12-06,Beverages,London,Online,Credit Card,Tom Jackson,2.95,677.97,2000.01
+rec_adc0178e5fe8f3fa,10596,2022-12-06,Chicken Sandwiches,London,Online,Credit Card,Tom Jackson,9.95,201.01,2000.05
+rec_c0253a77d2f53525,10597,2022-12-06,Fries,London,Online,Credit Card,Tom Jackson,3.49,573.07,2000.01
+rec_c0e671f1b0602114,10595,2022-12-06,Burgers,London,Online,Credit Card,Tom Jackson,12.99,538.88,7000.05
+rec_04dfd1f735a89a01,10603,2022-12-07,Beverages,London,Online,Cash,Tom Jackson,2.95,677.97,2000.01
+rec_20557e7277509ee4,10602,2022-12-07,Fries,London,Online,Cash,Tom Jackson,3.49,630.37,2199.99
+rec_418e9279683e292b,10601,2022-12-07,Chicken Sandwiches,London,Online,Credit Card,Tom Jackson,9.95,201.01,2000.05
+rec_4ae453a3e745e488,10604,2022-12-07,Sides & Other,London,Online,Cash,Tom Jackson,4.99,200.4,1000.0
+rec_e89d687f0ca35971,10600,2022-12-07,Burgers,London,Online,Credit Card,Tom Jackson,12.99,523.48,6800.01
+rec_3b57539addeb38bf,10609,2022-12-08,Sides & Other,London,Online,Gift Card,Tom Jackson,4.99,200.4,1000.0
+rec_56867259466fbe00,10606,2022-12-08,Chicken Sandwiches,London,Online,Cash,Tom Jackson,9.95,201.01,2000.05
+rec_637b0168bd5f0a24,10608,2022-12-08,Beverages,London,Online,Gift Card,Tom Jackson,2.95,677.97,2000.01
+rec_bc77bd4a06e3df85,10605,2022-12-08,Burgers,London,Online,Cash,Tom Jackson,12.99,538.88,7000.05
+rec_dd9ffb4715accbf5,10607,2022-12-08,Fries,London,Online,Cash,Tom Jackson,3.49,630.37,2199.99
+rec_374273d601106d0a,10613,2022-12-09,Beverages,London,Online,Gift Card,Tom Jackson,2.95,677.97,2000.01
+rec_47cd10a6609bad85,10611,2022-12-09,Chicken Sandwiches,London,Online,Gift Card,Tom Jackson,9.95,201.01,2000.05
+rec_59e646099ba17144,10610,2022-12-09,Burgers,London,Online,Gift Card,Tom Jackson,12.99,569.67,7400.01
+rec_b623daba2fdbb3ed,10614,2022-12-09,Sides & Other,London,Online,Gift Card,Tom Jackson,4.99,200.4,1000.0
+rec_c9c729142d466ca5,10612,2022-12-09,Fries,London,Online,Gift Card,Tom Jackson,3.49,630.37,2199.99
+rec_1b74e6d07352acdf,10619,2022-12-10,Sides & Other,London,Online,Gift Card,Tom Jackson,4.99,200.4,1000.0
+rec_4fcad3184e4f5596,10616,2022-12-10,Chicken Sandwiches,London,Online,Gift Card,Tom Jackson,9.95,201.01,2000.05
+rec_59e537453c9f56b7,10615,2022-12-10,Burgers,London,Online,Gift Card,Tom Jackson,12.99,569.67,7400.01
+rec_68467016b16ef6dd,10618,2022-12-10,Beverages,London,Online,Gift Card,Tom Jackson,2.95,677.97,2000.01
+rec_85701180ceecc29e,10617,2022-12-10,Fries,London,Online,Gift Card,Tom Jackson,3.49,630.37,2199.99
+rec_68e03a9ce3380b0f,10623,2022-12-11,Beverages,London,Online,Gift Card,Tom Jackson,2.95,745.76,2199.99
+rec_745330596255e4b1,10624,2022-12-11,Sides & Other,London,Online,Gift Card,Tom Jackson,4.99,200.4,1000.0
+rec_91db4376de35d851,10622,2022-12-11,Fries,London,Online,Gift Card,Tom Jackson,3.49,630.37,2199.99
+rec_a5d9b4daf5f83479,10620,2022-12-11,Burgers,London,Online,Gift Card,Tom Jackson,12.99,585.07,7600.06
+rec_b39a9cd68df2bc15,10621,2022-12-11,Chicken Sandwiches,London,Online,Gift Card,Tom Jackson,9.95,201.01,2000.05
+rec_047ddfc5f554e74f,10627,2022-12-12,Fries,London,Online,Gift Card,Tom Jackson,3.49,630.37,2199.99
+rec_0ca6a35c05af7a19,10626,2022-12-12,Chicken Sandwiches,London,Online,Gift Card,Tom Jackson,9.95,201.01,2000.05
+rec_c63db884acc2f45c,10628,2022-12-12,Beverages,Lisbon,Online,Gift Card,Joao Silva,2.95,677.97,2000.01
+rec_da84e6210ccc704c,10629,2022-12-12,Sides & Other,Lisbon,Online,Gift Card,Joao Silva,4.99,200.4,1000.0
+rec_e65e07580430fda2,10625,2022-12-12,Burgers,London,Online,Gift Card,Tom Jackson,12.99,569.67,7400.01
+rec_27d94a85d4a3863b,10631,2022-12-13,Chicken Sandwiches,Lisbon,Online,Gift Card,Joao Silva,9.95,201.01,2000.05
+rec_317bcfc0c4098cc7,10632,2022-12-13,Fries,Lisbon,Online,Gift Card,Joao Silva,3.49,630.37,2199.99
+rec_5a00a8029364497b,10630,2022-12-13,Burgers,Lisbon,Online,Cash,Joao Silva,12.99,569.67,7400.01
+rec_a24b7b6503236ddb,10634,2022-12-13,Sides & Other,Lisbon,Online,Gift Card,Joao Silva,4.99,200.4,1000.0
+rec_ac9c1af50e714205,10633,2022-12-13,Beverages,Lisbon,Online,Gift Card,Joao Silva,2.95,677.97,2000.01
+rec_213022290e05dc0a,10637,2022-12-14,Fries,Lisbon,Online,Gift Card,Joao Silva,3.49,630.37,2199.99
+rec_37a8473ce327e464,10638,2022-12-14,Beverages,Lisbon,Online,Gift Card,Joao Silva,2.95,677.97,2000.01
+rec_6d64ba2f8a621bf5,10639,2022-12-14,Sides & Other,Lisbon,Online,Gift Card,Joao Silva,4.99,200.4,1000.0
+rec_8273f796db281140,10636,2022-12-14,Chicken Sandwiches,Lisbon,Online,Gift Card,Joao Silva,9.95,221.11,2200.04
+rec_8d001ad94ec37578,10635,2022-12-14,Burgers,Lisbon,Online,Gift Card,Joao Silva,12.99,554.27,7199.97
+rec_759dbdb30208ad28,10643,2022-12-15,Beverages,Lisbon,Online,Cash,Joao Silva,2.95,677.97,2000.01
+rec_8268686038d8b3df,10644,2022-12-15,Sides & Other,Lisbon,Online,Cash,Joao Silva,4.99,200.4,1000.0
+rec_ba9775f757e2c1a6,10641,2022-12-15,Chicken Sandwiches,Lisbon,Online,Gift Card,Joao Silva,9.95,221.11,2200.04
+rec_d2980a39420e3101,10640,2022-12-15,Burgers,Lisbon,Online,Gift Card,Joao Silva,12.99,538.88,7000.05
+rec_ebb756ce8c2aaaf3,10642,2022-12-15,Fries,Lisbon,Online,Cash,Joao Silva,3.49,630.37,2199.99
+rec_5c43093d0c0e3be0,10648,2022-12-16,Beverages,Lisbon,Online,Gift Card,Joao Silva,2.95,745.76,2199.99
+rec_73e1a510c097ec7b,10646,2022-12-16,Chicken Sandwiches,Lisbon,Online,Cash,Joao Silva,9.95,221.11,2200.04
+rec_a30477c53ad8903a,10645,2022-12-16,Burgers,Lisbon,Online,Cash,Joao Silva,12.99,569.67,7400.01
+rec_e1e83d0e1a04ebd2,10649,2022-12-16,Sides & Other,Lisbon,Online,Gift Card,Joao Silva,4.99,200.4,1000.0
+rec_e5502d4e4da471e5,10647,2022-12-16,Fries,Lisbon,Online,Gift Card,Joao Silva,3.49,630.37,2199.99
+rec_79a271c7171653f4,10654,2022-12-17,Sides & Other,Lisbon,Online,Gift Card,Joao Silva,4.99,200.4,1000.0
+rec_859c031797778180,10650,2022-12-17,Burgers,Lisbon,Online,Gift Card,Joao Silva,12.99,585.07,7600.06
+rec_a642ee3129e67f6f,10651,2022-12-17,Chicken Sandwiches,Lisbon,Online,Gift Card,Joao Silva,9.95,221.11,2200.04
+rec_dc0695e1ec5028ef,10652,2022-12-17,Fries,Lisbon,Online,Gift Card,Joao Silva,3.49,687.68,2400.0
+rec_f6ca1b7b9435ede9,10653,2022-12-17,Beverages,Lisbon,Online,Gift Card,Joao Silva,2.95,745.76,2199.99
+rec_0aeccc0dc97fbe3d,10655,2022-12-18,Burgers,Lisbon,Online,Gift Card,Joao Silva,12.99,600.46,7799.98
+rec_0d707789f8d702c2,10657,2022-12-18,Fries,Lisbon,Online,Gift Card,Joao Silva,3.49,687.68,2400.0
+rec_1bd75040ac95dfb2,10659,2022-12-18,Sides & Other,Lisbon,Online,Cash,Joao Silva,4.99,200.4,1000.0
+rec_7ff6e9258b830d9a,10658,2022-12-18,Beverages,Lisbon,Online,Cash,Joao Silva,2.95,745.76,2199.99
+rec_b668e157f03a5c17,10656,2022-12-18,Chicken Sandwiches,Lisbon,Online,Gift Card,Joao Silva,9.95,221.11,2200.04
+rec_4b76c3fac5edb1ee,10661,2022-12-19,Chicken Sandwiches,Lisbon,In-store,Cash,Joao Silva,9.95,221.11,2200.04
+rec_a062ed8f8e25170a,10664,2022-12-19,Sides & Other,Lisbon,In-store,Cash,Joao Silva,4.99,200.4,1000.0
+rec_b807dae427788e5d,10660,2022-12-19,Burgers,Lisbon,In-store,Cash,Joao Silva,12.99,631.25,8199.94
+rec_eb69a47621f32345,10662,2022-12-19,Fries,Lisbon,In-store,Cash,Joao Silva,3.49,630.37,2199.99
+rec_fc72bedf413e430c,10663,2022-12-19,Beverages,Lisbon,In-store,Cash,Joao Silva,2.95,745.76,2199.99
+rec_3f45a8cc584a90b0,10669,2022-12-20,Sides & Other,Lisbon,In-store,Cash,Joao Silva,4.99,200.4,1000.0
+rec_857a29d6988fa363,10665,2022-12-20,Burgers,Lisbon,In-store,Cash,Joao Silva,12.99,646.65,8399.98
+rec_a9840d31a0aedcfb,10668,2022-12-20,Beverages,Lisbon,In-store,Cash,Joao Silva,2.95,745.76,2199.99
+rec_e217b78815cea82e,10667,2022-12-20,Fries,Lisbon,In-store,Cash,Joao Silva,3.49,630.37,2199.99
+rec_f805954ee6ddef8f,10666,2022-12-20,Chicken Sandwiches,Lisbon,In-store,Cash,Joao Silva,9.95,221.11,2200.04
+rec_09316a703a1529ed,10670,2022-12-21,Burgers,Lisbon,In-store,Cash,Joao Silva,12.99,677.44,8799.95
+rec_38febe7b548219e5,10672,2022-12-21,Fries,Lisbon,In-store,Cash,Joao Silva,3.49,630.37,2199.99
+rec_71ff53ee883814f6,10674,2022-12-21,Sides & Other,Lisbon,In-store,Cash,Joao Silva,4.99,200.4,1000.0
+rec_9f7662c43bbf79d2,10673,2022-12-21,Beverages,Lisbon,In-store,Cash,Joao Silva,2.95,745.76,2199.99
+rec_a5f4a2ec7bbadcb5,10671,2022-12-21,Chicken Sandwiches,Lisbon,In-store,Cash,Joao Silva,9.95,221.11,2200.04
+rec_08fc4d8c56d5b50d,10677,2022-12-22,Fries,Lisbon,In-store,Cash,Joao Silva,3.49,630.37,2199.99
+rec_1a43c5f9694bdc53,10676,2022-12-22,Chicken Sandwiches,Lisbon,In-store,Cash,Joao Silva,9.95,241.21,2400.04
+rec_27bf02b2858262be,10679,2022-12-22,Sides & Other,Lisbon,In-store,Cash,Joao Silva,4.99,200.4,1000.0
+rec_7bacebce6958dca3,10675,2022-12-22,Burgers,Lisbon,In-store,Cash,Joao Silva,12.99,677.44,8799.95
+rec_aea3613b0412d983,10678,2022-12-22,Beverages,Lisbon,In-store,Cash,Joao Silva,2.95,745.76,2199.99
+rec_07e50c4ece37c2f5,10684,2022-12-23,Sides & Other,Lisbon,In-store,Cash,Joao Silva,4.99,200.4,1000.0
+rec_19067eab4d39d1c4,10683,2022-12-23,Beverages,Lisbon,In-store,Cash,Joao Silva,2.95,677.97,2000.01
+rec_5819606859cb0e44,10680,2022-12-23,Burgers,Lisbon,In-store,Cash,Joao Silva,12.99,646.65,8399.98
+rec_aec03487f50d1620,10681,2022-12-23,Chicken Sandwiches,Lisbon,In-store,Cash,Joao Silva,9.95,241.21,2400.04
+rec_c9e773496e4c399a,10682,2022-12-23,Fries,Lisbon,In-store,Cash,Joao Silva,3.49,630.37,2199.99
+rec_233fd278dcae8a65,10686,2022-12-24,Chicken Sandwiches,Lisbon,In-store,Cash,Joao Silva,9.95,241.21,2400.04
+rec_42677569c7d62db0,10688,2022-12-24,Beverages,Berlin,In-store,Cash,Walter Muller,2.95,677.97,2000.01
+rec_5a18072686d88cdd,10689,2022-12-24,Sides & Other,Berlin,In-store,Cash,Walter Muller,4.99,200.4,1000.0
+rec_740bb7241c3eba5e,10687,2022-12-24,Fries,Berlin,In-store,Cash,Walter Muller,3.49,630.37,2199.99
+rec_c58e0f6164964bfc,10685,2022-12-24,Burgers,Lisbon,In-store,Cash,Joao Silva,12.99,677.44,8799.95
+rec_104c877d9a01d112,10693,2022-12-25,Beverages,Berlin,In-store,Cash,Walter Muller,2.95,677.97,2000.01
+rec_4f5cddd63cf47005,10694,2022-12-25,Sides & Other,Berlin,In-store,Cash,Walter Muller,4.99,200.4,1000.0
+rec_ae313e39139ccaed,10690,2022-12-25,Burgers,Berlin,In-store,Cash,Walter Muller,12.99,677.44,8799.95
+rec_c52b7730133edc5e,10692,2022-12-25,Fries,Berlin,In-store,Cash,Walter Muller,3.49,630.37,2199.99
+rec_fc230899be4bb293,10691,2022-12-25,Chicken Sandwiches,Berlin,In-store,Cash,Walter Muller,9.95,261.31,2600.03
+rec_0c29be4a01ae5e66,10696,2022-12-26,Chicken Sandwiches,Berlin,In-store,Cash,Walter Muller,9.95,281.41,2800.03
+rec_19dfa384f7aaf048,10699,2022-12-26,Sides & Other,Berlin,In-store,Cash,Walter Muller,4.99,200.4,1000.0
+rec_5d76854a8075c348,10697,2022-12-26,Fries,Berlin,In-store,Cash,Walter Muller,3.49,630.37,2199.99
+rec_a0ebedb4362178e3,10695,2022-12-26,Burgers,Berlin,In-store,Cash,Walter Muller,12.99,692.84,8999.99
+rec_de88e5ff7bc77244,10698,2022-12-26,Beverages,Berlin,In-store,Cash,Walter Muller,2.95,677.97,2000.01
+rec_a4fab99bbb14950c,10700,2022-12-27,Burgers,Berlin,In-store,Cash,Walter Muller,12.99,692.84,8999.99
+rec_d0e176698795760f,10704,2022-12-27,Sides & Other,Berlin,Drive-thru,Gift Card,Walter Muller,4.99,200.4,1000.0
+rec_e1ba9460f0591ce7,10701,2022-12-27,Chicken Sandwiches,Berlin,In-store,Cash,Walter Muller,9.95,281.41,2800.03
+rec_e2a0bc251f2206c4,10703,2022-12-27,Beverages,Berlin,In-store,Gift Card,Walter Muller,2.95,677.97,2000.01
+rec_ee58cd1db28a3f47,10702,2022-12-27,Fries,Berlin,In-store,Cash,Walter Muller,3.49,630.37,2199.99
+rec_8c25eddc6a05c9be,10708,2022-12-28,Beverages,Berlin,Drive-thru,Gift Card,Walter Muller,2.95,677.97,2000.01
+rec_9e9e4c06a0cb05b1,10705,2022-12-28,Burgers,Berlin,Drive-thru,Gift Card,Walter Muller,12.99,723.63,9399.95
+rec_9edef1c561331dd8,10707,2022-12-28,Fries,Berlin,Drive-thru,Gift Card,Walter Muller,3.49,630.37,2199.99
+rec_bee70dffe6a3dd43,10709,2022-12-28,Sides & Other,Berlin,Drive-thru,Gift Card,Walter Muller,4.99,200.4,1000.0
+rec_c592fece31f1d1ad,10706,2022-12-28,Chicken Sandwiches,Berlin,Drive-thru,Gift Card,Walter Muller,9.95,301.51,3000.02
+rec_5d58e6fd9cf3542c,10713,2022-12-29,Beverages,Berlin,Drive-thru,Gift Card,Walter Muller,2.95,677.97,2000.01
+rec_5e1766b5da96abed,10712,2022-12-29,Fries,Berlin,Drive-thru,Gift Card,Walter Muller,3.49,630.37,2199.99
+rec_982e89e099f3da77,10710,2022-12-29,Burgers,Berlin,Drive-thru,Gift Card,Walter Muller,12.99,754.43,9800.05
+rec_faed665a75561fff,10711,2022-12-29,Chicken Sandwiches,Berlin,Drive-thru,Gift Card,Walter Muller,9.95,281.41,2800.03

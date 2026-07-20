@@ -1,0 +1,214 @@
+{
+  "status": "passed",
+  "validated_at_data_as_of": "2022-12-29",
+  "dataset_grain": "one aggregated product sales record with a unique source order_id",
+  "checks_passed": 32,
+  "checks_total": 32,
+  "checks": [
+    {
+      "check": "cleaned_revenue_vs_kpi",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "cleaned=769515.89; kpi=769515.89"
+    },
+    {
+      "check": "cleaned_quantity_vs_kpi",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "cleaned=116995.31; kpi=116995.31"
+    },
+    {
+      "check": "cleaned_revenue_vs_metadata",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "cleaned=769515.89; metadata=769515.89"
+    },
+    {
+      "check": "cleaned_vs_fact_rows",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "cleaned=254; fact=254"
+    },
+    {
+      "check": "cleaned_vs_fact_revenue",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "cleaned=769515.89; fact=769515.89"
+    },
+    {
+      "check": "product_dimension_reconciles",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "product_sum=769515.89"
+    },
+    {
+      "check": "city_dimension_reconciles",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "city_sum=769515.89"
+    },
+    {
+      "check": "payment_dimension_reconciles",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "payment_sum=769515.89"
+    },
+    {
+      "check": "manager_dimension_reconciles",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "manager_sum=769515.89"
+    },
+    {
+      "check": "purchase_type_dimension_reconciles",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "purchase_type_sum=769515.89"
+    },
+    {
+      "check": "unsupported_fields_absent",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "unsupported_found=[]"
+    },
+    {
+      "check": "order_kpis_explicitly_unsupported",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "total_orders and average_order_value are null with unsupported_grain status"
+    },
+    {
+      "check": "opportunity_insights_unique",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "duplicate_rows=0"
+    },
+    {
+      "check": "business_insights_unique",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "duplicate_rows=0"
+    },
+    {
+      "check": "sql_layer_present",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "sql_files=7"
+    },
+    {
+      "check": "sql_uses_clean_schema",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "SQL references fact_sales and record_id"
+    },
+    {
+      "check": "dashboard_sources_present",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "sources_present=6/6"
+    },
+    {
+      "check": "figures_nonempty",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "nonempty_figures=17/17"
+    },
+    {
+      "check": "metadata_has_no_absolute_paths",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "metadata contains portable relative/source labels"
+    },
+    {
+      "check": "readme_case_study_structure",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "sections_present=14/14"
+    },
+    {
+      "check": "readme_kpis_reconcile",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "README headline values match validated outputs"
+    },
+    {
+      "check": "streamlit_five_tabs_declared",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "tabs_declared=5/5"
+    },
+    {
+      "check": "phase_two_figures_valid",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "valid_figures=8/8"
+    },
+    {
+      "check": "phase_two_documentation_present",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "four focused guides present"
+    },
+    {
+      "check": "opportunity_schema_complete",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "all opportunity cards have observation, evidence, hypothesis, validation, limitation, and score"
+    },
+    {
+      "check": "opportunity_claims_supported",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "no guaranteed/causal/uplift wording; priority scores within 0-100"
+    },
+    {
+      "check": "portable_presentation_paths",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "absolute_path_hits=[]"
+    },
+    {
+      "check": "required_engineering_artifacts",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "missing_artifacts=[]"
+    },
+    {
+      "check": "csv_schema_contracts",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "schema_failures=[]"
+    },
+    {
+      "check": "readme_links_resolve",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "broken_links=[]"
+    },
+    {
+      "check": "sql_files_independently_valid",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "7 ordered SQL files passed static validation"
+    },
+    {
+      "check": "engineering_automation_present",
+      "passed": true,
+      "severity": "critical",
+      "evidence": "quality, CI, and container configuration present"
+    }
+  ],
+  "validated_totals": {
+    "recorded_revenue": 769515.89,
+    "recorded_quantity": 116995.31,
+    "sales_records": 254
+  },
+  "limitations": [
+    "Order-level KPIs unsupported",
+    "Currency unknown",
+    "Quantity unit unknown",
+    "Revenue is not profit",
+    "No customer identifiers",
+    "No causal design"
+  ]
+}
